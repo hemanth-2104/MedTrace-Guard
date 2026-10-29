@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-29",
+  "initialRun": "https://github.com/hemanth-2104/MedTrace-Guard/actions/runs/40971831211",
+  "initialError": "EBADPLATFORM: fsevents@2.3.2 wanted darwin; runner linux",
+  "cause": "Ganache bundled fsevents lockfile entry lacked optional metadata",
+  "fix": "Mark node_modules/ganache/node_modules/fsevents optional, preserving exact version, tarball and integrity. No contract or application logic changes.",
+  "verification": "Replacement GitHub Actions run includes npm ci, compile, interface check, contract/certificate/wallet/workflow/model tests, default and Amoy production builds, and benchmark; inspect the current run for its result."
+}

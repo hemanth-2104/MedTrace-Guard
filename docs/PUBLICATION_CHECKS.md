@@ -18,3 +18,7 @@ Checked October 29, 2026, America/Phoenix, against the publication copy.
 The October 26 records remain the evidence for 75 software acceptance checks, actual MetaMask handoffs, public IPFS retrieval, and user-confirmed phone lookup. Those external demonstrations were not repeated merely to publish this repository. Automated local verification does not establish production safety, continued external-service availability, or completion of the separate course report/videos/team agreement.
 
 The commented interface is an additional design artifact compiled independently. It does not change implementation inheritance, function logic, or deployed-source metadata. GitHub Actions repeats the checks in `.github/workflows/verify.yml`; its actual run status should be inspected on GitHub.
+
+## GitHub Linux installation correction
+
+The first GitHub Actions run stopped at `npm ci` with `EBADPLATFORM` for Ganache’s bundled macOS-only `fsevents@2.3.2`. Its lockfile entry is now marked optional, preserving version and integrity. The replacement workflow checks both default and Amoy builds in addition to compilation, interface, all test suites and benchmark. See `evidence/publication-2026-10-29/ci-portability.json` and the repository Actions page for the run outcome.
