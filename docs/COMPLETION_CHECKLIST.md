@@ -24,7 +24,7 @@ Baseline registration: 117,426 gas. Guard registration: 348,313 gas. A complete 
 
 The October 25 local benchmark measured median paged-history reads of 2.802 ms at 10 batches, 2.735 ms at 50, and 2.680 ms at 100 (10 trials each). These are local timings, not public-network performance. Raw values are in `evidence/recheck-2026-10-25/benchmark.json`.
 
-## What is still required before calling the complete checklist finished
+## Separate course deliverables and repeat-demo operations
 
 1. Software checklist A–J is complete. Preserve the receipts and configure reachable hosting again when repeating a phone demonstration; the temporary LAN preview requires the Mac and same Wi-Fi.
 2. Preserve or recreate the verified Kubo pin. Public Pinata/Filebase retrieval and application MATCH now pass; arrange durable remote pin retention if required after this computer goes offline.
@@ -43,17 +43,9 @@ The October 25 local benchmark measured median paged-history reads of 2.802 ms a
 
 The previously recorded Ganache dependency advisories remain a limitation of the local development tooling. This recheck does not establish production security or physical medicine authenticity.
 
-## Historical three-agent integration checkpoint (superseded below)
+## Historical records
 
-MetaMask, IPFS, and public-testnet agents worked in parallel; root combined their code and tested the shared application. The latest suite passed 68 tests with zero failures/skips and a successful production build. G5/G6 now pass with real Kubo, a local-chain CID registration, and React browser retrieval. Checklist status is 66/75 passed; I6/I7 and J1–J7 remain unverified. See `evidence/integration/`, `docs/METAMASK.md`, `docs/IPFS.md`, and `docs/TESTNET.md`. No public deployment success is claimed.
-
-## Historical Brave / MetaMask and public IPFS recheck (superseded below)
-
-I6/I7 passed using the actual extension: approved registration receipt status 1, cancelled registration with no additional transaction or state/history change, account change clearing identity, and connected-site network change clearing identity. Evidence is in `evidence/metamask-live/`. Public gateway retrieval and browser MATCH passed (`evidence/live-checks-2026-10-25/`). The updated checklist is **68/75 passed, 0 failures, 7 not tested (J1–J7)**. J7 remains outside the local demonstrated scope. Amoy deployment and public workflow remain pending faucet test POL; no public receipts are claimed.
-
-## Historical Amoy deployment follow-up (superseded below)
-
-J1/J2/J3/J5/J6 now pass with actual public evidence. J5 used a real read-only call rejecting an unsafe direct Manufacturer → Pharmacy route (`InvalidTransfer`), with unchanged state/history; no failed mined receipt is claimed. Coverage is **73/75 passed**, zero outstanding implementation-test failures, with **J4 pending Manufacturer faucet funding** and **J7 outside the localhost hosting demonstration**. The public certificate returned MATCH. `npm run verify` passed 68 tests and production build after the public-RPC batching fix; `npm run build:amoy` also passed. Exact receipts and current limitations are in `evidence/amoy-live/` and `AMOY_LIVE.md`.
+Earlier partial-progress counts are retained in [the completion history](archive/COMPLETION_HISTORY.md). The current software acceptance result is **75/75**.
 
 ## Completed public custody and safety checks — October 26
 

@@ -5,6 +5,25 @@ Group 20 | CSE 540 Engineering Blockchain Applications | Fall B 2026
 
 MedTrace Guard is an educational Solidity and React application for tracking medicine batches from manufacturer to distributor to pharmacy. Custody changes only when the intended recipient accepts a shipment. Recorded recalls, expiry, unresolved temperature holds, and exhausted quantities block distribution. Certificate files stay off-chain; the dashboard compares their SHA-256 digest with the value registered on-chain.
 
+## Completed software: 75/75 acceptance checks
+
+**75 passed, 0 failed, 0 untested.** The complete implementation and its final evidence are included in this repository. [Review all 75 checks and their evidence](docs/ACCEPTANCE_RESULTS.md).
+
+| Check group | Result |
+|---|---:|
+| A — Setup/build | 6/6 PASS |
+| B — Registration | 6/6 PASS |
+| C — Custody | 10/10 PASS |
+| D — Temperature holds | 9/9 PASS |
+| E — Recall/expiry | 8/8 PASS |
+| F — Dispensing | 6/6 PASS |
+| G — Certificates/IPFS | 6/6 PASS |
+| H — Accounts/admin | 7/7 PASS |
+| I — Browser/history | 10/10 PASS |
+| J — Amoy/phone QR | 7/7 PASS |
+
+**68/68 automated tests** also pass. This is a separate count from the 75 acceptance checks: actual wallet signing, public-network transactions and phone confirmation have retained live evidence. Both public accepted handoffs, the held-batch rejection and public certificate MATCH are indexed in [AMOY_LIVE.md](docs/AMOY_LIVE.md).
+
 ## Smart Contract Design Draft
 
 Start with the [design document](docs/SMART_CONTRACT_DESIGN.md) and [commented contract interface](contracts/interfaces/IMedTraceGuard.sol). The [main implementation](contracts/MedTraceGuard.sol) and [comparison baseline](contracts/MedTraceBaseline.sol) are included. The implementation exceeds the minimum draft milestone. Its original contract source is preserved for consistency with the recorded public deployment.

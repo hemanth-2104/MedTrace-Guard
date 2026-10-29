@@ -14,9 +14,9 @@ Based on the supplied Fall B 2026 overview and Project 1 brief. Separate Canvas 
 | Simulated real-world data | simulate-temperature.mjs; evidence retention and contract condition hold |
 | Scalability, gas, data management analysis | benchmark.mjs, EVALUATION.md, report draft; measured local outputs in evidence/benchmark.json |
 | Centralized comparison, privacy, limitations | technical_report_body.tex, ARCHITECTURE.md |
-| GitHub code and README | complete source folder; user creates/uploads repository |
+| GitHub code and README | complete source and evidence published at https://github.com/hemanth-2104/MedTrace-Guard |
 | Proposal + team contract (Oct 25, 2026) | proposal Word source, updated LaTeX, and archived original PDF; TEAM_CONTRACT.md requires team input |
-| Contract draft (Nov 1, 2026) | source + README; compile/tests passed; repository upload still needed |
+| Contract draft (Nov 1, 2026) | source, commented interface, design document/PDF and README published; compile/tests passed |
 | Interim demo (Nov 15, 2026) | 5-minute recording by team; DEMO.md supplies script |
 | Final (Dec 4, 2026) | code + README, 7–10 minute recording, completed 4–8 page IEEE two-column report |
 
