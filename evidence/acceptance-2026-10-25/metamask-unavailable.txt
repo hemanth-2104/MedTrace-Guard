@@ -1,0 +1,1 @@
+Install MetaMask or use the local demo selector.

@@ -1,0 +1,464 @@
+{
+  "checkedAt": "2026-10-26",
+  "timezone": "America/Phoenix",
+  "network": "Polygon Amoy",
+  "chainId": 80002,
+  "contract": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "passed": 75,
+  "failed": 0,
+  "notTested": [],
+  "automatedTests": {
+    "passed": 68,
+    "failed": 0,
+    "skipped": 0
+  },
+  "builds": [
+    "default production PASS",
+    "Amoy production PASS"
+  ],
+  "checks": [
+    {
+      "id": "A1",
+      "status": "PASS",
+      "detail": "Solidity compile completed without errors."
+    },
+    {
+      "id": "A2",
+      "status": "PASS",
+      "detail": "19 contract/certificate tests passed; 0 failed, 0 skipped."
+    },
+    {
+      "id": "A3",
+      "status": "PASS",
+      "detail": "10 model tests passed; 0 failed, 0 skipped."
+    },
+    {
+      "id": "A4",
+      "status": "PASS",
+      "detail": "Production Vite build completed."
+    },
+    {
+      "id": "A5",
+      "status": "PASS",
+      "detail": "Benchmark completed with receipt gas and baseline comparison."
+    },
+    {
+      "id": "A6",
+      "status": "PASS",
+      "detail": "PASS on the refreshed ZIP in a second clean folder: npm ci; npm start; automatic deployment and three seeded batches; public browser lookup and certificate MATCH. See A6-final-install.txt, A6-final-startup.txt, A6-final-browser.txt."
+    },
+    {
+      "id": "B1",
+      "status": "PASS",
+      "detail": {
+        "batchId": 4
+      }
+    },
+    {
+      "id": "B2",
+      "status": "PASS",
+      "detail": "Reload retained batch 15 details exactly."
+    },
+    {
+      "id": "B3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C9",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C10",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D9",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E6",
+      "status": "PASS",
+      "detail": "Refreshed lookup of batch 10 reports Expired after EVM time advance."
+    },
+    {
+      "id": "E7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "G1",
+      "status": "PASS",
+      "detail": "Downloaded exact registered bytes returned MATCH."
+    },
+    {
+      "id": "G2",
+      "status": "PASS",
+      "detail": "Modified contents of the same registered certificate returned MISMATCH."
+    },
+    {
+      "id": "G3",
+      "status": "PASS",
+      "detail": "Renamed byte-identical certificate returned MATCH."
+    },
+    {
+      "id": "G4",
+      "status": "PASS",
+      "detail": "Certificate unavailable: server returned an HTML page; integrity is unverified.",
+      "initialFailure": "MISMATCH: downloaded bytes differ from the registered digest.",
+      "fix": "Detect HTML fallback responses as unavailable/unverified."
+    },
+    {
+      "id": "G5",
+      "status": "PASS",
+      "detail": "PASS: real Kubo recursive pin; actual CID stored on local proof and Amoy batch 1."
+    },
+    {
+      "id": "G6",
+      "status": "PASS",
+      "detail": "PASS: actual public gateway returns exact 165-byte certificate; React MATCH on Amoy."
+    },
+    {
+      "id": "H1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "I1",
+      "status": "PASS",
+      "detail": "Public viewer read batch/history and checked certificate without a wallet."
+    },
+    {
+      "id": "I2",
+      "status": "PASS",
+      "detail": [
+        {
+          "value": "0",
+          "validation": {
+            "message": "Value must be greater than or equal to 1.",
+            "valid": false
+          },
+          "notice": "Read-only connection ready. No wallet needed for lookup."
+        },
+        {
+          "value": "-1",
+          "validation": {
+            "message": "Value must be greater than or equal to 1.",
+            "valid": false
+          },
+          "notice": "Read-only connection ready. No wallet needed for lookup."
+        },
+        {
+          "value": "",
+          "validation": {
+            "message": "",
+            "valid": true
+          },
+          "notice": "Enter a positive numeric batch ID."
+        },
+        {
+          "value": "abc",
+          "actualInput": "",
+          "notice": "Enter a positive numeric batch ID."
+        }
+      ],
+      "nonexistent": "No registered batch with this ID."
+    },
+    {
+      "id": "I3",
+      "status": "PASS",
+      "detail": {
+        "notice": "Confirmed: 0x002ae35a204b1b0a95283fab45dc0f80d704d8ceb05a34b336a29411f6a6aa88",
+        "historyEntries": 27
+      }
+    },
+    {
+      "id": "I4",
+      "status": "PASS",
+      "detail": "Duplicate pending shipment rejected with Invalid shipment; batch details and 27 history entries unchanged."
+    },
+    {
+      "id": "I5",
+      "status": "PASS",
+      "detail": "Second tab and refreshed first tab show identical batch metadata, custody, and quantity."
+    },
+    {
+      "id": "I6",
+      "status": "PASS",
+      "detail": "PASS: actual Brave MetaMask account/network changes clear signing identity; reconnect required; evidence/metamask-live."
+    },
+    {
+      "id": "I7",
+      "status": "PASS",
+      "detail": "PASS: actual MetaMask transaction rejection preserved count/history and restored UI; evidence/metamask-live."
+    },
+    {
+      "id": "I8",
+      "status": "PASS",
+      "detail": {
+        "error": "Cannot reach blockchain RPC. Start the chain, then reload the dashboard.",
+        "falseSuccess": false,
+        "isolatedRpcActuallyStopped": true,
+        "recovery": "Chain restarted; reload restored public lookup."
+      }
+    },
+    {
+      "id": "I9",
+      "status": "PASS",
+      "detail": {
+        "batchIds": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "historyPageCounts": [
+          20,
+          6
+        ],
+        "roundTripSame": true
+      }
+    },
+    {
+      "id": "I10",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "J1",
+      "status": "PASS",
+      "detail": "PASS: successful actual Amoy deployment receipt, evidence/amoy-live/deploy-receipt.json."
+    },
+    {
+      "id": "J2",
+      "status": "PASS",
+      "detail": "PASS: exact deployed runtime/creation bytecode match, evidence/amoy-live/bytecode-verification.json."
+    },
+    {
+      "id": "J3",
+      "status": "PASS",
+      "detail": "PASS: four distinct role assignments and batch registration through actual MetaMask; dashboard reads state."
+    },
+    {
+      "id": "J4",
+      "status": "PASS",
+      "detail": "PASS: four status-1 receipts; Manufacturer\u2192Distributor\u2192Pharmacy; nonce 1 then 2; sender custody retained until acceptance; pending cleared."
+    },
+    {
+      "id": "J5",
+      "status": "PASS",
+      "detail": "PASS: held Pharmacy dispensing returned Blocked (0xa5baf151) during estimation and public eth_call; quantity/history unchanged; not a mined failed receipt."
+    },
+    {
+      "id": "J6",
+      "status": "PASS",
+      "detail": "PASS: wallet-free public React/CLI lookup; public IPFS MATCH."
+    },
+    {
+      "id": "J7",
+      "status": "PASS",
+      "detail": "User confirmed real phone on same Wi-Fi displays correct Amoy batch, Pharmacy custodian, 100/100 units and Temperature hold. See phone-check.json; no permanent hosting claim."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "source": "docs/technical_report_ieee.tex",
+  "result": "success",
+  "compiler": "Codex desktop editor compiler",
+  "checkDate": "2026-10-25",
+  "limitation": "Compiler success only; no newly exported final PDF or page-by-page layout inspection in this recheck."
+}

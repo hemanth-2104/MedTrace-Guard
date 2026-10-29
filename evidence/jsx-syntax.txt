@@ -1,0 +1,1 @@
+React JSX parsed/transformed successfully using the preinstalled Playwright Babel bundle. This does not validate dependency resolution, Vite build, React rendering, or wallet integration.

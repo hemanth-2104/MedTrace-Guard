@@ -1,0 +1,26 @@
+node_modules/
+.DS_Store
+*.zip
+dist/
+.env
+artifacts/
+public/deployment.json
+*.log
+docs/*.aux
+docs/*.log
+docs/*.out
+
+.local-chain/
+.env.local
+.env.*.local
+
+# All private network and wallet environment files stay local.
+.env.*
+!.env.example
+!.env.*.example
+
+public/deployment.ipfs-proof.json
+
+# Preserve only the verified public deployment; other manifests are machine-local.
+public/deployment*.json
+!public/deployment.amoy.json

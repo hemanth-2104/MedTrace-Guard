@@ -1,0 +1,138 @@
+[
+  {
+    "id": "B2",
+    "status": "PASS",
+    "detail": "Reload retained batch 15 details exactly."
+  },
+  {
+    "id": "G1",
+    "status": "PASS",
+    "detail": "Downloaded exact registered bytes returned MATCH."
+  },
+  {
+    "id": "I1",
+    "status": "PASS",
+    "detail": "Public viewer read batch/history and checked certificate without a wallet."
+  },
+  {
+    "id": "G3",
+    "status": "PASS",
+    "detail": "Renamed byte-identical certificate returned MATCH."
+  },
+  {
+    "id": "G4",
+    "status": "PASS",
+    "detail": "Certificate unavailable: server returned an HTML page; integrity is unverified.",
+    "initialFailure": "MISMATCH: downloaded bytes differ from the registered digest.",
+    "fix": "Detect HTML fallback responses as unavailable/unverified."
+  },
+  {
+    "id": "I2",
+    "status": "PASS",
+    "detail": [
+      {
+        "value": "0",
+        "validation": {
+          "message": "Value must be greater than or equal to 1.",
+          "valid": false
+        },
+        "notice": "Read-only connection ready. No wallet needed for lookup."
+      },
+      {
+        "value": "-1",
+        "validation": {
+          "message": "Value must be greater than or equal to 1.",
+          "valid": false
+        },
+        "notice": "Read-only connection ready. No wallet needed for lookup."
+      },
+      {
+        "value": "",
+        "validation": {
+          "message": "",
+          "valid": true
+        },
+        "notice": "Enter a positive numeric batch ID."
+      },
+      {
+        "value": "abc",
+        "actualInput": "",
+        "notice": "Enter a positive numeric batch ID."
+      }
+    ],
+    "nonexistent": "No registered batch with this ID."
+  },
+  {
+    "id": "E6",
+    "status": "PASS",
+    "detail": "Refreshed lookup of batch 10 reports Expired after EVM time advance."
+  },
+  {
+    "id": "I9",
+    "status": "PASS",
+    "detail": {
+      "batchIds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "historyPageCounts": [
+        20,
+        6
+      ],
+      "roundTripSame": true
+    }
+  },
+  {
+    "id": "I5",
+    "status": "PASS",
+    "detail": "Second tab and refreshed first tab show identical batch metadata, custody, and quantity."
+  },
+  {
+    "id": "G2",
+    "status": "PASS",
+    "detail": "Modified contents of the same registered certificate returned MISMATCH."
+  },
+  {
+    "id": "I3",
+    "status": "PASS",
+    "detail": {
+      "notice": "Confirmed: 0x002ae35a204b1b0a95283fab45dc0f80d704d8ceb05a34b336a29411f6a6aa88",
+      "historyEntries": 27
+    }
+  },
+  {
+    "id": "I4",
+    "status": "PASS",
+    "detail": "Duplicate pending shipment rejected with Invalid shipment; batch details and 27 history entries unchanged."
+  },
+  {
+    "id": "H1-dashboard",
+    "status": "PASS",
+    "detail": "Connect MetaMask\nRegulator · 0x90F8b…8c9C1"
+  },
+  {
+    "id": "I8",
+    "status": "PASS",
+    "detail": {
+      "error": "Cannot reach blockchain RPC. Start the chain, then reload the dashboard.",
+      "falseSuccess": false,
+      "isolatedRpcActuallyStopped": true,
+      "recovery": "Chain restarted; reload restored public lookup."
+    }
+  }
+]

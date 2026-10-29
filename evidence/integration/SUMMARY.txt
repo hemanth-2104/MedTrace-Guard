@@ -1,0 +1,16 @@
+MedTrace Guard combined integration
+
+Three parallel agents implemented wallet, IPFS, and Amoy lanes; root reviewed and integrated them.
+
+68 automated tests passed; 0 failed; 0 skipped. Production build passed.
+Original four local records and administrator preserved.
+
+REAL IPFS: Kubo recursive pin, local gateway exact-byte retrieval, actual CID registered on a disposable LOCAL contract, and React browser MATCH verified. Renamed bytes MATCH; modified bytes MISMATCH.
+CID: ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+Public ipfs.io connectivity failed; remote availability unverified.
+
+METAMASK: implementation and 28 simulated EIP-1193 tests passed. No MetaMask installed in the checked browser; genuine extension connect/sign/reject still unverified.
+
+PUBLIC TESTNET: real Amoy read-only RPC verified, chain 80002 block 51094095. Dedicated-wallet configuration missing. No public contract or transaction receipts exist. Five isolated workflow tests are LOCAL EVM evidence, not public-chain transactions.
+
+Checkpoints preserve code/evidence before and after integration. Private env files, dependencies, node state, and Kubo state are excluded. See README and docs/METAMASK.md, docs/IPFS.md, docs/TESTNET.md.

@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T09:56:48.256Z",
+  "chainId": 80002,
+  "batch": [
+    "AMOY-LIVE-20261025",
+    "Synthetic public test batch",
+    "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+    "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+    "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+    "1792918473",
+    "1824458073",
+    "100",
+    "100",
+    "20",
+    "80",
+    "0",
+    false,
+    false
+  ],
+  "history": [
+    [
+      "0",
+      "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+      "0x0000000000000000000000000000000000000000",
+      "1792922193",
+      "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "0",
+      "100"
+    ]
+  ]
+}

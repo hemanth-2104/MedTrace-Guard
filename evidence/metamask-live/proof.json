@@ -1,0 +1,43 @@
+{
+  "network": "Isolated local Ganache, not Amoy",
+  "chainId": 31337,
+  "rpc": "http://127.0.0.1:18546",
+  "contract": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+  "batchCount": "2",
+  "approvedBatch": [
+    "MM-LIVE-APPROVED-20261025",
+    "Synthetic MetaMask live check",
+    "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+    "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A",
+    "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A",
+    "1792868400",
+    "1824404400",
+    "100",
+    "100",
+    "20",
+    "80",
+    "0",
+    false,
+    false
+  ],
+  "approvedBatchHistoryCount": "1",
+  "transactionsFromMetaMaskAccount": [
+    "0xeaae71ec6e36674e2b0b7431a32833016dfd1586d4bea50b41fec62db40c3884"
+  ],
+  "rejection": {
+    "requestedCode": "MM-LIVE-REJECTED-20261025",
+    "uiMessage": "Wallet request rejected. No new wallet connection or signature was approved.",
+    "batchCountAfter": 2,
+    "noSecondTransaction": true
+  },
+  "accountChange": {
+    "publicIdentityCleared": true,
+    "reconnectedRole": "Public viewer",
+    "reconnectedAddressPrefix": "0x9f431"
+  },
+  "networkChange": {
+    "identityCleared": true,
+    "uiMessage": "Wallet network changed. Reconnect before signing."
+  }
+}

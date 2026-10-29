@@ -1,0 +1,6 @@
+{
+  "gateway": "https://gateway.pinata.cloud",
+  "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "result": "MATCH: exact bytes match the registered SHA-256. This does not prove laboratory or medicine authenticity.",
+  "contractScope": "disposable local chain31337; Amoy not deployed"
+}

@@ -1,0 +1,14 @@
+
+> medtrace-guard@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  VITE v6.4.5  ready in 51 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+12:38:56 AM [vite] (client) hmr update /src/main.jsx
+12:38:56 AM [vite] (client) hmr invalidate /src/main.jsx Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:38:56 AM [vite] (client) page reload src/main.jsx
+12:39:59 AM [vite] (client) hmr update /src/main.jsx
+12:39:59 AM [vite] (client) hmr invalidate /src/main.jsx Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+12:39:59 AM [vite] (client) page reload src/main.jsx

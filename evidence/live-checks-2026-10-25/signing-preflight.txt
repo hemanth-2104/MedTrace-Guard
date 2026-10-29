@@ -1,0 +1,5 @@
+
+> medtrace-guard@1.0.0 testnet:preflight
+> node --env-file-if-exists=.env.amoy.local scripts/testnet-preflight.mjs
+
+Configure AMOY_ADMIN_PRIVATE_KEY in the ignored .env.amoy.local file. Never paste keys into chat.

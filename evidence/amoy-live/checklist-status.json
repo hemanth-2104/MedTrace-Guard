@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-25T10:15:06.220239+00:00",
+  "scope": "Actual Polygon Amoy, chain 80002",
+  "contract": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "checklist": {
+    "passed": 73,
+    "failed": 0,
+    "pending": [
+      "J4"
+    ],
+    "outsideLocalHostingScope": [
+      "J7"
+    ]
+  },
+  "J1": "PASS: status 1 deployment receipt",
+  "J2": "PASS: deployed runtime and creation bytecode exact match",
+  "J3": "PASS: four distinct stakeholder role assignments and registration signed through actual MetaMask; dashboard reads state",
+  "J4": "PENDING: Manufacturer needs more faucet test POL; no custody proposal broadcast",
+  "J5": "PASS: unsafe direct Manufacturer-to-Pharmacy route returned InvalidTransfer through real Amoy eth_call; state and history unchanged; not a mined failed receipt",
+  "J6": "PASS: wallet-free React public lookup and CLI reader; public IPFS MATCH",
+  "J7": "Not demonstrated: frontend uses localhost; no phone/public-hosting claim",
+  "automatedTests": {
+    "passed": 68,
+    "failed": 0,
+    "skipped": 0
+  },
+  "builds": [
+    "default production build passed",
+    "Amoy production build passed"
+  ],
+  "fundingBlocker": "Official faucet reports 24-hour limit; alternative eligibility requirements not met. No anti-abuse bypass attempted."
+}

@@ -1,0 +1,36 @@
+✔ simulated: connecting MetaMask uses wallet signing even for an unlocked local demo address (0.698542ms)
+✔ simulated: local signing requires explicit selection and never accesses wallet provider (0.126792ms)
+✔ simulated: public mode cannot sign through an unlocked RPC (0.20825ms)
+✔ simulated: local selection is restricted to localhost chain 31337 and manifest accounts (0.113583ms)
+✔ simulated: rejected connection clears previous local identity and all listeners (0.212583ms)
+✔ simulated: wrong chain connection stays public and does not silently switch networks (0.083542ms)
+✔ simulated: permission approval may emit accountsChanged before resolving (0.076917ms)
+✔ simulated: locked or revoked account permissions cannot connect (0.061791ms)
+✔ simulated: accountsChanged ["0x2222222222222222222222222222222222222222"] immediately invalidates identity and detaches listeners (0.417375ms)
+✔ simulated: accountsChanged [] immediately invalidates identity and detaches listeners (0.1005ms)
+✔ simulated: chainChanged "0x1" immediately invalidates identity and detaches listeners (0.075125ms)
+✔ simulated: disconnect {"code":4900} immediately invalidates identity and detaches listeners (0.053417ms)
+✔ simulated: changing mode while permission prompt is pending prevents stale wallet completion (0.059125ms)
+✔ simulated: changing local selection while RPC signer resolves cancels the stale signer (0.045542ms)
+✔ simulated: silently changed wallet account is detected before obtaining signer (0.049833ms)
+✔ simulated: silently changed wallet chain is detected before obtaining signer (0.049083ms)
+✔ simulated: account event during asynchronous signer acquisition blocks stale signing (0.076541ms)
+✔ simulated: reconnecting detaches old provider and destruction removes only owned listeners (0.04225ms)
+✔ simulated: wallet wrapper is reused within a session and destroyed on local mode selection (0.06625ms)
+✔ simulated: explicit network switch adds known Amoy only when provider reports unknown chain (0.343917ms)
+✔ simulated: rejected network switch leaves public mode and never adds chain (0.04225ms)
+✔ simulated: unsupported unknown chain requires manual setup (0.038834ms)
+✔ simulated: Amoy network addition refuses private, credential-bearing or non-HTTPS RPC URLs (0.06125ms)
+✔ simulated: missing provider and wallet error messages are actionable (0.079166ms)
+✔ simulated: clearing during a pending network switch prevents reconnect and leaked listeners (0.045958ms)
+✔ simulated: provider disconnection without an event clears identity before signing (0.055167ms)
+✔ simulated: malformed live chain response clears identity before signing (0.037333ms)
+✔ simulated: local network addition respects deployment port and rejects non-loopback endpoints (0.045834ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 98.365875

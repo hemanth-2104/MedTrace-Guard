@@ -1,0 +1,18 @@
+{
+  "recordedAt": "2026-10-25T08:24:00Z",
+  "binary": "/private/tmp/medtrace-kubo-runtime/kubo/ipfs",
+  "version": "0.43.1-acc53c093",
+  "platform": "darwin-arm64",
+  "distributionURL": "https://dist.ipfs.tech/kubo/v0.43.1/kubo_v0.43.1_darwin-arm64.tar.gz",
+  "checksumURL": "https://dist.ipfs.tech/kubo/v0.43.1/kubo_v0.43.1_darwin-arm64.tar.gz.sha512",
+  "sha512": "bc282d781d856736051ce6d216ba47d52bec703f1a54ab5fa20fba26a92e4af3e8fb131e220cdf01f20205f1effb1a5b7bedbdeff15e8edbbe8e5b01923a7cbb",
+  "checksumMatches": true,
+  "repo": "/private/tmp/medtrace-ipfs-repo",
+  "pid": 46318,
+  "execSessionID": 41783,
+  "api": "http://127.0.0.1:15001",
+  "gateway": "http://127.0.0.1:18080",
+  "swarmPort": 14001,
+  "connectedPeersAtObservation": 80,
+  "persistence": "Temporary local repository; daemon deliberately left running for browser integration."
+}

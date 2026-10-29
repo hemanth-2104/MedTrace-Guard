@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-10-25",
+  "automatedProviderTests": "simulated EIP-1193 only",
+  "simulatedTestsPassed": 28,
+  "extensionChecked": "Native Brave profile, brave://extensions/, MetaMask search",
+  "metaMaskInstalledInCheckedProfile": false,
+  "genuineExtensionConnectionVerified": false,
+  "genuineExtensionSigningVerified": false,
+  "genuineExtensionRejectionVerified": false,
+  "testnetTransactionPerformedByWalletLane": false,
+  "walletCreatedOrImported": false,
+  "secretsReadOrEntered": false,
+  "blockers": ["No MetaMask extension installed in checked Brave profile", "No user-configured funded testnet wallet available"],
+  "screenshot": "brave-extension-search.png",
+  "testOutput": "simulated-tests.txt"
+}

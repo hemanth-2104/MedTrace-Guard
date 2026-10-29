@@ -1,0 +1,40 @@
+
+> medtrace-guard@1.0.0 test
+> node --test --test-concurrency=1 tests/contract.test.mjs tests/certificate.test.mjs
+
+✔ SHA-256 known answer for abc (2.612792ms)
+✔ modified bytes and JSON formatting fail integrity check (0.595458ms)
+✔ certificate locator rejects script and arbitrary URLs (0.187584ms)
+✔ certificate retrieval returns exact bytes for an available file (7.39275ms)
+✔ unavailable certificate, SPA HTML fallback, and network failure stay unverified (0.314417ms)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ registration: unique code per manufacturer; immutable metadata and event (270.33725ms)
+✔ administrator authorization and two-step succession (125.068167ms)
+✔ two-party handoff: proposer cannot assign custody or skip distributor (228.524209ms)
+✔ cancellation invalidates stale nonce; recipient rejection and timeout (228.739667ms)
+✔ role revoked after proposal blocks acceptance (152.909167ms)
+✔ quantity conservation over partial dispensing; terminal state cannot move (419.781459ms)
+✔ temperature hold persists after normal reading; regulator review required (298.774958ms)
+✔ recall cancels pending handoff and permanently blocks distribution (185.411083ms)
+✔ recall blocks dispensing after pharmacy receipt (266.810458ms)
+✔ expiry blocks proposals, pending receipt, and dispensing (314.801708ms)
+✔ paged history preserves ordering and bounds (189.933834ms)
+✔ held batches reject both proposal routes, both receipts, and dispensing on the EVM (951.516208ms)
+✔ recalled batches reject both proposal routes, both receipts, and dispensing on the EVM (1032.995375ms)
+✔ expired batches reject both proposal routes, both receipts, and dispensing on the EVM (879.791959ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8075.030208

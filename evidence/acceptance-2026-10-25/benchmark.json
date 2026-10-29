@@ -1,0 +1,88 @@
+{
+  "environment": {
+    "node": "v26.9.0",
+    "network": "Ganache in-process; Shanghai; chain 31337",
+    "compiler": "solc 0.8.30; viaIR; optimizer 200",
+    "note": "One deterministic run. Baseline has less metadata/history; gas is a design-cost comparison, not an isolated causal ablation. No mainnet USD or public-chain throughput claims."
+  },
+  "gas": [
+    {
+      "operation": "baseline/register",
+      "gas": "117414"
+    },
+    {
+      "operation": "baseline/one_handoff",
+      "gas": "31223"
+    },
+    {
+      "operation": "baseline/recall",
+      "gas": "49222"
+    },
+    {
+      "operation": "guard/register",
+      "gas": "348301"
+    },
+    {
+      "operation": "guard/propose_handoff",
+      "gas": "201831"
+    },
+    {
+      "operation": "guard/accept_handoff",
+      "gas": "158026"
+    },
+    {
+      "operation": "guard/temperature_hold",
+      "gas": "134410"
+    },
+    {
+      "operation": "guard/release_hold",
+      "gas": "109393"
+    },
+    {
+      "operation": "guard/recall",
+      "gas": "136027"
+    }
+  ],
+  "scenarios": [
+    {
+      "contract": "MedTraceBaseline",
+      "condition": "expired",
+      "unsafeDispenseAccepted": true
+    },
+    {
+      "contract": "MedTraceGuard",
+      "condition": "expired",
+      "unsafeDispenseAccepted": false
+    },
+    {
+      "contract": "MedTraceBaseline",
+      "condition": "recalled",
+      "unsafeDispenseAccepted": true
+    },
+    {
+      "contract": "MedTraceGuard",
+      "condition": "recalled",
+      "unsafeDispenseAccepted": false
+    }
+  ],
+  "growth": [
+    {
+      "batches": 10,
+      "registrationGas": "331201",
+      "historyCallMedianMs": 2.681833000000097,
+      "trials": 10
+    },
+    {
+      "batches": 50,
+      "registrationGas": "331201",
+      "historyCallMedianMs": 2.6473750000004657,
+      "trials": 10
+    },
+    {
+      "batches": 100,
+      "registrationGas": "331213",
+      "historyCallMedianMs": 2.599958000000697,
+      "trials": 10
+    }
+  ]
+}

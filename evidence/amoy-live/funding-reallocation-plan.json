@@ -1,0 +1,8 @@
+{
+  "proposalGas": "248627",
+  "proposalFeeAt25Gwei": "0.006215675",
+  "reallocationAmountPOL": "0.0015",
+  "reallocationGas": "21000",
+  "pharmacyBalanceAfterReallocationPOL": "0.006975",
+  "manufacturerBalanceAfterReallocationPOL": "0.005383649970726798"
+}

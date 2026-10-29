@@ -1,0 +1,16 @@
+{
+  "check": "J7",
+  "checkedDate": "2026-10-26",
+  "timezone": "America/Phoenix",
+  "method": "Human confirmation from user after scanning/opening on a phone on the same Wi-Fi",
+  "url": "http://192.168.0.3:5177/?batch=1",
+  "expected": {
+    "code": "AMOY-LIVE-20261025",
+    "custodian": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+    "units": "100/100",
+    "status": "Temperature hold"
+  },
+  "userResponse": "Yes, the phone shows those batch details",
+  "status": "PASS",
+  "limitation": "This is a user-confirmed real phone lookup, not an agent-observed phone screenshot; LAN hosting requires the Mac, preview process and same Wi-Fi. No permanent public hosting claim."
+}

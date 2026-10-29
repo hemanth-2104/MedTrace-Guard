@@ -1,0 +1,287 @@
+Window: "MedTrace Guard", App: Brave Browser.
+0 standard window MedTrace Guard - Brave, URL: 127.0.0.1:5175/?batch=2, Secondary Actions: Raise
+	1 container MedTrace Guard - Brave, URL: 127.0.0.1:5175/?batch=2
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 button Bookmark this tab
+				8 container
+					9 pop up button View site information
+					10 text field (settable) Address and search bar, Value: 127.0.0.1:5175/?batch=2, Placeholder: Search Brave or type a URL
+					11 splitter Separator
+					12 pop up button Brave Shields
+					13 pop up button Brave Rewards
+				14 container
+					15 pop up button The extension is by default inactive for all websites (indicated by a gray icon). Use this button to toggle the current site to be included in the activation list (changing the icon to blue). The page will automatically reload after you make changes.
+Has access to this site
+					16 pop up button TempMail
+Has access to this site
+					17 pop up button Checkmate
+Has access to this site
+					18 pop up button Coupert - Automatic Coupon Finder & Cash Back
+Has access to this site
+					19 pop up button PayPal Honey
+Has access to this site
+					20 pop up button TunnelBear VPN
+Has access to this site
+					21 pop up button MetaMask
+Has access to this site
+					22 pop up button Extensions
+					23 button Close Side Panel
+				24 checkbox Downloads
+				25 button Show Sidebar
+				26 pop up button Brave Wallet
+				27 button Leo AI
+				28 pop up button VPN
+				29 pop up button Update
+			30 toolbar Bookmarks
+				31 toolbar Saved Tab Groups
+					32 button Tab groups
+				33 splitter Separator
+				34 bookmark button Web Store
+				35 bookmark button YouTube
+				36 bookmark button Hotstar
+				37 bookmark button Zee5
+				38 bookmark button Prime
+				39 bookmark button Netflix
+				40 bookmark folder button ASU
+				41 bookmark folder button Coding
+				42 bookmark folder button Masters
+				43 bookmark folder button Live stream
+				44 bookmark folder button US Shopping
+				45 bookmark folder button GYM
+				46 bookmark folder button Other bookmarks
+				47 bookmark folder button All Bookmarks
+				48 splitter Separator
+			49 container
+				50 HTML content MedTrace Guard, URL: 127.0.0.1:5175/?batch=2
+					51 container
+						52 text M+
+						53 container
+							54 text MedTrace  Guard
+						55 text Pharmaceutical provenance · accepted custody · safety gates
+						56 button Connect MetaMask
+						57 button Switch wallet network
+						58 text Public read-only access
+						59 text CSE 540 · WORKING PROTOTYPE
+						60 heading Follow the batch. Verify the handoff., Value: 1
+							61 text Follow the batch. Verify the handoff.
+						62 text Inspect who registered a batch, who accepted custody, and which recorded conditions block further distribution.
+						63 text Wallet network changed. Reconnect before signing.
+						64 container
+							65 text Chain  31337  ·  0xe78A0…6a8Ab Local demo account
+							66 pop up button Local demo account, Value: Public viewer
+								67 (selected) Public viewer
+							68 button Refresh ledger
+						69 container
+							70 text Registered batches
+							71 text 2
+							72 text Custody policy
+							73 text Two-party
+							74 text Safety gates
+							75 text Recall · expiry · hold
+						76 container
+							77 heading Batch registry, Value: 2
+								78 text Batch registry
+							79 text 1 – 2  of  2
+							80 button #1 · PUBLIC-GATEWAY-CHECK Manufactured Synthetic gateway verification 100 units remaining · 0xFFcf8…409f0
+								81 container
+									82 text # 1  ·  PUBLIC-GATEWAY-CHECK
+								83 text Manufactured
+								84 text Synthetic gateway verification
+								85 container
+									86 text 100  units remaining ·  0xFFcf8…409f0
+							87 button #2 · MM-LIVE-APPROVED-20261025 Manufactured Synthetic MetaMask live check 100 units remaining · 0xC330B…fb45A
+								88 container
+									89 text # 2  ·  MM-LIVE-APPROVED-20261025
+								90 text Manufactured
+								91 text Synthetic MetaMask live check
+								92 container
+									93 text 100  units remaining ·  0xC330B…fb45A
+							94 button (disabled) Previous
+							95 button (disabled) Next
+						96 container
+							97 heading Public verification, Value: 2
+								98 text Public verification
+							99 stepper (settable, float) Batch ID, Value: 2
+							100 button Look up
+							101 heading MM-LIVE-APPROVED-20261025, Value: 3
+								102 text MM-LIVE-APPROVED-20261025
+							103 text Eligible for next permitted action
+							104 definition list
+								105 container Current custodian
+									106 text Current custodian
+								107 text 0xC330B28A3C1f892d301f035078469E0ca5Cfb45A
+								108 container Manufacturer
+									109 text Manufacturer
+								110 text 0xC330B28A3C1f892d301f035078469E0ca5Cfb45A
+								111 container Produced / expires
+									112 text Produced / expires
+								113 container
+									114 text 10/24/2026, 12:00:00 PM  /  10/24/2027, 12:00:00 PM
+								115 container Units remaining / registered
+									116 text Units remaining / registered
+								117 container
+									118 text 100  /  100
+								119 container Allowed temperature
+									120 text Allowed temperature
+								121 container
+									122 text 2 – 8  °C
+								123 container Certificate locator
+									124 text Certificate locator
+								125 text ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+								126 container Registered SHA-256
+									127 text Registered SHA-256
+								128 text 0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							129 button Check certificate bytes
+							130 text Or verify a downloaded certificate
+							131 button Or verify a downloaded certificate: No file chosen
+							132 image QR link for batch 2
+							133 text QR links to this deployment and batch. A phone needs a reachable frontend and read RPC; localhost works only on this device.
+						134 container
+							135 heading Custody and safety timeline · #2, Value: 2
+								136 text Custody and safety timeline · #
+							137 text 1  immutable entries Registered 10/25/2026, 2:22:24 AM  · actor  0xC330B…fb45A · 100 units Counterparty:  0x00000…00000  · evidence/nonce:  0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							138 button (disabled) Earlier entries
+							139 button (disabled) Later entries
+						140 text Educational prototype · Synthetic records · Recorded provenance and policy eligibility do not establish physical authenticity or regulatory compliance.
+					141 container
+						142 container Notifications (F8)
+							143 content list
+			144 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/
+				145 container
+					146 container
+						147 button Account 2
+						148 container
+							149 image Network logo
+							150 image Network logo
+							151 image Network logo
+							152 image Network logo
+							153 text 0x9f431...DDE52
+							154 image
+						155 button Search tokens
+							156 image
+						157 container
+							158 button Account options
+								159 image
+						160 container
+							161 image Fund your wallet
+							162 heading Fund your wallet, Value: 2
+								163 text Fund your wallet
+							164 text Get your wallet ready to use web3
+							165 button Add funds
+							166 button Buy
+								167 text Buy
+							168 button Swap
+								169 image
+								170 text Swap
+							171 button Send
+								172 image
+								173 text Send
+							174 button Receive
+								175 image
+								176 text Receive
+							177 text Money 5.5% APY
+							178 heading $0.00, Value: 3
+								179 text $0.00
+							180 button Add
+							181 container
+								182 image Unitree rising 
+								183 text Unitree rising
+								184 button Close Unitree rising 
+									185 image
+								186 text Robotics stock up +23% in 3 days
+								187 image Turn your money on
+								188 text Turn your money on
+								189 button Close Turn your money on
+									190 image
+								191 text Earn up to ~6% APY with Money Account now live on extension
+							192 tab group
+								193 tab (selected) Tokens, Value: 1
+								194 tab (settable, integer) DeFi, Value: 0
+								195 tab (settable, integer) NFTs, Value: 0
+							196 button Network: Ethereum
+								197 image
+								198 text Network: Ethereum
+							199 button Sort by
+								200 image
+							201 button Asset options
+								202 image
+							203 link ETH logo Ethereum logo Ethereum Verified Earn $0.00 -1.32% 0 ETH
+								204 container
+									205 image ETH logo
+									206 image Ethereum logo
+								207 container
+									208 text Ethereum
+									209 image Verified
+									210 button Earn
+										211 text Earn
+										212 image
+									213 text $0.00 -1.32% 0 ETH
+							214 link MUSD logo Ethereum logo MetaMask USD Verified $0.00 -0.06% 0 MUSD
+								215 container
+									216 image MUSD logo
+									217 image Ethereum logo
+								218 text MetaMask USD
+								219 image Verified
+								220 text $0.00
+								221 text -0.06%
+								222 text 0 MUSD
+							223 container
+								224 text M
+							225 text 127.0.0.1:5175
+							226 text Account 2
+							227 pop up button Ethereum
+								228 image Ethereum
+								229 image
+							230 button Manage permissions
+								231 image
+							232 button Disconnect
+								233 image
+						234 container
+							235 button Home
+								236 image
+								237 text Home
+							238 button Perps
+								239 image
+								240 text Perps
+							241 button Money
+								242 image
+								243 text Money
+							244 button Activity
+								245 image
+								246 text Activity
+			247 slider Side Panel Resize Handle (draggable), Secondary Actions: Decrement, Increment
+			248 pop up button Tab Search
+			249 container
+				250 tab group
+					251 tab (settable, boolean) Introduction Writing - Memory usage - 593 MB, Value: off
+					252 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - Memory usage - 652 MB, Value: off
+					253 tab (settable, boolean) MetaMask Portfolio - Memory usage - 262 MB, Value: off
+					254 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - High memory usage - 959 MB, Value: off
+					255 tab (settable, boolean) MetaMask - Chrome Web Store - Memory usage - 188 MB, Value: off
+					256 tab (settable, boolean) MetaMask - Memory usage - 277 MB, Value: off
+					257 tab (settable, boolean) Conversation summary - Memory usage - 603 MB, Value: off
+					258 tab (selected, settable, boolean) MedTrace Guard - Memory usage - 200 MB, Value: on
+						259 button Close
+			260 button New Tab
+			261 container
+				262 splitter
+	263 close button
+	264 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	265 minimize button
+266 menu bar
+	267 Brave
+	268 File
+	269 Edit
+	270 View
+	271 History
+	272 Bookmarks
+	273 Profiles
+	274 Tab
+	275 Window
+	276 Help
+
+The focused UI element is 144 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/

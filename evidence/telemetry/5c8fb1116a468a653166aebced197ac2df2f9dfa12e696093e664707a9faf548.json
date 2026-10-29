@@ -1,0 +1,11 @@
+{
+  "sample": {
+    "kind": "SIMULATED_NOT_A_REAL_SENSOR",
+    "batchId": 4,
+    "temperatureTenths": 50,
+    "recordedAt": "2026-10-25T02:16:20.000Z",
+    "reporter": "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0"
+  },
+  "exactCommittedUTF8": "{\"kind\":\"SIMULATED_NOT_A_REAL_SENSOR\",\"batchId\":4,\"temperatureTenths\":50,\"recordedAt\":\"2026-10-25T02:16:20.000Z\",\"reporter\":\"0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0\"}",
+  "sha256": "0x5c8fb1116a468a653166aebced197ac2df2f9dfa12e696093e664707a9faf548"
+}

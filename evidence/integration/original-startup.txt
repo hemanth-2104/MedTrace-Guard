@@ -1,0 +1,23 @@
+
+> medtrace-guard@1.0.0 start
+> node scripts/start.mjs
+
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+MedTrace Guard RPC: http://127.0.0.1:8545 (chain 31337; saved in .local-chain/)
+Reusing your saved batches and deployment.
+
+MedTrace Guard website: http://127.0.0.1:5173
+Keep this terminal open. Press Ctrl+C to stop and save the chain.
+
+
+  VITE v6.4.5  ready in 59 ms
+
+  ➜  Local:   http://127.0.0.1:5173/

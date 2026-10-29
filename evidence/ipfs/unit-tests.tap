@@ -1,0 +1,76 @@
+TAP version 13
+# Subtest: SHA-256 known answer for abc
+ok 1 - SHA-256 known answer for abc
+  ---
+  duration_ms: 3.096791
+  type: 'test'
+  ...
+# Subtest: modified bytes and JSON formatting fail integrity check
+ok 2 - modified bytes and JSON formatting fail integrity check
+  ---
+  duration_ms: 1.227167
+  type: 'test'
+  ...
+# Subtest: certificate locator rejects script and arbitrary URLs
+ok 3 - certificate locator rejects script and arbitrary URLs
+  ---
+  duration_ms: 0.346875
+  type: 'test'
+  ...
+# Subtest: IPFS gateway accepts HTTPS origins and local HTTP origins
+ok 4 - IPFS gateway accepts HTTPS origins and local HTTP origins
+  ---
+  duration_ms: 0.138041
+  type: 'test'
+  ...
+# Subtest: IPFS gateway rejects remote HTTP, credentials, scripts, and ambiguous paths
+ok 5 - IPFS gateway rejects remote HTTP, credentials, scripts, and ambiguous paths
+  ---
+  duration_ms: 0.0995
+  type: 'test'
+  ...
+# Subtest: IPFS retrieval uses the configured gateway and preserves exact bytes
+ok 6 - IPFS retrieval uses the configured gateway and preserves exact bytes
+  ---
+  duration_ms: 8.457709
+  type: 'test'
+  ...
+# Subtest: certificate retrieval returns exact bytes for an available file
+ok 7 - certificate retrieval returns exact bytes for an available file
+  ---
+  duration_ms: 0.598833
+  type: 'test'
+  ...
+# Subtest: unavailable certificate, SPA HTML fallback, and network failure stay unverified
+ok 8 - unavailable certificate, SPA HTML fallback, and network failure stay unverified
+  ---
+  duration_ms: 0.360042
+  type: 'test'
+  ...
+# Subtest: Kubo upload API allows only explicit loopback origins
+ok 9 - Kubo upload API allows only explicit loopback origins
+  ---
+  duration_ms: 0.646417
+  type: 'test'
+  ...
+# Subtest: upload helper pins exact file bytes with CIDv1 and reports their separate SHA-256 (mock API)
+ok 10 - upload helper pins exact file bytes with CIDv1 and reports their separate SHA-256 (mock API)
+  ---
+  duration_ms: 14.334208
+  type: 'test'
+  ...
+# Subtest: upload helper rejects oversized input and unsuccessful/malformed mock API responses
+ok 11 - upload helper rejects oversized input and unsuccessful/malformed mock API responses
+  ---
+  duration_ms: 4.957958
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 106.046

@@ -1,0 +1,172 @@
+{
+  "checkedAt": "2026-10-26T17:57:37.408Z",
+  "check": "J5 public held-batch dispense",
+  "method": "eth_call; dashboard rejected at gas estimation, no failed mined receipt claimed",
+  "failure": {
+    "code": "CALL_EXCEPTION",
+    "errorName": "Blocked",
+    "message": "execution reverted (unknown custom error)",
+    "data": "0xa5baf151"
+  },
+  "stateUnchanged": true,
+  "before": {
+    "batch": {
+      "code": "AMOY-LIVE-20261025",
+      "drug": "Synthetic public test batch",
+      "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+      "certificateSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "manufacturer": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+      "custodian": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+      "manufacturedAt": "1792918473",
+      "expiresAt": "1824458073",
+      "totalUnits": "100",
+      "remainingUnits": "100",
+      "minTemp": "20",
+      "maxTemp": "80",
+      "stage": "2",
+      "recalled": false,
+      "hold": true
+    },
+    "history": [
+      {
+        "kind": "0",
+        "actor": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "timestamp": "1792922193",
+        "evidence": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "1",
+        "actor": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "counterparty": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "timestamp": "1793036809",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "2",
+        "actor": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "counterparty": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "timestamp": "1793036915",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "1",
+        "actor": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "counterparty": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "timestamp": "1793037050",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "2",
+        "actor": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "counterparty": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "timestamp": "1793037143",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "5",
+        "actor": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "timestamp": "1793037343",
+        "evidence": "0x13b59203e5d4767e707d7718bfb475518970e8bb542e0c274d3436f556060883",
+        "value": "115",
+        "units": "0"
+      }
+    ],
+    "pending": {
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "deadline": "0",
+      "nonce": "0"
+    }
+  },
+  "after": {
+    "batch": {
+      "code": "AMOY-LIVE-20261025",
+      "drug": "Synthetic public test batch",
+      "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+      "certificateSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "manufacturer": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+      "custodian": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+      "manufacturedAt": "1792918473",
+      "expiresAt": "1824458073",
+      "totalUnits": "100",
+      "remainingUnits": "100",
+      "minTemp": "20",
+      "maxTemp": "80",
+      "stage": "2",
+      "recalled": false,
+      "hold": true
+    },
+    "history": [
+      {
+        "kind": "0",
+        "actor": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "timestamp": "1792922193",
+        "evidence": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "1",
+        "actor": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "counterparty": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "timestamp": "1793036809",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "2",
+        "actor": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "counterparty": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+        "timestamp": "1793036915",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "1",
+        "actor": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "counterparty": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "timestamp": "1793037050",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "2",
+        "actor": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "counterparty": "0xed0C1F66366a323e219846eb1a064D1066632828",
+        "timestamp": "1793037143",
+        "evidence": "0x0000000000000000000000000000000000000000000000000000000000000002",
+        "value": "0",
+        "units": "100"
+      },
+      {
+        "kind": "5",
+        "actor": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+        "counterparty": "0x0000000000000000000000000000000000000000",
+        "timestamp": "1793037343",
+        "evidence": "0x13b59203e5d4767e707d7718bfb475518970e8bb542e0c274d3436f556060883",
+        "value": "115",
+        "units": "0"
+      }
+    ],
+    "pending": {
+      "recipient": "0x0000000000000000000000000000000000000000",
+      "deadline": "0",
+      "nonce": "0"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+Window: "Polygon Faucet", App: Brave Browser.
+0 standard window Polygon Faucet - Brave, URL: faucet.polygon.technology/?appUrl=https%3A%2F%2Ffaucet.polygon.technology%2F, Secondary Actions: Raise
+	1 container Polygon Faucet - Brave, URL: faucet.polygon.technology/?appUrl=https%3A%2F%2Ffaucet.polygon.technology%2F
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 button Bookmark this tab
+				8 container
+					9 pop up button View site information
+					10 text field (settable) Address and search bar, Value: faucet.polygon.technology/?appUrl=https%3A%2F%2Ffaucet.polygon.technology%2F, Placeholder: Search Brave or type a URL
+					11 splitter Separator
+					12 pop up button Brave Shields
+					13 pop up button Brave Rewards
+				14 container
+					15 pop up button The extension is by default inactive for all websites (indicated by a gray icon). Use this button to toggle the current site to be included in the activation list (changing the icon to blue). The page will automatically reload after you make changes.
+Has access to this site
+					16 pop up button TempMail
+Has access to this site
+					17 pop up button Checkmate
+Has access to this site
+					18 pop up button Coupert - Automatic Coupon Finder & Cash Back
+Has access to this site
+					19 pop up button PayPal Honey
+Has access to this site
+					20 pop up button TunnelBear VPN
+Has access to this site
+					21 pop up button MetaMask
+Has access to this site
+					22 pop up button Extensions
+					23 button Close Side Panel
+				24 button Show Sidebar
+				25 pop up button Brave Wallet
+				26 button Leo AI
+				27 pop up button VPN
+				28 pop up button Update
+			29 toolbar Bookmarks
+				30 toolbar Saved Tab Groups
+					31 button Tab groups
+				32 splitter Separator
+				33 bookmark button Web Store
+				34 bookmark button YouTube
+				35 bookmark button Hotstar
+				36 bookmark button Zee5
+				37 bookmark button Prime
+				38 bookmark button Netflix
+				39 bookmark folder button ASU
+				40 bookmark folder button Coding
+				41 bookmark folder button Masters
+				42 bookmark folder button Live stream
+				43 bookmark folder button US Shopping
+				44 bookmark folder button GYM
+				45 bookmark folder button Other bookmarks
+				46 bookmark folder button All Bookmarks
+				47 splitter Separator
+			48 container
+				49 HTML content Polygon Faucet, URL: faucet.polygon.technology/?appUrl=https%3A%2F%2Ffaucet.polygon.technology%2F
+					50 container
+						51 link Polygon Logo Faucet, Value: faucet.polygon.technology/
+						52 link Contact Support, Value: support.polygon.technology/support/home
+						53 link Build on Polygon, Value: docs.polygon.technology/
+						54 link Polygon Faucet, Value: faucet.polygon.technology/
+						55 link Third Party Faucet, Value: faucet.polygon.technology/third-party-faucets
+						56 text Select Chain & Token
+						57 pop up button Polygon Amoy icon Polygon Amoy
+							58 image Polygon Amoy icon
+							59 text Polygon Amoy
+							60 image
+						61 pop up button POL icon POL
+							62 image POL icon
+							63 text POL
+							64 image
+						65 button Add network to MetaMask
+							66 text Add Chain to Wallet
+							67 image External Link
+						68 text Verify your identity
+						69 button Connect with GitHub
+							70 image GitHub logo
+							71 text GitHub
+							72 image Verified
+						73 button Connect with X.COM
+							74 Unlabeled image X.COM logo. To get missing image descriptions, open the context menu.
+							75 text X.COM
+						76 text Enter Wallet Address
+						77 image Wallet
+						78 text field (settable) Ethereum wallet address, Placeholder: 0x...
+						79 button Claim tokens
+						80 text You have already requested this token in the last 24 hours. Please try again later
+						81 heading Get Bulk Polygon icon POL Test Tokens, Value: 2
+							82 text Get Bulk
+							83 image Polygon icon
+							84 text POL Test Tokens
+						85 text The Polygon Faucet only dispenses a small number of test tokens every day.
+						86 link Apply for Bulk POL Tokens, Value: docs.google.com/forms/d/e/1FAIpQLSe4npoGldJknEs9EBtPaV3AS-0HTso2IuMWDCiMmLEMCx8euQ/viewform
+						87 container
+							88 text ©  2026  Polygon Labs UI (Cayman) Ltd. | All rights reserved
+						89 content list
+							90 link Cookie Policy, Value: polygon.technology/cookie-policy
+							91 link Terms of Use, Value: polygon.technology/terms-of-use
+							92 link Privacy Policy, Value: polygon.technology/privacy-policy
+						93 container
+							94 container Notifications (F8)
+								95 content list
+			96 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/
+				97 container
+					98 container
+						99 button Account 2
+						100 container
+							101 image Network logo
+							102 image Network logo
+							103 image Network logo
+							104 image Network logo
+							105 text 0x9f431...DDE52
+							106 image
+						107 button Search tokens
+							108 image
+						109 container
+							110 button Account options
+								111 image
+						112 container
+							113 text $0.00 +$0.00 (+0.00%)
+							114 link Discover
+								115 text Discover
+						116 container
+							117 button Buy
+								118 text Buy
+							119 button Swap
+								120 image
+								121 text Swap
+							122 button Send
+								123 image
+								124 text Send
+							125 button Receive
+								126 image
+								127 text Receive
+						128 text Money
+						129 text 5.5% APY
+						130 heading $0.00, Value: 3
+							131 text $0.00
+						132 button Add
+						133 container
+							134 image Unitree rising 
+							135 text Unitree rising
+							136 button Close Unitree rising 
+								137 image
+							138 text Robotics stock up +23% in 3 days
+							139 image Turn your money on
+							140 text Turn your money on
+							141 button Close Turn your money on
+								142 image
+							143 text Earn up to ~6% APY with Money Account now live on extension
+						144 tab group
+							145 tab (selected) Tokens, Value: 1
+							146 tab (settable, integer) DeFi, Value: 0
+							147 tab (settable, integer) NFTs, Value: 0
+						148 container
+							149 button Network: Amoy
+								150 image
+								151 text Network: Amoy
+							152 button Sort by
+								153 image
+							154 button Asset options
+								155 image
+							156 link P A POL <$0.01 - 0.00388 POL
+								157 container
+									158 text P
+									159 text A
+								160 text POL
+								161 text <$0.01
+								162 text -
+								163 text 0.00388 POL
+						164 button Home
+							165 image
+							166 text Home
+						167 button Perps
+							168 image
+							169 text Perps
+						170 button Money
+							171 image
+							172 text Money
+						173 button Activity
+							174 image
+							175 text Activity
+						176 container
+							177 image
+							178 text Back up your Secret Recovery Phrase to keep your wallet and funds secure.
+							179 button Back up now
+							180 button Close
+								181 image
+			182 slider Side Panel Resize Handle (draggable), Secondary Actions: Decrement, Increment
+			183 pop up button Tab Search
+			184 container
+				185 tab group
+					186 tab (settable, boolean) Introduction Writing - Memory usage - 593 MB, Value: off
+					187 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - Memory usage - 652 MB, Value: off
+					188 tab (settable, boolean) MetaMask Portfolio - Memory usage - 262 MB, Value: off
+					189 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - High memory usage - 959 MB, Value: off
+					190 tab (settable, boolean) MetaMask - Chrome Web Store - Memory usage - 188 MB, Value: off
+					191 tab (settable, boolean) MetaMask - Memory usage - 277 MB, Value: off
+					192 tab (settable, boolean) Conversation summary - Memory usage - 603 MB, Value: off
+					193 tab (settable, boolean) MedTrace Guard, Value: off
+					194 tab (selected, settable, boolean) Polygon Faucet - Memory usage - 179 MB, Value: on
+						195 button Close
+					196 tab (settable, boolean) Remix IDE - Smart Contract Development - High memory usage - 888 MB, Value: off
+					197 tab (settable, boolean) MedTrace Guard - Memory usage - 293 MB, Value: off
+					198 tab (settable, boolean) Polygon Faucet - Memory usage - 235 MB, Value: off
+					199 tab (settable, boolean) Polygon Amoy Faucet - Get Testnet Tokens - Memory usage - 298 MB, Value: off
+			200 button New Tab
+			201 container
+				202 splitter
+	203 close button
+	204 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	205 minimize button
+206 menu bar
+	207 Brave
+	208 File
+	209 Edit
+	210 View
+	211 History
+	212 Bookmarks
+	213 Profiles
+	214 Tab
+	215 Window
+	216 Help
+
+The focused UI element is 49 HTML content Polygon Faucet, URL: faucet.polygon.technology/?appUrl=https%3A%2F%2Ffaucet.polygon.technology%2F

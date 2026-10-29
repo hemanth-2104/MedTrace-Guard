@@ -1,0 +1,13 @@
+
+> medtrace-guard@1.0.0 build:amoy
+> vite build --mode amoy
+
+vite v6.4.5 building for amoy...
+transforming...
+✓ 224 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.26 kB
+dist/assets/index-KBuPP09m.css    4.40 kB │ gzip:   1.51 kB
+dist/assets/index-Xj7wTO1E.js   462.95 kB │ gzip: 162.97 kB
+✓ built in 500ms

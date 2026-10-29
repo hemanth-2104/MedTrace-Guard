@@ -1,0 +1,41 @@
+
+> medtrace-guard@1.0.0 testnet:read
+> node --env-file-if-exists=.env.amoy.local scripts/testnet-read.mjs 1
+
+{
+  "chainId": 80002,
+  "contract": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "batchId": "1",
+  "checkedAt": "2026-10-25T10:03:47.506Z",
+  "walletRequired": false,
+  "batch": {
+    "code": "AMOY-LIVE-20261025",
+    "drug": "Synthetic public test batch",
+    "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "certificateSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+    "manufacturer": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+    "custodian": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+    "stage": 0,
+    "totalUnits": "100",
+    "remainingUnits": "100",
+    "recalled": false,
+    "hold": false,
+    "expiresAt": "1824458073"
+  },
+  "eligibility": {
+    "eligible": true,
+    "reason": 0
+  },
+  "historyCount": 1,
+  "history": [
+    {
+      "kind": 0,
+      "actor": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+      "counterparty": "0x0000000000000000000000000000000000000000",
+      "timestamp": "1792922193",
+      "evidence": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "value": "0",
+      "units": "100"
+    }
+  ]
+}

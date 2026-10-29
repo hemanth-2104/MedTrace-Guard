@@ -1,0 +1,29 @@
+{
+  "scope": "Live MetaMask, Amoy, and public-gateway checks; no new application features",
+  "metamask": {
+    "userNeedsSetup": true,
+    "braveAccess": "not approved by browser access check",
+    "genuineSigning": "not tested"
+  },
+  "amoy": {
+    "privateConfigurationTemplatePrepared": true,
+    "walletKeyFields": "empty",
+    "signingPreflight": "fails safely: Configure AMOY_ADMIN_PRIVATE_KEY",
+    "publicDeployment": "not performed",
+    "publicTransactionReceipts": []
+  },
+  "ipfs": {
+    "kuboRestarted": true,
+    "pinReannounced": true,
+    "publicGatewaysReturningExact165Bytes": [
+      "https://gateway.pinata.cloud",
+      "https://ipfs.filebase.io"
+    ],
+    "publicGatewaySHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+    "reactPublicGatewayRetrieval": "MATCH via https://gateway.pinata.cloud",
+    "contractForGatewayOnly": "disposable local chain31337; not Amoy",
+    "configuredAmoyBrowserGateway": "https://gateway.pinata.cloud"
+  },
+  "checkpoints": "unchanged",
+  "existingDeploymentManifests": "left untouched; cleanup rejected and not performed"
+}

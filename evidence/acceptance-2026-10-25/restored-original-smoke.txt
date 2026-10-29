@@ -1,0 +1,41 @@
+
+> medtrace-guard@1.0.0 smoke
+> node scripts/smoke.mjs
+
+PASS: live website, deployment, RPC, contract reads, histories, and all three seeded certificate hashes.
+{
+  "checkedAt": "2026-10-25T07:43:54.509Z",
+  "website": "http://127.0.0.1:5173",
+  "chainId": 31337,
+  "address": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+  "batchCount": 4,
+  "batches": [
+    {
+      "id": 1,
+      "code": "DEMO-1",
+      "remainingUnits": "100",
+      "hold": true,
+      "recalled": false,
+      "historyEntries": 4,
+      "certificate": "MATCH"
+    },
+    {
+      "id": 2,
+      "code": "DEMO-2",
+      "remainingUnits": "80",
+      "hold": false,
+      "recalled": true,
+      "historyEntries": 11,
+      "certificate": "MATCH"
+    },
+    {
+      "id": 3,
+      "code": "DEMO-3",
+      "remainingUnits": "100",
+      "hold": false,
+      "recalled": false,
+      "historyEntries": 1,
+      "certificate": "MATCH"
+    }
+  ]
+}

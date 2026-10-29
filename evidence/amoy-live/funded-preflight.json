@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-25T09:35:01.106Z",
+  "chainId": 80002,
+  "address": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A",
+  "balancePOL": "0.1",
+  "deploymentGas": "2393244",
+  "maxFeePerGas": "30000000126",
+  "estimatedDeploymentFeePOL": "0.071797320301548744"
+}

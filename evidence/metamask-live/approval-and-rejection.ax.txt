@@ -1,0 +1,389 @@
+Window: "MedTrace Guard", App: Brave Browser.
+0 standard window MedTrace Guard - Brave, URL: 127.0.0.1:5175/?batch=2, Secondary Actions: Raise
+	1 container MedTrace Guard - Brave, URL: 127.0.0.1:5175/?batch=2
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 button Bookmark this tab
+				8 container
+					9 pop up button View site information
+					10 text field (settable) Address and search bar, Value: 127.0.0.1:5175/?batch=2, Placeholder: Search Brave or type a URL
+					11 splitter Separator
+					12 pop up button Brave Shields
+					13 pop up button Brave Rewards
+				14 container
+					15 pop up button The extension is by default inactive for all websites (indicated by a gray icon). Use this button to toggle the current site to be included in the activation list (changing the icon to blue). The page will automatically reload after you make changes.
+Has access to this site
+					16 pop up button TempMail
+Has access to this site
+					17 pop up button Checkmate
+Has access to this site
+					18 pop up button Coupert - Automatic Coupon Finder & Cash Back
+Has access to this site
+					19 pop up button PayPal Honey
+Has access to this site
+					20 pop up button TunnelBear VPN
+Has access to this site
+					21 pop up button MetaMask
+Has access to this site
+					22 pop up button Extensions
+					23 button Close Side Panel
+				24 checkbox Downloads
+				25 button Show Sidebar
+				26 pop up button Brave Wallet
+				27 button Leo AI
+				28 pop up button VPN
+				29 pop up button Update
+			30 toolbar Bookmarks
+				31 toolbar Saved Tab Groups
+					32 button Tab groups
+				33 splitter Separator
+				34 bookmark button Web Store
+				35 bookmark button YouTube
+				36 bookmark button Hotstar
+				37 bookmark button Zee5
+				38 bookmark button Prime
+				39 bookmark button Netflix
+				40 bookmark folder button ASU
+				41 bookmark folder button Coding
+				42 bookmark folder button Masters
+				43 bookmark folder button Live stream
+				44 bookmark folder button US Shopping
+				45 bookmark folder button GYM
+				46 bookmark folder button Other bookmarks
+				47 bookmark folder button All Bookmarks
+				48 splitter Separator
+			49 container
+				50 HTML content MedTrace Guard, URL: 127.0.0.1:5175/?batch=2
+					51 container
+						52 text M+
+						53 container
+							54 text MedTrace  Guard
+						55 text Pharmaceutical provenance · accepted custody · safety gates
+						56 button Connect MetaMask
+						57 button Switch wallet network
+						58 button Disconnect signing
+						59 text MetaMask signing · Manufacturer · 0xc330b…fb45a
+						60 text CSE 540 · WORKING PROTOTYPE
+						61 heading Follow the batch. Verify the handoff., Value: 1
+							62 text Follow the batch. Verify the handoff.
+						63 text Inspect who registered a batch, who accepted custody, and which recorded conditions block further distribution.
+						64 text Wallet request rejected. No new wallet connection or signature was approved.
+						65 container
+							66 text Chain  31337  ·  0xe78A0…6a8Ab Local demo account
+							67 pop up button Local demo account, Value: Public viewer
+								68 (selected) Public viewer
+							69 button Refresh ledger
+						70 container
+							71 text Registered batches
+							72 text 2
+							73 text Custody policy
+							74 text Two-party
+							75 text Safety gates
+							76 text Recall · expiry · hold
+						77 container
+							78 heading Batch registry, Value: 2
+								79 text Batch registry
+							80 text 1 – 2  of  2
+							81 button #1 · PUBLIC-GATEWAY-CHECK Manufactured Synthetic gateway verification 100 units remaining · 0xFFcf8…409f0
+								82 container
+									83 text # 1  ·  PUBLIC-GATEWAY-CHECK
+								84 text Manufactured
+								85 text Synthetic gateway verification
+								86 container
+									87 text 100  units remaining ·  0xFFcf8…409f0
+							88 button #2 · MM-LIVE-APPROVED-20261025 Manufactured Synthetic MetaMask live check 100 units remaining · 0xC330B…fb45A
+								89 container
+									90 text # 2  ·  MM-LIVE-APPROVED-20261025
+								91 text Manufactured
+								92 text Synthetic MetaMask live check
+								93 container
+									94 text 100  units remaining ·  0xC330B…fb45A
+							95 button (disabled) Previous
+							96 button (disabled) Next
+						97 container
+							98 heading Public verification, Value: 2
+								99 text Public verification
+							100 stepper (settable, float) Batch ID, Value: 2
+							101 button Look up
+							102 heading MM-LIVE-APPROVED-20261025, Value: 3
+								103 text MM-LIVE-APPROVED-20261025
+							104 text Eligible for next permitted action
+							105 definition list
+								106 container Current custodian
+									107 text Current custodian
+								108 text 0xC330B28A3C1f892d301f035078469E0ca5Cfb45A
+								109 container Manufacturer
+									110 text Manufacturer
+								111 text 0xC330B28A3C1f892d301f035078469E0ca5Cfb45A
+								112 container Produced / expires
+									113 text Produced / expires
+								114 container
+									115 text 10/24/2026, 12:00:00 PM  /  10/24/2027, 12:00:00 PM
+								116 container Units remaining / registered
+									117 text Units remaining / registered
+								118 container
+									119 text 100  /  100
+								120 container Allowed temperature
+									121 text Allowed temperature
+								122 container
+									123 text 2 – 8  °C
+								124 container Certificate locator
+									125 text Certificate locator
+								126 text ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+								127 container Registered SHA-256
+									128 text Registered SHA-256
+								129 text 0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							130 button Check certificate bytes
+							131 text Or verify a downloaded certificate
+							132 button Or verify a downloaded certificate: No file chosen
+							133 image QR link for batch 2
+							134 text QR links to this deployment and batch. A phone needs a reachable frontend and read RPC; localhost works only on this device.
+						135 container
+							136 heading Custody and safety timeline · #2, Value: 2
+								137 text Custody and safety timeline · #
+							138 text 1  immutable entries Registered 10/25/2026, 2:22:24 AM  · actor  0xC330B…fb45A · 100 units Counterparty:  0x00000…00000  · evidence/nonce:  0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							139 button (disabled) Earlier entries
+							140 button (disabled) Later entries
+						141 container
+							142 heading Authorized actions, Value: 2
+								143 text Authorized actions
+							144 text The contract checks every request. A selected dashboard role does not grant permissions.
+							145 heading Register batch, Value: 4
+								146 text Register batch
+							147 container
+								148 text Manufacturer batch code
+								149 text field (settable) Manufacturer batch code, Value: MM-LIVE-REJECTED-20261025
+							150 container
+								151 text Medicine name
+								152 text field (settable) Medicine name, Value: Synthetic MetaMask live check
+							153 container
+								154 text Production date
+								155 local date and time picker Production date, Value: 2026-10-24T14:02
+									156 container
+										157 stepper (settable, float) Month Production date, Value: 10, Placeholder: mm
+										158 text /
+										159 stepper (settable, float) Day Production date, Value: 24, Placeholder: dd
+										160 text /
+										161 stepper (settable, float) Year Production date, Value: 2026, Placeholder: yyyy
+										162 text , 
+										163 stepper (settable, float) Hours Production date, Value: 12, Placeholder: --
+										164 text :
+										165 stepper (settable, float) Minutes Production date, Value: 0, Details: 00, Placeholder: --
+										166 stepper (settable, float) AM/PM Production date, Value: 2, Details: PM, Placeholder: --
+									167 pop up button Show local date and time picker Production date
+							168 container
+								169 text Expiry date
+								170 local date and time picker Expiry date
+									171 container
+										172 stepper (settable, float) Month Expiry date, Value: 10, Placeholder: mm
+										173 text /
+										174 stepper (settable, float) Day Expiry date, Value: 24, Placeholder: dd
+										175 text /
+										176 stepper (settable, float) Year Expiry date, Value: 2027, Placeholder: yyyy
+										177 text , 
+										178 stepper (settable, float) Hours Expiry date, Value: 12, Placeholder: --
+										179 text :
+										180 stepper (settable, float) Minutes Expiry date, Value: 0, Details: 00, Placeholder: --
+										181 stepper (settable, float) AM/PM Expiry date, Value: 2, Details: PM, Placeholder: --
+									182 pop up button Show local date and time picker Expiry date
+							183 container
+								184 text Units
+								185 stepper (settable, float) Units, Value: 100
+							186 container
+								187 text Minimum °C
+								188 stepper (settable, float) Minimum °C, Value: 2
+							189 container
+								190 text Maximum °C
+								191 stepper (settable, float) Maximum °C, Value: 8
+							192 container
+								193 text ipfs://CID or /certificates/file.json
+								194 text field (settable) ipfs://CID or /certificates/file.json, Value: ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+							195 container
+								196 text Certificate file (hash exact bytes)
+								197 button Certificate file (hash exact bytes): certificate-original.json
+							198 container
+								199 text certificate-original.json 0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							200 text Upload/pin the file separately; this form does not send files or secrets to Pinata.
+							201 button Register batch
+							202 heading Propose shipment, Value: 4
+								203 text Propose shipment
+							204 container
+								205 text Batch ID
+								206 stepper (settable) Batch ID
+							207 container
+								208 text Recipient address
+								209 text field (settable) Recipient address
+							210 container
+								211 text Deadline
+								212 local date and time picker Deadline
+									213 container
+										214 stepper (settable, float) Month Deadline, Value: 0, Placeholder: mm
+										215 text /
+										216 stepper (settable, float) Day Deadline, Value: 0, Placeholder: dd
+										217 text /
+										218 stepper (settable, float) Year Deadline, Value: 0, Placeholder: yyyy
+										219 text , 
+										220 stepper (settable, float) Hours Deadline, Value: 0, Placeholder: --
+										221 text :
+										222 stepper (settable, float) Minutes Deadline, Value: 0, Placeholder: --
+										223 stepper (settable, float) AM/PM Deadline, Value: 0, Placeholder: --
+									224 pop up button Show local date and time picker Deadline
+							225 button Propose shipment
+							226 heading Cancel / reject shipment, Value: 4
+								227 text Cancel / reject shipment
+							228 container
+								229 text Batch ID
+								230 stepper (settable) Batch ID
+							231 button Cancel / reject shipment
+							232 heading Report simulated temperature, Value: 4
+								233 text Report simulated temperature
+							234 container
+								235 text Batch ID
+								236 stepper (settable) Batch ID
+							237 container
+								238 text Temperature °C
+								239 stepper (settable) Temperature °C
+							240 container
+								241 text Evidence note (hashed; retain original off-chain)
+								242 text field (settable) Evidence note (hashed; retain original off-chain)
+							243 button Report simulated temperature
+							244 heading Accept administrator nomination, Value: 4
+								245 text Accept administrator nomination
+							246 button Accept administrator nomination
+							247 text Hash an evidence note
+							248 text field (settable) Hash an evidence note, Placeholder: Retain the original note in your evidence log
+							249 button Calculate SHA-256
+						250 text Educational prototype · Synthetic records · Recorded provenance and policy eligibility do not establish physical authenticity or regulatory compliance.
+					251 container
+						252 container Notifications (F8)
+							253 content list
+			254 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/
+				255 container
+					256 button Account 1
+					257 container
+						258 image Network logo
+						259 image Network logo
+						260 image Network logo
+						261 image Network logo
+						262 text 0xC330B...fb45A
+						263 image
+					264 button Search tokens
+						265 image
+					266 container
+						267 button Account options
+							268 image
+					269 container
+						270 text $0.00 +$0.00 (+0.00%)
+						271 link Discover
+							272 text Discover
+					273 container
+						274 button Buy
+							275 text Buy
+						276 button Swap
+							277 image
+							278 text Swap
+						279 button Send
+							280 image
+							281 text Send
+						282 button Receive
+							283 image
+							284 text Receive
+					285 text Money
+					286 text 5.5% APY
+					287 heading $0.00, Value: 3
+						288 text $0.00
+					289 button Add
+					290 container
+						291 image Unitree rising 
+						292 text Unitree rising
+						293 button Close Unitree rising 
+							294 image
+						295 text Robotics stock up +23% in 3 days
+						296 image Turn your money on
+						297 text Turn your money on
+						298 button Close Turn your money on
+							299 image
+						300 text Earn up to ~6% APY with Money Account now live on extension
+					301 tab group
+						302 tab (selected) Tokens, Value: 1
+						303 tab (settable, integer) DeFi, Value: 0
+						304 tab (settable, integer) NFTs, Value: 0
+					305 container
+						306 button Network: MedTrace local demo
+							307 image
+							308 text Network: MedTrace local demo
+						309 button Sort by
+							310 image
+						311 button Asset options
+							312 image
+						313 link E M Ethereum $2,330.41 - 0.999 ETH
+							314 container
+								315 text E
+								316 text M
+							317 text Ethereum
+							318 text $2,330.41
+							319 text -
+							320 text 0.999 ETH
+					321 container
+						322 text M
+						323 text 127.0.0.1:5175 Account 1
+						324 pop up button M
+							325 text M
+							326 image
+						327 button Manage permissions
+							328 image
+						329 button Disconnect
+							330 image
+					331 button Home
+						332 image
+						333 text Home
+					334 button Perps
+						335 image
+						336 text Perps
+					337 button Money
+						338 image
+						339 text Money
+					340 button Activity
+						341 image
+						342 text Activity
+					343 container
+						344 image
+						345 text Back up your Secret Recovery Phrase to keep your wallet and funds secure.
+						346 button Back up now
+						347 button Close
+							348 image
+			349 slider Side Panel Resize Handle (draggable), Secondary Actions: Decrement, Increment
+			350 pop up button Tab Search
+			351 container
+				352 tab group
+					353 tab (settable, boolean) Introduction Writing - Memory usage - 593 MB, Value: off
+					354 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - Memory usage - 652 MB, Value: off
+					355 tab (settable, boolean) MetaMask Portfolio - Memory usage - 262 MB, Value: off
+					356 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - High memory usage - 959 MB, Value: off
+					357 tab (settable, boolean) MetaMask - Chrome Web Store - Memory usage - 188 MB, Value: off
+					358 tab (settable, boolean) MetaMask - Memory usage - 277 MB, Value: off
+					359 tab (settable, boolean) Conversation summary - Memory usage - 603 MB, Value: off
+					360 tab (selected, settable, boolean) MedTrace Guard - Memory usage - 200 MB, Value: on
+						361 button Close
+			362 button New Tab
+			363 container
+				364 splitter
+	365 close button
+	366 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	367 minimize button
+368 menu bar
+	369 Brave
+	370 File
+	371 Edit
+	372 View
+	373 History
+	374 Bookmarks
+	375 Profiles
+	376 Tab
+	377 Window
+	378 Help
+
+The focused UI element is 88 button #2 · MM-LIVE-APPROVED-20261025 Manufactured Synthetic MetaMask live check 100 units remaining · 0xC330B…fb45A

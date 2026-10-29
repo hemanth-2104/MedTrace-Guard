@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Kubo API",
+    "url": "http://127.0.0.1:15001/api/v0/version",
+    "method": "POST",
+    "error": "ECONNREFUSED"
+  },
+  {
+    "label": "Local Kubo certificate",
+    "url": "http://127.0.0.1:18080/ipfs/bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "error": "ECONNREFUSED"
+  },
+  {
+    "label": "Original application",
+    "url": "http://127.0.0.1:5173",
+    "error": "ECONNREFUSED"
+  },
+  {
+    "label": "Public trustless gateway",
+    "url": "https://trustless-gateway.link/ipfs/bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "error": "The operation was aborted due to timeout"
+  }
+]

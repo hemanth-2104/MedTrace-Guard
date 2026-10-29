@@ -1,0 +1,22 @@
+
+> medtrace-guard@1.0.0 test:model
+> node --test tests/model.test.mjs
+
+✔ MODEL: handoff requires named recipient and correct nonce (0.449125ms)
+✔ MODEL: expired transfer is rejected and can be cancelled (0.325292ms)
+✔ MODEL: stale handoff cannot be replayed after cancellation (0.079709ms)
+✔ MODEL: normal reading cannot clear safety hold (0.084542ms)
+✔ MODEL: unknown and unauthorized actors rejected (0.089417ms)
+✔ MODEL: recall is terminal and clears pending transfer (0.0505ms)
+✔ MODEL: expiry blocks transfer and dispensing (0.06225ms)
+✔ MODEL: manufacturer cannot skip distributor (0.0355ms)
+✔ MODEL: revoked recipient role blocks receipt (0.056875ms)
+✔ MODEL: 200 deterministic partial-dispensing traces conserve units (2.182792ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 82.500917

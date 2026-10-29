@@ -1,0 +1,85 @@
+
+> medtrace-guard@1.0.0 verify
+> npm run compile && npm test && npm run test:model && npm run build
+
+
+> medtrace-guard@1.0.0 compile
+> node scripts/compile.mjs
+
+{
+  MedTraceBaseline: { deployedBytes: 1742 },
+  MedTraceGuard: { deployedBytes: 10610 }
+}
+
+> medtrace-guard@1.0.0 test
+> node --test --test-concurrency=1 tests/contract.test.mjs tests/certificate.test.mjs
+
+✔ SHA-256 known answer for abc (2.500625ms)
+✔ modified bytes and JSON formatting fail integrity check (0.67925ms)
+✔ certificate locator rejects script and arbitrary URLs (0.193166ms)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ registration: unique code per manufacturer; immutable metadata and event (290.232ms)
+✔ administrator authorization and two-step succession (132.733125ms)
+✔ two-party handoff: proposer cannot assign custody or skip distributor (251.830166ms)
+✔ cancellation invalidates stale nonce; recipient rejection and timeout (253.222666ms)
+✔ role revoked after proposal blocks acceptance (227.252833ms)
+✔ quantity conservation over partial dispensing; terminal state cannot move (510.204584ms)
+✔ temperature hold persists after normal reading; regulator review required (348.004834ms)
+✔ recall cancels pending handoff and permanently blocks distribution (188.707ms)
+✔ recall blocks dispensing after pharmacy receipt (269.863667ms)
+✔ expiry blocks proposals, pending receipt, and dispensing (313.373417ms)
+✔ paged history preserves ordering and bounds (186.7235ms)
+✔ held batches reject both proposal routes, both receipts, and dispensing on the EVM (1023.532ms)
+✔ recalled batches reject both proposal routes, both receipts, and dispensing on the EVM (1116.250125ms)
+✔ expired batches reject both proposal routes, both receipts, and dispensing on the EVM (836.120458ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8439.780209
+
+> medtrace-guard@1.0.0 test:model
+> node --test tests/model.test.mjs
+
+✔ MODEL: handoff requires named recipient and correct nonce (0.467417ms)
+✔ MODEL: expired transfer is rejected and can be cancelled (0.310125ms)
+✔ MODEL: stale handoff cannot be replayed after cancellation (0.050208ms)
+✔ MODEL: normal reading cannot clear safety hold (0.063833ms)
+✔ MODEL: unknown and unauthorized actors rejected (0.077459ms)
+✔ MODEL: recall is terminal and clears pending transfer (0.045583ms)
+✔ MODEL: expiry blocks transfer and dispensing (0.058416ms)
+✔ MODEL: manufacturer cannot skip distributor (0.035334ms)
+✔ MODEL: revoked recipient role blocks receipt (0.057834ms)
+✔ MODEL: 200 deterministic partial-dispensing traces conserve units (2.1755ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 84.183625
+
+> medtrace-guard@1.0.0 build
+> vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 223 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.26 kB
+dist/assets/index-KBuPP09m.css    4.40 kB │ gzip:   1.51 kB
+dist/assets/index-B-NT_Kc-.js   455.93 kB │ gzip: 160.70 kB
+✓ built in 453ms

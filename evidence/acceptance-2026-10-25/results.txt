@@ -1,0 +1,96 @@
+MedTrace Guard acceptance results
+Date: October 25, 2026 (America/Phoenix)
+Network: Ganache local; chain ID 31337
+Checklist: 64 PASS / 0 remaining FAIL / 11 NOT TESTED (75 IDs)
+Automated suite: 14 contract + 5 certificate + 10 model = 29 passed; 0 failed; 0 skipped
+Additional dedicated contract acceptance: 45 IDs passed (overlaps the checklist totals)
+
+Resolved failure G4: missing certificate URL returned HTTP 200 SPA HTML and displayed:
+MISMATCH: downloaded bytes differ from the registered digest.
+Fix: detect HTML fallback and show unavailable/unverified; regression tests and browser retest pass.
+Current exact message: Certificate unavailable: server returned an HTML page; integrity is unverified.
+
+A1: PASS — "Solidity compile completed without errors."
+A2: PASS — "19 contract/certificate tests passed; 0 failed, 0 skipped."
+A3: PASS — "10 model tests passed; 0 failed, 0 skipped."
+A4: PASS — "Production Vite build completed."
+A5: PASS — "Benchmark completed with receipt gas and baseline comparison."
+A6: PASS — "Fresh ZIP extraction: npm ci, npm start, automatic deployment/seed, browser public lookup; final ZIP cold-start verification recorded separately."
+B1: PASS — {"batchId": 4}
+B2: PASS — "Reload retained batch 15 details exactly."
+B3: PASS — "Assertions passed"
+B4: PASS — "Assertions passed"
+B5: PASS — "Assertions passed"
+B6: PASS — "Assertions passed"
+C1: PASS — "Assertions passed"
+C2: PASS — "Assertions passed"
+C3: PASS — "Assertions passed"
+C4: PASS — "Assertions passed"
+C5: PASS — "Assertions passed"
+C6: PASS — "Assertions passed"
+C7: PASS — "Assertions passed"
+C8: PASS — "Assertions passed"
+C9: PASS — "Assertions passed"
+C10: PASS — "Assertions passed"
+D1: PASS — "Assertions passed"
+D2: PASS — "Assertions passed"
+D3: PASS — "Assertions passed"
+D4: PASS — "Assertions passed"
+D5: PASS — "Assertions passed"
+D6: PASS — "Assertions passed"
+D7: PASS — "Assertions passed"
+D8: PASS — "Assertions passed"
+D9: PASS — "Assertions passed"
+E1: PASS — "Assertions passed"
+E2: PASS — "Assertions passed"
+E3: PASS — "Assertions passed"
+E4: PASS — "Assertions passed"
+E5: PASS — "Assertions passed"
+E6: PASS — "Refreshed lookup of batch 10 reports Expired after EVM time advance."
+E7: PASS — "Assertions passed"
+E8: PASS — "Assertions passed"
+F1: PASS — "Assertions passed"
+F2: PASS — "Assertions passed"
+F3: PASS — "Assertions passed"
+F4: PASS — "Assertions passed"
+F5: PASS — "Assertions passed"
+F6: PASS — "Assertions passed"
+G1: PASS — "Downloaded exact registered bytes returned MATCH."
+G2: PASS — "Modified contents of the same registered certificate returned MISMATCH."
+G3: PASS — "Renamed byte-identical certificate returned MATCH."
+G4: PASS — "Certificate unavailable: server returned an HTML page; integrity is unverified."
+G5: NOT TESTED — "No real IPFS CID/pinning setup."
+G6: NOT TESTED — "No uploaded IPFS certificate to retrieve through a gateway."
+H1: PASS — "Assertions passed"
+H2: PASS — "Assertions passed"
+H3: PASS — "Assertions passed"
+H4: PASS — "Assertions passed"
+H5: PASS — "Assertions passed"
+H6: PASS — "Assertions passed"
+H7: PASS — "Assertions passed"
+I1: PASS — "Public viewer read batch/history and checked certificate without a wallet."
+I2: PASS — [{"value": "0", "validation": {"message": "Value must be greater than or equal to 1.", "valid": false}, "notice": "Read-only connection ready. No wallet needed for lookup."}, {"value": "-1", "validation": {"message": "Value must be greater than or equal to 1.", "valid": false}, "notice": "Read-only connection ready. No wallet needed for lookup."}, {"value": "", "validation": {"message": "", "valid": true}, "notice": "Enter a positive numeric batch ID."}, {"value": "abc", "actualInput": "", "notice": "Enter a positive numeric batch ID."}]
+I3: PASS — {"notice": "Confirmed: 0x002ae35a204b1b0a95283fab45dc0f80d704d8ceb05a34b336a29411f6a6aa88", "historyEntries": 27}
+I4: PASS — "Duplicate pending shipment rejected with Invalid shipment; batch details and 27 history entries unchanged."
+I5: PASS — "Second tab and refreshed first tab show identical batch metadata, custody, and quantity."
+I6: NOT TESTED — "No available MetaMask extension for account/network switching."
+I7: NOT TESTED — "No available MetaMask transaction prompt to reject."
+I8: PASS — {"error": "Cannot reach blockchain RPC. Start the chain, then reload the dashboard.", "falseSuccess": false, "isolatedRpcActuallyStopped": true, "recovery": "Chain restarted; reload restored public lookup."}
+I9: PASS — {"batchIds": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17], "historyPageCounts": [20, 6], "roundTripSame": true}
+I10: PASS — "Assertions passed"
+J1: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J2: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J3: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J4: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J5: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J6: NOT TESTED — "No configured public-testnet RPC, funded signing wallet, public deployment or receipts."
+J7: NOT TESTED — "Other-device QR access was not demonstrated; outside the local-only scope."
+
+Expected rejection errors and mined reverted transaction hashes are in contract-checks.json.
+B–H contract cases were executed against a disposable extracted copy, not the original saved chain.
+I6/I7 were not substituted with local account-selector tests. J1–J6 were not substituted with local-chain receipts.
+J7 is outside the demonstrated local-only scope; no reachable public frontend/RPC or second device was tested.
+No private keys are included in this evidence.
+
+Final refreshed ZIP verification: PASS in a second clean extraction, with fresh automatic deployment, three seeded batches, browser lookup and certificate MATCH.
+Original working project restored: 4 batches, original administrator retained, batch 2 recalled with 80 units, batch 4 custodian unchanged.

@@ -1,0 +1,14 @@
+{
+  "chainId": 80002,
+  "sender": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A",
+  "expectedNonce": 0,
+  "predictedAddress": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "contract": "MedTraceGuard",
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "optimizerRuns": 200,
+  "viaIR": true,
+  "evmVersion": "shanghai",
+  "localCreationBytecodeSHA256": "0xea10878b6825992f65c03c3b4d41886ece72413ac6152fcf91637d039eaf10bd",
+  "sourceSHA256": "0xf4a79954b3d04434e31292a23e0110c68530994ac278e8db5922b0788684f13d",
+  "scope": "Unsigned plan only; no deployment or public transaction has occurred."
+}

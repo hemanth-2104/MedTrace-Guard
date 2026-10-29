@@ -1,0 +1,28 @@
+{
+  "cid": "bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "expectedSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+  "checkedAt": "2026-10-25T08:51:57.636Z",
+  "reports": [
+    {
+      "gateway": "https://ipfs.io",
+      "match": false,
+      "error": "ECONNREFUSED",
+      "elapsedMs": 104
+    },
+    {
+      "gateway": "https://dweb.link",
+      "url": "https://dweb.link/ipfs/bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+      "status": 429,
+      "bytes": 188,
+      "sha256": "0xa8467f0bf03c18a5bb2dfd3811a70bcd893a8b004fc52003056ba9ca446c280d",
+      "match": false,
+      "elapsedMs": 210
+    },
+    {
+      "gateway": "https://gateway.pinata.cloud",
+      "match": false,
+      "error": "The operation was aborted due to timeout",
+      "elapsedMs": 25001
+    }
+  ]
+}

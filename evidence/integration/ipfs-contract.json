@@ -1,0 +1,14 @@
+{
+  "scope": "Real Kubo pin and gateway; disposable LOCAL blockchain, not public testnet",
+  "chainId": 31337,
+  "rpcUrl": "http://127.0.0.1:18545",
+  "contract": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+  "batchId": 1,
+  "transactionHash": "0x962e4b735bd74288161557f1edfcd9d014a0d13824d689bb5819fca5581ca70c",
+  "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "certificateSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+  "gateway": "http://127.0.0.1:18080",
+  "registeredUnits": "100",
+  "retrievedBytes": 165,
+  "integrity": "MATCH"
+}

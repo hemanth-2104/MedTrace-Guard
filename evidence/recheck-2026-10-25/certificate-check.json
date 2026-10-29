@@ -1,0 +1,7 @@
+{
+  "originalFile": "public/certificates/demo-3.json",
+  "registeredDigest": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+  "original": "MATCH",
+  "modified": "MISMATCH",
+  "modification": "Changed result text; original fixture unchanged"
+}

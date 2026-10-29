@@ -1,0 +1,60 @@
+{
+  "localDate": "2026-10-25",
+  "parallelAgents": [
+    "wallet_lane",
+    "ipfs_lane",
+    "testnet_lane"
+  ],
+  "integrator": "root",
+  "baselineCheckpoint": "../checkpoints/2026-10-25-before-external-integrations",
+  "automatedTests": {
+    "contract": 14,
+    "certificate": 8,
+    "ipfsUpload": 3,
+    "walletSimulatedEIP1193": 28,
+    "testnetLocalWorkflow": 5,
+    "model": 10,
+    "total": 68,
+    "failed": 0,
+    "skipped": 0
+  },
+  "productionBuild": "passed",
+  "originalLocalData": "four records and administrator preserved",
+  "ipfs": {
+    "realKuboPin": true,
+    "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+    "localGatewayRetrieval": "MATCH",
+    "registeredOnDisposableLocalChain": true,
+    "reactBrowserRetrieval": "MATCH",
+    "publicGatewayAvailable": false
+  },
+  "metamask": {
+    "implementation": "integrated",
+    "simulatedTests": 28,
+    "actualExtensionInstalled": false,
+    "genuineConnectionSigningAndRejection": "unverified"
+  },
+  "publicTestnet": {
+    "chainId": 80002,
+    "actualReadOnlyBlock": 51094095,
+    "publicContractDeployed": false,
+    "publicTransactionsSent": false,
+    "blocker": "No dedicated faucet-funded test wallet configuration"
+  },
+  "checklist": {
+    "total": 75,
+    "passed": 66,
+    "failed": 0,
+    "unverified": [
+      "I6",
+      "I7",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7"
+    ]
+  }
+}

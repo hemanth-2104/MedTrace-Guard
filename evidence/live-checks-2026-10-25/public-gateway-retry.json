@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-10-25T08:56:36.524Z",
+  "afterKuboRestart": true,
+  "results": [
+    {
+      "gateway": "https://gateway.pinata.cloud",
+      "status": 200,
+      "bytes": 165,
+      "sha256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "match": true
+    },
+    {
+      "gateway": "https://ipfs.filebase.io",
+      "status": 200,
+      "bytes": 165,
+      "sha256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+      "match": true
+    }
+  ]
+}

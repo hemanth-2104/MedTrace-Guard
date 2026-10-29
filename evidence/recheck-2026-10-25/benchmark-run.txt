@@ -1,0 +1,75 @@
+
+> medtrace-guard@1.0.0 benchmark
+> node --env-file-if-exists=.env scripts/benchmark.mjs
+
+.env not found. Continuing without it.
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+{
+  environment: {
+    node: 'v26.9.0',
+    network: 'Ganache in-process; Shanghai; chain 31337',
+    compiler: 'solc 0.8.30; viaIR; optimizer 200',
+    note: 'One deterministic run. Baseline has less metadata/history; gas is a design-cost comparison, not an isolated causal ablation. No mainnet USD or public-chain throughput claims.'
+  },
+  gas: [
+    { operation: 'baseline/register', gas: '117426' },
+    { operation: 'baseline/one_handoff', gas: '31223' },
+    { operation: 'baseline/recall', gas: '49222' },
+    { operation: 'guard/register', gas: '348313' },
+    { operation: 'guard/propose_handoff', gas: '201831' },
+    { operation: 'guard/accept_handoff', gas: '158026' },
+    { operation: 'guard/temperature_hold', gas: '134410' },
+    { operation: 'guard/release_hold', gas: '109393' },
+    { operation: 'guard/recall', gas: '136027' }
+  ],
+  scenarios: [
+    {
+      contract: 'MedTraceBaseline',
+      condition: 'expired',
+      unsafeDispenseAccepted: true
+    },
+    {
+      contract: 'MedTraceGuard',
+      condition: 'expired',
+      unsafeDispenseAccepted: false
+    },
+    {
+      contract: 'MedTraceBaseline',
+      condition: 'recalled',
+      unsafeDispenseAccepted: true
+    },
+    {
+      contract: 'MedTraceGuard',
+      condition: 'recalled',
+      unsafeDispenseAccepted: false
+    }
+  ],
+  growth: [
+    {
+      batches: 10,
+      registrationGas: '331201',
+      historyCallMedianMs: 2.8024170000003323,
+      trials: 10
+    },
+    {
+      batches: 50,
+      registrationGas: '331201',
+      historyCallMedianMs: 2.7349999999996726,
+      trials: 10
+    },
+    {
+      batches: 100,
+      registrationGas: '331213',
+      historyCallMedianMs: 2.6802090000001044,
+      trials: 10
+    }
+  ]
+}

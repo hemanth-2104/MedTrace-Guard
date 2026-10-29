@@ -1,0 +1,312 @@
+Window: "MedTrace Guard", App: Brave Browser.
+0 standard window MedTrace Guard - Brave, URL: 127.0.0.1:5176/?batch=1, Secondary Actions: Raise
+	1 container MedTrace Guard - Brave, URL: 127.0.0.1:5176/?batch=1
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 button Bookmark this tab
+				8 container
+					9 pop up button View site information
+					10 text field (settable) Address and search bar, Value: 127.0.0.1:5176/?batch=1, Placeholder: Search Brave or type a URL
+					11 splitter Separator
+					12 pop up button Brave Shields
+					13 pop up button Brave Rewards
+				14 container
+					15 pop up button The extension is by default inactive for all websites (indicated by a gray icon). Use this button to toggle the current site to be included in the activation list (changing the icon to blue). The page will automatically reload after you make changes.
+Has access to this site
+					16 pop up button TempMail
+Has access to this site
+					17 pop up button Shopilo: Automatic Coupon Finder by DontPayFull
+Has access to this site
+					18 pop up button Checkmate
+Has access to this site
+					19 pop up button Coupert - Automatic Coupon Finder & Cash Back
+Has access to this site
+					20 pop up button PayPal Honey
+Has access to this site
+					21 pop up button TunnelBear VPN
+Has access to this site
+					22 pop up button Extensions
+					23 button Close Side Panel
+				24 button Show Sidebar
+				25 pop up button Brave Wallet
+				26 button Leo AI
+				27 pop up button VPN
+				28 pop up button Brave
+			29 toolbar Bookmarks
+				30 toolbar Saved Tab Groups
+					31 button Tab groups
+				32 splitter Separator
+				33 bookmark button Web Store
+				34 bookmark button YouTube
+				35 bookmark button Hotstar
+				36 bookmark button Zee5
+				37 bookmark button Prime
+				38 bookmark button Netflix
+				39 bookmark folder button ASU
+				40 bookmark folder button Coding
+				41 bookmark folder button Masters
+				42 bookmark folder button Live stream
+				43 bookmark folder button US Shopping
+				44 bookmark folder button GYM
+				45 bookmark folder button Other bookmarks
+				46 bookmark folder button All Bookmarks
+				47 splitter Separator
+			48 container
+				49 HTML content MedTrace Guard, URL: 127.0.0.1:5176/?batch=1
+					50 container
+						51 text M+
+						52 container
+							53 text MedTrace  Guard
+						54 text Pharmaceutical provenance · accepted custody · safety gates
+						55 button Connect MetaMask
+						56 button Switch wallet network
+						57 button Disconnect signing
+						58 text MetaMask signing · Pharmacy · 0x7468b…0a529
+						59 text CSE 540 · WORKING PROTOTYPE
+						60 heading Follow the batch. Verify the handoff., Value: 1
+							61 text Follow the batch. Verify the handoff.
+						62 text Inspect who registered a batch, who accepted custody, and which recorded conditions block further distribution.
+						63 text Action blocked: check recall, expiry, temperature hold, and remaining units.
+						64 container
+							65 text Chain  80002  ·  0x95DDa…495e2
+							66 button Refresh ledger
+						67 container
+							68 text Registered batches
+							69 text 1
+							70 text Custody policy
+							71 text Two-party
+							72 text Safety gates
+							73 text Recall · expiry · hold
+						74 container
+							75 heading Batch registry, Value: 2
+								76 text Batch registry
+							77 text 1 – 1  of  1
+							78 button #1 · AMOY-LIVE-20261025 On hold Synthetic public test batch 100 units remaining · 0x7468B…0a529
+								79 container
+									80 text # 1  ·  AMOY-LIVE-20261025
+								81 text On hold
+								82 text Synthetic public test batch
+								83 container
+									84 text 100  units remaining ·  0x7468B…0a529
+							85 button (disabled) Previous
+							86 button (disabled) Next
+						87 container
+							88 heading Public verification, Value: 2
+								89 text Public verification
+							90 stepper (settable, float) Batch ID, Value: 1
+							91 button Look up
+							92 heading AMOY-LIVE-20261025, Value: 3
+								93 text AMOY-LIVE-20261025
+							94 text Temperature hold
+							95 definition list
+								96 container Current custodian
+									97 text Current custodian
+								98 text 0x7468B4468B644B062ddC9E33Fc320368fD60a529
+								99 container Manufacturer
+									100 text Manufacturer
+								101 text 0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52
+								102 container Produced / expires
+									103 text Produced / expires
+								104 container
+									105 text 10/25/2026, 1:54:33 AM  /  10/25/2027, 2:54:33 AM
+								106 container Units remaining / registered
+									107 text Units remaining / registered
+								108 container
+									109 text 100  /  100
+								110 container Allowed temperature
+									111 text Allowed temperature
+								112 container
+									113 text 2 – 8  °C
+								114 container Certificate locator
+									115 text Certificate locator
+								116 text ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+								117 container Registered SHA-256
+									118 text Registered SHA-256
+								119 text 0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							120 button Check certificate bytes
+							121 text MATCH: exact bytes match the registered SHA-256. This does not prove laboratory or medicine authenticity. Or verify a downloaded certificate
+							122 button Or verify a downloaded certificate: No file chosen
+							123 image QR link for batch 1
+							124 text QR links to this deployment and batch. A phone needs a reachable frontend and read RPC; localhost works only on this device.
+						125 container
+							126 heading Custody and safety timeline · #1, Value: 2
+								127 text Custody and safety timeline · # 1
+							128 text 6  immutable entries Registered 10/25/2026, 2:56:33 AM  · actor  0x9f431…DDE52 · 100 units Counterparty:  0x00000…00000  · evidence/nonce:  0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222 Shipment proposed 10/26/2026, 10:46:49 AM  · actor  0x9f431…DDE52 · 100 units Counterparty:  0xed0C1…32828  · evidence/nonce:  0x0000000000000000000000000000000000000000000000000000000000000001 Receipt accepted 10/26/2026, 10:48:35 AM  · actor  0xed0C1…32828 · 100 units Counterparty:  0x9f431…DDE52  · evidence/nonce:  0x0000000000000000000000000000000000000000000000000000000000000001 Shipment proposed 10/26/2026, 10:50:50 AM  · actor  0xed0C1…32828 · 100 units Counterparty:  0x7468B…0a529  · evidence/nonce:  0x0000000000000000000000000000000000000000000000000000000000000002 Receipt accepted 10/26/2026, 10:52:23 AM  · actor  0x7468B…0a529 · 100 units Counterparty:  0xed0C1…32828  · evidence/nonce:  0x0000000000000000000000000000000000000000000000000000000000000002 Temperature reported 10/26/2026, 10:55:43 AM  · actor  0x7468B…0a529 · 11.5 °C Counterparty:  0x00000…00000  · evidence/nonce:  0x13b59203e5d4767e707d7718bfb475518970e8bb542e0c274d3436f556060883
+							129 button (disabled) Earlier entries
+							130 button (disabled) Later entries
+						131 container
+							132 heading Authorized actions, Value: 2
+								133 text Authorized actions
+							134 text The contract checks every request. A selected dashboard role does not grant permissions.
+							135 heading Accept receipt, Value: 4
+								136 text Accept receipt
+							137 container
+								138 text Batch ID
+								139 stepper (settable) Batch ID
+							140 container
+								141 text Pending shipment nonce
+								142 stepper (settable) Pending shipment nonce
+							143 button Accept receipt
+							144 heading Cancel / reject shipment, Value: 4
+								145 text Cancel / reject shipment
+							146 container
+								147 text Batch ID
+								148 stepper (settable) Batch ID
+							149 button Cancel / reject shipment
+							150 heading Dispense units, Value: 4
+								151 text Dispense units
+							152 container
+								153 text Batch ID
+								154 stepper (settable) Batch ID
+							155 container
+								156 text Units
+								157 stepper (settable) Units
+							158 button Dispense units
+							159 heading Report simulated temperature, Value: 4
+								160 text Report simulated temperature
+							161 container
+								162 text Batch ID
+								163 stepper (settable) Batch ID
+							164 container
+								165 text Temperature °C
+								166 stepper (settable) Temperature °C
+							167 container
+								168 text Evidence note (hashed; retain original off-chain)
+								169 text field (settable) Evidence note (hashed; retain original off-chain)
+							170 button Report simulated temperature
+							171 heading Accept administrator nomination, Value: 4
+								172 text Accept administrator nomination
+							173 button Accept administrator nomination
+							174 text Hash an evidence note
+							175 text field (settable) Hash an evidence note, Placeholder: Retain the original note in your evidence log
+							176 button Calculate SHA-256
+						177 text Educational prototype · Synthetic records · Recorded provenance and policy eligibility do not establish physical authenticity or regulatory compliance.
+					178 container
+						179 container Notifications (F8)
+							180 content list
+			181 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/
+				182 container
+					183 container
+						184 button Account 4
+						185 container
+							186 image Network logo
+							187 image Network logo
+							188 image Network logo
+							189 image Network logo
+							190 text 0x7468B...0a529
+							191 image
+						192 button Search tokens
+							193 image
+						194 container
+							195 button Account options
+								196 image
+						197 container
+							198 text $0.00 +$0.00 (+0.00%)
+							199 link Discover
+								200 text Discover
+						201 container
+							202 button Buy
+								203 text Buy
+							204 button Swap
+								205 image
+								206 text Swap
+							207 button Send
+								208 image
+								209 text Send
+							210 button Receive
+								211 image
+								212 text Receive
+						213 text Money
+						214 text 5.3% APY
+						215 heading $0.00, Value: 3
+							216 text $0.00
+						217 button Add
+						218 container
+							219 image Turn your money on
+							220 text Turn your money on
+							221 button Close Turn your money on
+								222 image
+							223 text Earn up to ~6% APY with Money Account now live on extension
+							224 image Pre-IPO Anthropic perp
+							225 text Pre-IPO Anthropic perp
+							226 button Close Pre-IPO Anthropic perp
+								227 image
+							228 text Go long or short on Claude's creator with 10x leverage
+						229 tab group
+							230 tab (selected) Tokens, Value: 1
+							231 tab (settable, integer) DeFi, Value: 0
+							232 tab (settable, integer) NFTs, Value: 0
+						233 container
+							234 button Network: Amoy
+								235 image
+								236 text Network: Amoy
+							237 button Sort by
+								238 image
+							239 button Asset options
+								240 image
+							241 link P A POL <$0.01 - 0.00801 POL
+								242 container
+									243 text P
+									244 text A
+								245 text POL
+								246 text <$0.01
+								247 text -
+								248 text 0.00801 POL
+						249 container
+							250 text M
+							251 text 127.0.0.1:5176 Account 4
+							252 pop up button A
+								253 text A
+								254 image
+							255 button Manage permissions
+								256 image
+							257 button Disconnect
+								258 image
+						259 button Home
+							260 image
+							261 text Home
+						262 button Perps
+							263 image
+							264 text Perps
+						265 button Money
+							266 image
+							267 text Money
+						268 button Activity
+							269 image
+							270 text Activity
+						271 container
+							272 image
+							273 text Back up your Secret Recovery Phrase to keep your wallet and funds secure.
+							274 button Back up now
+							275 button Close
+								276 image
+			277 slider Side Panel Resize Handle (draggable), Secondary Actions: Decrement, Increment
+			278 pop up button Tab Search
+			279 container
+				280 tab group
+					281 tab (settable, boolean) ChatGPT - Memory usage - 566 MB, Value: off
+					282 tab (settable, boolean) Polygon Faucet - Memory usage - 196 MB, Value: off
+					283 tab (selected, settable, boolean) MedTrace Guard - Memory usage - 229 MB, Value: on
+						284 button Close
+			285 button New Tab
+			286 container
+				287 splitter
+	288 close button
+	289 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	290 minimize button
+291 menu bar
+	292 Brave
+	293 File
+	294 Edit
+	295 View
+	296 History
+	297 Bookmarks
+	298 Profiles
+	299 Tab
+	300 Window
+	301 Help
+
+The focused UI element is 120 button Check certificate bytes

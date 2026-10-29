@@ -1,0 +1,46 @@
+{
+  "recordedAt": "2026-10-25T08:23:45.642Z",
+  "mode": "real Kubo add/pin and gateway retrieval; synthetic classroom certificate",
+  "source": "/Users/hemanth/Desktop/Project/540/medtrace-guard/public/certificates/demo-3.json",
+  "api": "http://127.0.0.1:15001",
+  "gateway": "http://127.0.0.1:18080",
+  "certificateURI": "ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "certificateSHA256": "0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222",
+  "bytes": 165,
+  "cid": "bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "pin": {
+    "Type": "recursive",
+    "Name": ""
+  },
+  "localGatewayURL": "http://127.0.0.1:18080/ipfs/bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "checks": {
+    "retrieved": "MATCH",
+    "modified": "MISMATCH",
+    "renamed": "MATCH"
+  },
+  "renamedCID": "bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei",
+  "modifiedCID": "bafkreicwshfabe5cm4ha4funtdqhkdm2xvs5tfv5y366zsobmspavdm7em",
+  "cors": [
+    {
+      "origin": "http://127.0.0.1:5173",
+      "status": 200,
+      "allowOrigin": "*"
+    },
+    {
+      "origin": "http://127.0.0.1:5174",
+      "status": 200,
+      "allowOrigin": "*"
+    }
+  ],
+  "publicRetrieval": {
+    "gateway": "https://ipfs.io",
+    "available": false,
+    "error": "fetch failed",
+    "elapsedMs": 103
+  },
+  "limitations": [
+    "Local pin retention depends on this Kubo repository and daemon.",
+    "Public gateway reachability is measured separately; a local pin is not a remote pinning-service guarantee.",
+    "No public blockchain transaction is performed by this script."
+  ]
+}

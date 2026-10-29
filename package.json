@@ -1,0 +1,53 @@
+{
+  "name": "medtrace-guard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "check:interface": "node scripts/check-interface.mjs",
+    "compile": "node scripts/compile.mjs",
+    "chain": "node scripts/chain.mjs",
+    "deploy": "node --env-file-if-exists=.env scripts/deploy.mjs",
+    "seed": "node --env-file-if-exists=.env scripts/seed.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node scripts/run-tests.mjs",
+    "test:model": "node --test tests/model.test.mjs",
+    "benchmark": "node --env-file-if-exists=.env scripts/benchmark.mjs",
+    "preview:offline": "node scripts/preview.mjs",
+    "simulate:temperature": "node --env-file-if-exists=.env scripts/simulate-temperature.mjs",
+    "start": "node scripts/start.mjs",
+    "verify": "npm run compile && npm test && npm run test:model && npm run build",
+    "smoke": "node scripts/smoke.mjs",
+    "acceptance:local": "node scripts/acceptance.mjs",
+    "ipfs:upload": "node scripts/ipfs-upload.mjs",
+    "ipfs:proof": "node scripts/ipfs-proof.mjs",
+    "integration:ipfs": "node scripts/integration-ipfs-server.mjs",
+    "testnet:preflight": "node --env-file-if-exists=.env.amoy.local scripts/testnet-preflight.mjs",
+    "testnet:deploy": "node --env-file-if-exists=.env.amoy.local scripts/deploy-testnet.mjs",
+    "testnet:workflow": "node --env-file-if-exists=.env.amoy.local scripts/testnet-workflow.mjs",
+    "testnet:read": "node --env-file-if-exists=.env.amoy.local scripts/testnet-read.mjs",
+    "dev:amoy": "vite --host 127.0.0.1 --mode amoy",
+    "build:amoy": "vite build --mode amoy"
+  },
+  "dependencies": {
+    "ethers": "6.17.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "qrcode": "1.5.4"
+  },
+  "devDependencies": {
+    "solc": "0.8.30",
+    "ganache": "7.9.2",
+    "vite": "6.4.5",
+    "@vitejs/plugin-react": "4.3.4"
+  },
+  "overrides": {
+    "solc": {
+      "tmp": "0.2.7"
+    }
+  }
+}

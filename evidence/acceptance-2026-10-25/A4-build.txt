@@ -1,0 +1,13 @@
+
+> medtrace-guard@1.0.0 build
+> vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 223 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.26 kB
+dist/assets/index-KBuPP09m.css    4.40 kB │ gzip:   1.51 kB
+dist/assets/index-adlBgC0o.js   456.48 kB │ gzip: 160.97 kB
+✓ built in 473ms

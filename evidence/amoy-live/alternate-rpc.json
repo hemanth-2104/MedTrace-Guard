@@ -1,0 +1,23 @@
+{
+  "rpc": "https://polygon-amoy-bor-rpc.publicnode.com",
+  "checks": [
+    {
+      "chainId": "0x13882",
+      "batchCount": "1",
+      "manufacturerRole": "1",
+      "admin": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A"
+    },
+    {
+      "chainId": "0x13882",
+      "batchCount": "1",
+      "manufacturerRole": "1",
+      "admin": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A"
+    },
+    {
+      "chainId": "0x13882",
+      "batchCount": "1",
+      "manufacturerRole": "1",
+      "admin": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A"
+    }
+  ]
+}

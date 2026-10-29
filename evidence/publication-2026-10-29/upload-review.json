@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "repository": "hemanth-2104/MedTrace-Guard",
+  "completedSoftwareSourceMatches": true,
+  "allExampleSigningKeysEmpty": true,
+  "sensitiveTokenScan": "No matches; whitespace-spanning empty-key false positive resolved",
+  "excluded": [
+    "node_modules",
+    "dist",
+    "artifacts",
+    "private env files",
+    "saved chains",
+    "duplicate ZIPs",
+    "temporary deployment manifests",
+    "OS metadata"
+  ],
+  "publicDeploymentIncluded": "public/deployment.amoy.json",
+  "existingPublicationVerification": "68 tests and both builds PASS; 31 documented ABI entries match; baseline benchmark PASS"
+}

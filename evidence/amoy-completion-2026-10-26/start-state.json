@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-26T17:34:29.172Z",
+  "chainId": "80002",
+  "contract": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "batch": {
+    "code": "AMOY-LIVE-20261025",
+    "custodian": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+    "stage": "0",
+    "remainingUnits": "100",
+    "hold": false,
+    "recalled": false
+  },
+  "pending": [
+    "0x0000000000000000000000000000000000000000",
+    "0",
+    "0"
+  ],
+  "historyCount": "1",
+  "accounts": {
+    "admin": {
+      "address": "0xC330B28A3C1f892d301f035078469E0ca5Cfb45A",
+      "balancePOL": "0.000133474832756357",
+      "role": "0"
+    },
+    "manufacturer": {
+      "address": "0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52",
+      "balancePOL": "0.003883649970726798",
+      "role": "1"
+    },
+    "distributor": {
+      "address": "0xed0C1F66366a323e219846eb1a064D1066632828",
+      "balancePOL": "0.009",
+      "role": "2"
+    },
+    "pharmacy": {
+      "address": "0x7468B4468B644B062ddC9E33Fc320368fD60a529",
+      "balancePOL": "0.009",
+      "role": "3"
+    },
+    "regulator": {
+      "address": "0x84e8B8e2A9d55872cE70dB38Aa882FaFB071FaD5",
+      "balancePOL": "0.0",
+      "role": "4"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+PASS /: 200
+PASS /shared/model.mjs: 200
+PASS /src/style.css: 200
+PASS /.env: 404
+PASS /package.json: 404
+PASS /..%2fpackage.json: 404

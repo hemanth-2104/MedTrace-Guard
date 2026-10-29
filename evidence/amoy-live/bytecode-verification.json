@@ -1,0 +1,11 @@
+{
+  "exactCodeMatch": true,
+  "exactCreationMatch": true,
+  "compiler": "0.8.30+commit.73712a01.Emscripten.clang",
+  "sourcePath": "MedTraceGuard.sol",
+  "optimizerRuns": 200,
+  "viaIR": true,
+  "evmVersion": "shanghai",
+  "runtimeCodeSHA256": "0x1bce4b657c437612369989d4e010d12b9abc9e83d3017c1d21eaab42ae4c029c",
+  "deployedBytes": 10610
+}

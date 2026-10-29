@@ -1,0 +1,8 @@
+
+> medtrace-guard@1.0.0 compile
+> node scripts/compile.mjs
+
+{
+  MedTraceBaseline: { deployedBytes: 1742 },
+  MedTraceGuard: { deployedBytes: 10610 }
+}

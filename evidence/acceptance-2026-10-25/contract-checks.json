@@ -1,0 +1,1077 @@
+{
+  "network": "Ganache local",
+  "chainId": 31337,
+  "address": "0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab",
+  "startedAt": "2026-10-25T07:28:47.980Z",
+  "checks": [
+    {
+      "id": "B1",
+      "status": "PASS",
+      "detail": {
+        "batchId": 4
+      }
+    },
+    {
+      "id": "B3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "B6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C9",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "C10",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D9",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "D4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "E8",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "F6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H1",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "I10",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H5",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H6",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    },
+    {
+      "id": "H7",
+      "status": "PASS",
+      "detail": "Assertions passed"
+    }
+  ],
+  "expectedRejections": [
+    {
+      "id": "B3",
+      "operation": "registerBatch",
+      "args": [
+        "ACC-PRIMARY",
+        "Acceptance medicine",
+        1792913086,
+        1792999586,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "DuplicateBatch",
+      "errorName": "DuplicateBatch",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x840d32d1cdcb50e0fd161aeb9469cc21747a032b33bcd3522eb0e2af51cee7af",
+      "status": 0
+    },
+    {
+      "id": "B4",
+      "operation": "registerBatch",
+      "args": [
+        "DENIED-2",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xd23739155a7f2463c02441d5e4bc40f4194bd2d0c16d74af8ab026f1b794902b",
+      "status": 0
+    },
+    {
+      "id": "B4",
+      "operation": "registerBatch",
+      "args": [
+        "DENIED-3",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x2243d9d41bf9ea283eed157136d1893f5b41612137befd3413d09977b2604849",
+      "status": 0
+    },
+    {
+      "id": "B4",
+      "operation": "registerBatch",
+      "args": [
+        "DENIED-5",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x408302e68e26d92ff6b44bcc951edb4401478e70ab6d8adf0eb24afdedb3d6ef",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xf627c023d51b06f923f9bbde7e6fb759f61024d90658a5056831550d20df2a8b",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x3d6472e4bf78ed3bcc569f9831ce39d3d153052203453634da891c2c72127e5f",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        20,
+        80,
+        "",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xeaa778ddf2ba2ebd99dbcc7f152dfeebd98e4be9445f8defd42911dc0a1bf1d7",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913327,
+        1792913928,
+        0,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xec75aa13f9d7a8798f4bb56ab9d7f6eb77bea72328df4272fb53e088c0f5505a",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913428,
+        1792913928,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xbd176fcebb274385696f333a2ef255f4ab783be7336e287e94ac79c81baa7e76",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913327,
+        1792913327,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xcc6ab40cc8be44f73bcf6e6a3e6b6100bdeda604989ac0cd0f3db1825925ae58",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        80,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xaa930231eb19ef88ffa04d8f6f36c88be8e389aac92f2275cf3cd7bed775b836",
+      "status": 0
+    },
+    {
+      "id": "B5",
+      "operation": "registerBatch",
+      "args": [
+        "INVALID",
+        "D",
+        1792913327,
+        1792913928,
+        100,
+        90,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x8178701ed327433b0676910927b1393bbcec393a0571987cf2f89438584ea89a",
+      "status": 0
+    },
+    {
+      "id": "C5",
+      "operation": "proposeTransfer",
+      "args": [
+        5,
+        "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+        1792913928
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xc6637fe158ac1707002cb4ff161dcea02ad49063ffdd6768c545e8e5a000a686",
+      "status": 0
+    },
+    {
+      "id": "C6",
+      "operation": "acceptTransfer",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x8405b2b9497e327e42d7f8563b2e5d667dcd9eeb3d290847b7565bbc8af943a6",
+      "status": 0
+    },
+    {
+      "id": "C7",
+      "operation": "acceptTransfer",
+      "args": [
+        4,
+        999
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x2dee67cfafe02acd5f386d504c337036043bd7d9294aff5a4982ed73bb6d979e",
+      "status": 0
+    },
+    {
+      "id": "C8",
+      "operation": "proposeTransfer",
+      "args": [
+        4,
+        "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        1792913928
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xbbb169a61814c88e34bb7f0fccec3110389655bf52bb38fe4697a3bd981b4046",
+      "status": 0
+    },
+    {
+      "id": "C7",
+      "operation": "acceptTransfer",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xbc866753feb32838ae5abe26fc9a32b8c62dd0f6b1f7a9c0c49faaa026d9bc37",
+      "status": 0
+    },
+    {
+      "id": "C10",
+      "operation": "acceptTransfer",
+      "args": [
+        6,
+        2
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xb5085f28c46e77a05feac48b908c0f7c3064d64f7b673abe708d9ce130627488",
+      "status": 0
+    },
+    {
+      "id": "C10",
+      "operation": "acceptTransfer",
+      "args": [
+        6,
+        3
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x8919d1590d390fb34f8b4f887c7839674ce3d0aad183ba13a55b8533d193824c",
+      "status": 0
+    },
+    {
+      "id": "D5",
+      "operation": "dispense",
+      "args": [
+        7,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x1113bafa2cd66bfffd9ce19a14f452a977bf51b24c00f1ddfbaf0f9b0b98728e",
+      "status": 0
+    },
+    {
+      "id": "D7",
+      "operation": "releaseHold",
+      "args": [
+        7,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xeec3b8d59e824d3d40e56690f4249cdb7a0ef9ab69d802b3d4178c8664354eec",
+      "status": 0
+    },
+    {
+      "id": "D7",
+      "operation": "releaseHold",
+      "args": [
+        7,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xa4778dc5b1ef4fae62772fbf65344e72d12295cb13849d5be4522a8b441438c9",
+      "status": 0
+    },
+    {
+      "id": "D7",
+      "operation": "releaseHold",
+      "args": [
+        7,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x2731d375ceaad106b911954f4b20af718b0c43f1df8ebf01e94ba499d843e33e",
+      "status": 0
+    },
+    {
+      "id": "D9",
+      "operation": "reportTemperature",
+      "args": [
+        7,
+        50,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x5a66f576c88e3ac652f023530fedc7dac2a81a8bd07940021fa5b7a07c42e3f8",
+      "status": 0
+    },
+    {
+      "id": "D9",
+      "operation": "reportTemperature",
+      "args": [
+        7,
+        50,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x559010774eccb40a5c139dc6fdc2815ce8fa6a78fdc9396c07711de692b563a4",
+      "status": 0
+    },
+    {
+      "id": "D9",
+      "operation": "reportTemperature",
+      "args": [
+        7,
+        50,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xdf682b31204f031d507ed8ba29f8758d8f528dc981f46dba22be4ef52a48cf20",
+      "status": 0
+    },
+    {
+      "id": "D4",
+      "operation": "acceptTransfer",
+      "args": [
+        8,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x9393c07786d9470c900779b49b715859f7c27573f92108ab9dc7cd0d228b0cb4",
+      "status": 0
+    },
+    {
+      "id": "D4",
+      "operation": "proposeTransfer",
+      "args": [
+        8,
+        "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        1792913935
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xb500f66962f00d48dc73c2af164a98a20c93a321c6eccb1faaeb73e3c7ef003a",
+      "status": 0
+    },
+    {
+      "id": "E4",
+      "operation": "recallBatch",
+      "args": [
+        9,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xacc730da2868c5ec4a542037f1ace15cc8da67698a88a08e08342d77c89473c4",
+      "status": 0
+    },
+    {
+      "id": "E4",
+      "operation": "recallBatch",
+      "args": [
+        9,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x5e79dc4a97b57d6a78e8487d41a59c862d874b89cf1f0cbcf72a789283cfac07",
+      "status": 0
+    },
+    {
+      "id": "E4",
+      "operation": "recallBatch",
+      "args": [
+        9,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xdbb0fd21fa6f463c7c633bfe9b6cb336d87fb29107955c3019e4234fce5b1a68",
+      "status": 0
+    },
+    {
+      "id": "E4",
+      "operation": "recallBatch",
+      "args": [
+        9,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x690ee57ff789f000405e5bb62fd157e9fd1c93fd80b7232c7dbe594eb539a46f",
+      "status": 0
+    },
+    {
+      "id": "E2",
+      "operation": "acceptTransfer",
+      "args": [
+        9,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x736d260197f5d6e9fec712f6a48c052d58bb1e2ca78d07d092fa1fa1fb784ef9",
+      "status": 0
+    },
+    {
+      "id": "E3",
+      "operation": "proposeTransfer",
+      "args": [
+        9,
+        "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        1792913935
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xc933803c51a4047c3ae0ed2a85f00867c2bb0be4b769d8ea218d3575a7ba4eea",
+      "status": 0
+    },
+    {
+      "id": "E3",
+      "operation": "dispense",
+      "args": [
+        7,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x9ef0b84427ce8f91a6674eebb5261a3eb013625abada2e593f0e7fc1c2694230",
+      "status": 0
+    },
+    {
+      "id": "E5",
+      "operation": "releaseHold",
+      "args": [
+        7,
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x083396b8e2c79d509010ad3d27c9ef70c3da66c7ba401825cab1c33371558efd",
+      "status": 0
+    },
+    {
+      "id": "E7",
+      "operation": "proposeTransfer",
+      "args": [
+        10,
+        "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        1792913505
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x247592b554d1e486ce0db2ac332b6553ad7fec355894a84c947a476b86ec649d",
+      "status": 0
+    },
+    {
+      "id": "E7",
+      "operation": "acceptTransfer",
+      "args": [
+        11,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x28db8c3ccf5c13d54b2bc99f56bc29c1d7ce189fa11febd3412c34a424287e6c",
+      "status": 0
+    },
+    {
+      "id": "E7",
+      "operation": "dispense",
+      "args": [
+        12,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xa5500673a0239e386da2d96e7e126f4d36a5f7fc84ad22b831fdae43aa43b8a4",
+      "status": 0
+    },
+    {
+      "id": "E8",
+      "operation": "dispense",
+      "args": [
+        12,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xf5b5a2d0233b1888f568b9ed92072b79c2c70b5176037c7df3816fef91df41e1",
+      "status": 0
+    },
+    {
+      "id": "F3",
+      "operation": "dispense",
+      "args": [
+        4,
+        0
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xaaeba8bbf5a7896689161aaef1e5c620aa1e80f0cb0b84a089b01a1aa8a0ac1c",
+      "status": 0
+    },
+    {
+      "id": "F3",
+      "operation": "dispense",
+      "args": [
+        4,
+        51
+      ],
+      "expected": "InvalidInput",
+      "errorName": "InvalidInput",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x62b8820e41e5bd0241bbcb7f38a778d95d54698df1c46fcbbffc4f44a10ca975",
+      "status": 0
+    },
+    {
+      "id": "F3",
+      "operation": "dispense",
+      "args": [
+        4,
+        -1
+      ],
+      "expected": "ENCODING",
+      "errorName": "INVALID_ARGUMENT",
+      "error": "value out-of-bounds"
+    },
+    {
+      "id": "F3",
+      "operation": "dispense",
+      "args": [
+        4,
+        0.5
+      ],
+      "expected": "ENCODING",
+      "errorName": "INVALID_ARGUMENT",
+      "error": "underflow"
+    },
+    {
+      "id": "F4",
+      "operation": "dispense",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x113982e9d48d5322a4fc87022902b231572679f130906283e09e5d308725f700",
+      "status": 0
+    },
+    {
+      "id": "F4",
+      "operation": "dispense",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x197a0b18a28ceb5c4e218fc0df1bce5bc2939b3de603599f1e474566c943513b",
+      "status": 0
+    },
+    {
+      "id": "F4",
+      "operation": "dispense",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x63cf7063a87728cd866a69343c086ce1ab829df13c1067d571bf12635dcccb3c",
+      "status": 0
+    },
+    {
+      "id": "F4",
+      "operation": "dispense",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x21471fcf8073aa676b161f91b63f7b10249331559e628f2c1b733300d0c1bb2d",
+      "status": 0
+    },
+    {
+      "id": "F6",
+      "operation": "dispense",
+      "args": [
+        4,
+        1
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xd6268d7225681098dc9a499122e2c05afe3da600809fdd736ac3e7a53334d8b0",
+      "status": 0
+    },
+    {
+      "id": "F6",
+      "operation": "proposeTransfer",
+      "args": [
+        4,
+        "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+        1792914045
+      ],
+      "expected": "Blocked",
+      "errorName": "Blocked",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x88d00ef0a52208900ce408f17159e0198380c0deaf618d8dd3e9b08435dba4db",
+      "status": 0
+    },
+    {
+      "id": "H2",
+      "operation": "assignRole",
+      "args": [
+        "0x3E5e9111Ae8eB78Fe1CC3bb8915d5D461F3Ef9A9",
+        4
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x81eb8674d3e7b34abb347361778971b2dc75431678fe48e20fd4cdd5be91f243",
+      "status": 0
+    },
+    {
+      "id": "H3",
+      "operation": "registerBatch",
+      "args": [
+        "REVOKED",
+        "D",
+        1792913444,
+        1792914045,
+        100,
+        20,
+        80,
+        "/certificates/demo-3.json",
+        "0x4216d41eaedd724f28c2152c430b5336768fedc6ef78d79b4ba15e3e98af9250"
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x53169caacb1dc4322f6f5f650f9be141849a276cdea26dbb9f6cf1d2ff7816e0",
+      "status": 0
+    },
+    {
+      "id": "H4",
+      "operation": "acceptTransfer",
+      "args": [
+        13,
+        1
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x53fe2af00a0c6aaa974dd0c0d27baabda0bd7332788b7b709c9d51c3bd319949",
+      "status": 0
+    },
+    {
+      "id": "H4",
+      "operation": "acceptTransfer",
+      "args": [
+        14,
+        1
+      ],
+      "expected": "InvalidTransfer",
+      "errorName": "InvalidTransfer",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xdc2888d57d534b40c5e56dcf5acee056da960f962df7367cec8ecca46a2a15ea",
+      "status": 0
+    },
+    {
+      "id": "H6",
+      "operation": "acceptAdmin",
+      "args": [],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0x26b4a622ed9641de8797b247bc22061f8d4fe51d6b99900c22f951c7413924f5",
+      "status": 0
+    },
+    {
+      "id": "H7",
+      "operation": "assignRole",
+      "args": [
+        "0x3E5e9111Ae8eB78Fe1CC3bb8915d5D461F3Ef9A9",
+        4
+      ],
+      "expected": "Denied",
+      "errorName": "Denied",
+      "error": "execution reverted (unknown custom error)",
+      "transactionHash": "0xdb1bde6a98b9adb49d7d38d4c4e8b4d7f8127bc7b3b103b5dffb8463f79b616c",
+      "status": 0
+    }
+  ],
+  "browserFixtures": {
+    "main": 4,
+    "thermal": 7,
+    "recalled": 9,
+    "expired": 10,
+    "browser": 15,
+    "missing": 16,
+    "addresses": [
+      "0x90F8bf6A479f320ead074411a4B0e7944Ea8c9C1",
+      "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0",
+      "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b",
+      "0xE11BA2b4D45Eaed5996Cd0823791E0C93114882d",
+      "0xd03ea8624C8C5987235048901fB614fDcA89b117",
+      "0x95cED938F7991cd0dFcb48F0a06a40FA1aF46EBC",
+      "0x3E5e9111Ae8eB78Fe1CC3bb8915d5D461F3Ef9A9",
+      "0x28a8746e75304c0780E011BEd21C72cD78cd535E"
+    ]
+  },
+  "finishedAt": "2026-10-25T07:28:50.419Z"
+}

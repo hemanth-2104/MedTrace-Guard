@@ -1,0 +1,9 @@
+{
+  "scope": "Disposable local RPC; not MetaMask or public testnet",
+  "signingModeIsolation": true,
+  "missingExtensionClearsLocalIdentity": true,
+  "explicitLocalSigningTransactions": {
+    "proposal": "Confirmed: 0x9bf31303a9f5216559c8dad87e7fc27ff9d993a61ecb3da035fecec2eb891a4e",
+    "cancellation": "Confirmed: 0xd2696a7d86353fafc3b230d57598c0a039531b11db9c329e1507b58e84adb1bd"
+  }
+}

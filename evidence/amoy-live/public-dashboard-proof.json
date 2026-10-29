@@ -1,0 +1,9 @@
+{
+  "chainId": 80002,
+  "contract": "0x95DDa069490E8D6B0650A707052598b306C495e2",
+  "batchId": 1,
+  "signingMode": "Public read-only access",
+  "gateway": "https://gateway.pinata.cloud",
+  "certificateResult": "MATCH",
+  "sourceFix": "Disabled JSON-RPC batching for public endpoint compatibility"
+}

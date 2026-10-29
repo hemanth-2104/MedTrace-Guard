@@ -1,0 +1,88 @@
+TAP version 13
+# Subtest: SHA-256 known answer for abc
+ok 1 - SHA-256 known answer for abc
+  ---
+  duration_ms: 3.679843
+  type: 'test'
+  ...
+# Subtest: modified bytes and JSON formatting fail integrity check
+ok 2 - modified bytes and JSON formatting fail integrity check
+  ---
+  duration_ms: 1.148002
+  type: 'test'
+  ...
+# Subtest: certificate locator rejects script and arbitrary URLs
+ok 3 - certificate locator rejects script and arbitrary URLs
+  ---
+  duration_ms: 0.645351
+  type: 'test'
+  ...
+# Subtest: MODEL: handoff requires named recipient and correct nonce
+ok 4 - MODEL: handoff requires named recipient and correct nonce
+  ---
+  duration_ms: 1.550074
+  type: 'test'
+  ...
+# Subtest: MODEL: expired transfer is rejected and can be cancelled
+ok 5 - MODEL: expired transfer is rejected and can be cancelled
+  ---
+  duration_ms: 0.23703
+  type: 'test'
+  ...
+# Subtest: MODEL: stale handoff cannot be replayed after cancellation
+ok 6 - MODEL: stale handoff cannot be replayed after cancellation
+  ---
+  duration_ms: 0.161458
+  type: 'test'
+  ...
+# Subtest: MODEL: normal reading cannot clear safety hold
+ok 7 - MODEL: normal reading cannot clear safety hold
+  ---
+  duration_ms: 0.190701
+  type: 'test'
+  ...
+# Subtest: MODEL: unknown and unauthorized actors rejected
+ok 8 - MODEL: unknown and unauthorized actors rejected
+  ---
+  duration_ms: 0.282686
+  type: 'test'
+  ...
+# Subtest: MODEL: recall is terminal and clears pending transfer
+ok 9 - MODEL: recall is terminal and clears pending transfer
+  ---
+  duration_ms: 0.207867
+  type: 'test'
+  ...
+# Subtest: MODEL: expiry blocks transfer and dispensing
+ok 10 - MODEL: expiry blocks transfer and dispensing
+  ---
+  duration_ms: 0.232112
+  type: 'test'
+  ...
+# Subtest: MODEL: manufacturer cannot skip distributor
+ok 11 - MODEL: manufacturer cannot skip distributor
+  ---
+  duration_ms: 0.136731
+  type: 'test'
+  ...
+# Subtest: MODEL: revoked recipient role blocks receipt
+ok 12 - MODEL: revoked recipient role blocks receipt
+  ---
+  duration_ms: 0.328955
+  type: 'test'
+  ...
+# Subtest: MODEL: 200 deterministic partial-dispensing traces conserve units
+ok 13 - MODEL: 200 deterministic partial-dispensing traces conserve units
+  ---
+  duration_ms: 12.958701
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 106.633532

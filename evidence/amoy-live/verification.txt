@@ -1,0 +1,135 @@
+
+> medtrace-guard@1.0.0 verify
+> npm run compile && npm test && npm run test:model && npm run build
+
+
+> medtrace-guard@1.0.0 compile
+> node scripts/compile.mjs
+
+{
+  MedTraceBaseline: { deployedBytes: 1742 },
+  MedTraceGuard: { deployedBytes: 10610 }
+}
+
+> medtrace-guard@1.0.0 test
+> node scripts/run-tests.mjs
+
+✔ SHA-256 known answer for abc (3.161291ms)
+✔ modified bytes and JSON formatting fail integrity check (0.691875ms)
+✔ certificate locator rejects script and arbitrary URLs (0.220292ms)
+✔ IPFS gateway accepts HTTPS origins and local HTTP origins (0.305ms)
+✔ IPFS gateway rejects remote HTTP, credentials, scripts, and ambiguous paths (0.095375ms)
+✔ IPFS retrieval uses the configured gateway and preserves exact bytes (7.959542ms)
+✔ certificate retrieval returns exact bytes for an available file (0.287542ms)
+✔ unavailable certificate, SPA HTML fallback, and network failure stay unverified (0.578625ms)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ registration: unique code per manufacturer; immutable metadata and event (304.877666ms)
+✔ administrator authorization and two-step succession (137.63825ms)
+✔ two-party handoff: proposer cannot assign custody or skip distributor (254.127833ms)
+✔ cancellation invalidates stale nonce; recipient rejection and timeout (277.410208ms)
+✔ role revoked after proposal blocks acceptance (187.311708ms)
+✔ quantity conservation over partial dispensing; terminal state cannot move (521.586042ms)
+✔ temperature hold persists after normal reading; regulator review required (329.807167ms)
+✔ recall cancels pending handoff and permanently blocks distribution (197.198042ms)
+✔ recall blocks dispensing after pharmacy receipt (280.164166ms)
+✔ expiry blocks proposals, pending receipt, and dispensing (350.405417ms)
+✔ paged history preserves ordering and bounds (207.182042ms)
+✔ held batches reject both proposal routes, both receipts, and dispensing on the EVM (1038.908042ms)
+✔ recalled batches reject both proposal routes, both receipts, and dispensing on the EVM (1016.00225ms)
+✔ expired batches reject both proposal routes, both receipts, and dispensing on the EVM (896.898458ms)
+✔ Kubo upload API allows only explicit loopback origins (0.758125ms)
+✔ upload helper pins exact file bytes with CIDv1 and reports their separate SHA-256 (mock API) (11.913125ms)
+✔ upload helper rejects oversized input and unsuccessful/malformed mock API responses (4.377833ms)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ Amoy config fails closed without keys; read-only requires none; HTTPS and chain restrictions (13.571792ms)
+✔ preflight rejects wrong chain and insufficient funds before any mutation (2.187ms)
+✔ RPC errors are redacted rather than exposing credential-bearing request URLs (0.059917ms)
+✔ certificate input requires actual bytes and an IPFS URI (3.0915ms)
+✔ LOCAL EVM ONLY: deploy, receipt retention, recipient acceptance, mined unsafe rejection, wallet-free read (2757.770125ms)
+✔ simulated: connecting MetaMask uses wallet signing even for an unlocked local demo address (0.623333ms)
+✔ simulated: local signing requires explicit selection and never accesses wallet provider (0.108625ms)
+✔ simulated: public mode cannot sign through an unlocked RPC (0.164ms)
+✔ simulated: local selection is restricted to localhost chain 31337 and manifest accounts (0.074833ms)
+✔ simulated: rejected connection clears previous local identity and all listeners (0.173125ms)
+✔ simulated: wrong chain connection stays public and does not silently switch networks (0.078208ms)
+✔ simulated: permission approval may emit accountsChanged before resolving (0.070917ms)
+✔ simulated: locked or revoked account permissions cannot connect (0.056ms)
+✔ simulated: accountsChanged ["0x2222222222222222222222222222222222222222"] immediately invalidates identity and detaches listeners (0.127834ms)
+✔ simulated: accountsChanged [] immediately invalidates identity and detaches listeners (0.365041ms)
+✔ simulated: chainChanged "0x1" immediately invalidates identity and detaches listeners (0.069666ms)
+✔ simulated: disconnect {"code":4900} immediately invalidates identity and detaches listeners (0.052209ms)
+✔ simulated: changing mode while permission prompt is pending prevents stale wallet completion (0.058291ms)
+✔ simulated: changing local selection while RPC signer resolves cancels the stale signer (0.051083ms)
+✔ simulated: silently changed wallet account is detected before obtaining signer (0.045209ms)
+✔ simulated: silently changed wallet chain is detected before obtaining signer (0.040833ms)
+✔ simulated: account event during asynchronous signer acquisition blocks stale signing (0.067833ms)
+✔ simulated: reconnecting detaches old provider and destruction removes only owned listeners (0.040166ms)
+✔ simulated: wallet wrapper is reused within a session and destroyed on local mode selection (0.069542ms)
+✔ simulated: explicit network switch adds known Amoy only when provider reports unknown chain (0.318167ms)
+✔ simulated: rejected network switch leaves public mode and never adds chain (0.044ms)
+✔ simulated: unsupported unknown chain requires manual setup (0.035917ms)
+✔ simulated: Amoy network addition refuses private, credential-bearing or non-HTTPS RPC URLs (0.058542ms)
+✔ simulated: missing provider and wallet error messages are actionable (0.071709ms)
+✔ simulated: clearing during a pending network switch prevents reconnect and leaked listeners (0.041375ms)
+✔ simulated: provider disconnection without an event clears identity before signing (0.049541ms)
+✔ simulated: malformed live chain response clears identity before signing (0.032542ms)
+✔ simulated: local network addition respects deployment port and rejects non-loopback endpoints (0.042708ms)
+ℹ tests 58
+ℹ suites 0
+ℹ pass 58
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11835.336041
+
+> medtrace-guard@1.0.0 test:model
+> node --test tests/model.test.mjs
+
+✔ MODEL: handoff requires named recipient and correct nonce (0.470208ms)
+✔ MODEL: expired transfer is rejected and can be cancelled (0.354125ms)
+✔ MODEL: stale handoff cannot be replayed after cancellation (0.067375ms)
+✔ MODEL: normal reading cannot clear safety hold (0.072833ms)
+✔ MODEL: unknown and unauthorized actors rejected (0.082833ms)
+✔ MODEL: recall is terminal and clears pending transfer (0.047709ms)
+✔ MODEL: expiry blocks transfer and dispensing (0.061ms)
+✔ MODEL: manufacturer cannot skip distributor (0.035417ms)
+✔ MODEL: revoked recipient role blocks receipt (0.058208ms)
+✔ MODEL: 200 deterministic partial-dispensing traces conserve units (2.19375ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 88.44025
+
+> medtrace-guard@1.0.0 build
+> vite build
+
+vite v6.4.5 building for production...
+transforming...
+✓ 224 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.26 kB
+dist/assets/index-KBuPP09m.css    4.40 kB │ gzip:   1.51 kB
+dist/assets/index-BlQHMzFi.js   462.98 kB │ gzip: 162.99 kB
+✓ built in 504ms

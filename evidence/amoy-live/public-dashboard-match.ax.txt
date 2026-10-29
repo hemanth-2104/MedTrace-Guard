@@ -1,0 +1,264 @@
+Window: "MedTrace Guard", App: Brave Browser.
+0 standard window MedTrace Guard - Brave, URL: 127.0.0.1:5176/?batch=1, Secondary Actions: Raise
+	1 container MedTrace Guard - Brave, URL: 127.0.0.1:5176/?batch=1
+		2 container
+			3 toolbar
+				4 button Back
+				5 button (disabled) Forward
+				6 button Reload
+				7 button Bookmark this tab
+				8 container
+					9 pop up button View site information
+					10 text field (settable) Address and search bar, Value: 127.0.0.1:5176/?batch=1, Placeholder: Search Brave or type a URL
+					11 splitter Separator
+					12 pop up button Brave Shields
+					13 pop up button Brave Rewards
+				14 container
+					15 pop up button The extension is by default inactive for all websites (indicated by a gray icon). Use this button to toggle the current site to be included in the activation list (changing the icon to blue). The page will automatically reload after you make changes.
+Has access to this site
+					16 pop up button TempMail
+Has access to this site
+					17 pop up button Checkmate
+Has access to this site
+					18 pop up button Coupert - Automatic Coupon Finder & Cash Back
+Has access to this site
+					19 pop up button PayPal Honey
+Has access to this site
+					20 pop up button TunnelBear VPN
+Has access to this site
+					21 pop up button MetaMask
+Has access to this site
+					22 pop up button Extensions
+					23 button Close Side Panel
+				24 checkbox Downloads
+				25 button Show Sidebar
+				26 pop up button Brave Wallet
+				27 button Leo AI
+				28 pop up button VPN
+				29 pop up button Update
+			30 toolbar Bookmarks
+				31 toolbar Saved Tab Groups
+					32 button Tab groups
+				33 splitter Separator
+				34 bookmark button Web Store
+				35 bookmark button YouTube
+				36 bookmark button Hotstar
+				37 bookmark button Zee5
+				38 bookmark button Prime
+				39 bookmark button Netflix
+				40 bookmark folder button ASU
+				41 bookmark folder button Coding
+				42 bookmark folder button Masters
+				43 bookmark folder button Live stream
+				44 bookmark folder button US Shopping
+				45 bookmark folder button GYM
+				46 bookmark folder button Other bookmarks
+				47 bookmark folder button All Bookmarks
+				48 splitter Separator
+			49 container
+				50 HTML content MedTrace Guard, URL: 127.0.0.1:5176/?batch=1
+					51 container
+						52 text M+
+						53 container
+							54 text MedTrace  Guard
+						55 text Pharmaceutical provenance · accepted custody · safety gates
+						56 button Connect MetaMask
+						57 button Switch wallet network
+						58 text Public read-only access
+						59 text CSE 540 · WORKING PROTOTYPE
+						60 heading Follow the batch. Verify the handoff., Value: 1
+							61 text Follow the batch. Verify the handoff.
+						62 text Inspect who registered a batch, who accepted custody, and which recorded conditions block further distribution.
+						63 text Read-only connection ready. No wallet needed for lookup.
+						64 container
+							65 text Chain  80002  ·  0x95DDa…495e2
+							66 button Refresh ledger
+						67 container
+							68 text Registered batches
+							69 text 1
+							70 text Custody policy
+							71 text Two-party
+							72 text Safety gates
+							73 text Recall · expiry · hold
+						74 container
+							75 heading Batch registry, Value: 2
+								76 text Batch registry
+							77 text 1 – 1  of  1
+							78 button #1 · AMOY-LIVE-20261025 Manufactured Synthetic public test batch 100 units remaining · 0x9f431…DDE52
+								79 container
+									80 text # 1  ·  AMOY-LIVE-20261025
+								81 text Manufactured
+								82 text Synthetic public test batch
+								83 container
+									84 text 100  units remaining ·  0x9f431…DDE52
+							85 button (disabled) Previous
+							86 button (disabled) Next
+						87 container
+							88 heading Public verification, Value: 2
+								89 text Public verification
+							90 stepper (settable, float) Batch ID, Value: 1
+							91 button Look up
+							92 heading AMOY-LIVE-20261025, Value: 3
+								93 text AMOY-LIVE-20261025
+							94 text Eligible for next permitted action
+							95 definition list
+								96 container Current custodian
+									97 text Current custodian
+								98 text 0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52
+								99 container Manufacturer
+									100 text Manufacturer
+								101 text 0x9f43140B44D58e2F3bdAE44EF613fbCc4ccDDE52
+								102 container Produced / expires
+									103 text Produced / expires
+								104 container
+									105 text 10/25/2026, 1:54:33 AM  /  10/25/2027, 2:54:33 AM
+								106 container Units remaining / registered
+									107 text Units remaining / registered
+								108 container
+									109 text 100  /  100
+								110 container Allowed temperature
+									111 text Allowed temperature
+								112 container
+									113 text 2 – 8  °C
+								114 container Certificate locator
+									115 text Certificate locator
+								116 text ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
+								117 container Registered SHA-256
+									118 text Registered SHA-256
+								119 text 0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							120 button Check certificate bytes
+							121 text MATCH: exact bytes match the registered SHA-256. This does not prove laboratory or medicine authenticity. Or verify a downloaded certificate
+							122 button Or verify a downloaded certificate: No file chosen
+							123 image QR link for batch 1
+							124 text QR links to this deployment and batch. A phone needs a reachable frontend and read RPC; localhost works only on this device.
+						125 container
+							126 heading Custody and safety timeline · #1, Value: 2
+								127 text Custody and safety timeline · # 1
+							128 text 1  immutable entries Registered 10/25/2026, 2:56:33 AM  · actor  0x9f431…DDE52 · 100 units Counterparty:  0x00000…00000  · evidence/nonce:  0x34ea0b1c5bd29d208fd1c31b66b73965dc4bfc87a002f229b402ec1d4e7e3222
+							129 button (disabled) Earlier entries
+							130 button (disabled) Later entries
+						131 text Educational prototype · Synthetic records · Recorded provenance and policy eligibility do not establish physical authenticity or regulatory compliance.
+					132 container
+						133 container Notifications (F8)
+							134 content list
+			135 HTML content MetaMask, URL: chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/sidepanel.html#/
+				136 container
+					137 container
+						138 button Account 2
+						139 container
+							140 image Network logo
+							141 image Network logo
+							142 image Network logo
+							143 image Network logo
+							144 text 0x9f431...DDE52
+							145 image
+						146 button Search tokens
+							147 image
+						148 container
+							149 button Account options
+								150 image
+						151 container
+							152 text $0.00 +$0.00 (+0.00%)
+							153 link Discover
+								154 text Discover
+						155 container
+							156 button Buy
+								157 text Buy
+							158 button Swap
+								159 image
+								160 text Swap
+							161 button Send
+								162 image
+								163 text Send
+							164 button Receive
+								165 image
+								166 text Receive
+						167 text Money
+						168 text 5.5% APY
+						169 heading $0.00, Value: 3
+							170 text $0.00
+						171 button Add
+						172 container
+							173 image Unitree rising 
+							174 text Unitree rising
+							175 button Close Unitree rising 
+								176 image
+							177 text Robotics stock up +23% in 3 days
+							178 image Turn your money on
+							179 text Turn your money on
+							180 button Close Turn your money on
+								181 image
+							182 text Earn up to ~6% APY with Money Account now live on extension
+						183 tab group
+							184 tab (selected) Tokens, Value: 1
+							185 tab (settable, integer) DeFi, Value: 0
+							186 tab (settable, integer) NFTs, Value: 0
+						187 container
+							188 button Network: Amoy
+								189 image
+								190 text Network: Amoy
+							191 button Sort by
+								192 image
+							193 button Asset options
+								194 image
+							195 link P A POL <$0.01 - 0.00388 POL
+								196 container
+									197 text P
+									198 text A
+								199 text POL
+								200 text <$0.01
+								201 text -
+								202 text 0.00388 POL
+						203 button Home
+							204 image
+							205 text Home
+						206 button Perps
+							207 image
+							208 text Perps
+						209 button Money
+							210 image
+							211 text Money
+						212 button Activity
+							213 image
+							214 text Activity
+						215 container
+							216 image
+							217 text Back up your Secret Recovery Phrase to keep your wallet and funds secure.
+							218 button Back up now
+							219 button Close
+								220 image
+			221 slider Side Panel Resize Handle (draggable), Secondary Actions: Decrement, Increment
+			222 pop up button Tab Search
+			223 container
+				224 tab group
+					225 tab (settable, boolean) Introduction Writing - Memory usage - 593 MB, Value: off
+					226 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - Memory usage - 652 MB, Value: off
+					227 tab (settable, boolean) MetaMask Portfolio - Memory usage - 262 MB, Value: off
+					228 tab (settable, boolean) Download MetaMask: The Premier Crypto Wallet App and Browser Extension - High memory usage - 959 MB, Value: off
+					229 tab (settable, boolean) MetaMask - Chrome Web Store - Memory usage - 188 MB, Value: off
+					230 tab (settable, boolean) MetaMask - Memory usage - 277 MB, Value: off
+					231 tab (settable, boolean) Conversation summary - Memory usage - 603 MB, Value: off
+					232 tab (settable, boolean) MedTrace Guard, Value: off
+					233 tab (settable, boolean) Polygon Faucet - Memory usage - 607 MB, Value: off
+					234 tab (settable, boolean) Remix IDE - Smart Contract Development - High memory usage - 993 MB, Value: off
+					235 tab (selected, settable, boolean) MedTrace Guard - Memory usage - 276 MB, Value: on
+						236 button Close
+			237 button New Tab
+			238 container
+				239 splitter
+	240 close button
+	241 full screen button Help: this button also has an action to zoom the window, Secondary Actions: zoom the window
+	242 minimize button
+243 menu bar
+	244 Brave
+	245 File
+	246 Edit
+	247 View
+	248 History
+	249 Bookmarks
+	250 Profiles
+	251 Tab
+	252 Window
+	253 Help
+
+The focused UI element is 120 button Check certificate bytes

@@ -1,0 +1,20 @@
+PASS: 19 JavaScript modules passed node --check. JSX validated by the production build.
+scripts/acceptance.mjs
+scripts/benchmark.mjs
+scripts/chain.mjs
+scripts/compile.mjs
+scripts/deploy.mjs
+scripts/ipfs-upload.mjs
+scripts/lib.mjs
+scripts/preview.mjs
+scripts/seed.mjs
+scripts/simulate-temperature.mjs
+scripts/smoke.mjs
+scripts/start.mjs
+shared/certificate.mjs
+shared/model.mjs
+tests/certificate.test.mjs
+tests/contract.test.mjs
+tests/helpers.mjs
+tests/model.test.mjs
+vite.config.js

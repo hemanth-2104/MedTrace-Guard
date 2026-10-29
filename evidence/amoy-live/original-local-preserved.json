@@ -1,0 +1,9 @@
+{
+  "chainId": 31337,
+  "batchCount": "4",
+  "batch2": {
+    "remainingUnits": "80",
+    "recalled": true
+  },
+  "note": "Original saved local demo unchanged by the public Amoy deployment."
+}

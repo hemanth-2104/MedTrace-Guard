@@ -1,0 +1,15 @@
+
+> medtrace-guard@1.0.0 integration:ipfs
+> node scripts/integration-ipfs-server.mjs
+
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+Disposable IPFS proof RPC ready at http://127.0.0.1:18545.
+Manifest /deployment.ipfs-proof.json; actual CID registered: ipfs://bafkreibu5ifryw6stuqi7uoddntloolf3rf7zb5aalzctnac5qou47rsei
