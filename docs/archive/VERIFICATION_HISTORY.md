@@ -93,7 +93,7 @@ For the real website, run `npm start` and keep it running; then, in another term
 
 Three new EVM safety-matrix tests cover manufacturer and distributor proposals, distributor and pharmacy acceptance, and pharmacy dispensing for held, recalled, and expired batches. All 15 actions were valid before the safety condition. Afterward, each returned the contract's `Blocked` error and was forced into a mined transaction with receipt status 0. Batch data, history, and pending state did not change. The expanded total is 14 contract + 3 certificate + 10 model tests = 27 passing tests.
 
-The running browser returned MATCH for the original certificate and MISMATCH for a modified copy of that same file. The original fixture was kept unchanged. The local Kubo version endpoint refused the connection (`ECONNREFUSED`); no `ipfs` executable or testnet `.env` configuration was found. No MP4/MOV/WebM demo files were found in this workspace. See [COMPLETION_CHECKLIST.md](COMPLETION_CHECKLIST.md) and `evidence/recheck-2026-10-25/` for this audit.
+The running browser returned MATCH for the original certificate and MISMATCH for a modified copy of that same file. The original fixture was kept unchanged. The local Kubo version endpoint refused the connection (`ECONNREFUSED`); no `ipfs` executable or testnet `.env` configuration was found. No MP4/MOV/WebM demo files were found in this workspace. See [COMPLETION_CHECKLIST.md](../COMPLETION_CHECKLIST.md) and `evidence/recheck-2026-10-25/` for this audit.
 
 ## Full A–J acceptance run
 

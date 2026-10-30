@@ -149,7 +149,7 @@ npm run benchmark
 
 Contract tests use isolated in-memory chains rather than the saved local demonstration.
 
-Recorded verification includes **68 passing automated tests** and **75 completed software acceptance checks**. See the [publication checks](docs/PUBLICATION_CHECKS.md) and [acceptance evidence](docs/COMPLETION_CHECKLIST.md) for dates, procedures, and limitations.
+The **current automated suite has 74 passing tests**: 64 non-model tests and 10 model tests. Six file-boundary regressions were added on October 29; earlier October 25–26 and initial publication logs record **68 tests**. The **75 A–J acceptance checks** are a separate functional record, including actual MetaMask, Amoy and user-confirmed phone checks. See [current verification](docs/VERIFICATION.md), [publication checks](docs/PUBLICATION_CHECKS.md) and [acceptance results](docs/ACCEPTANCE_RESULTS.md) for dated evidence and limitations.
 
 GitHub Actions runs compilation, interface checks, automated tests, frontend builds, and benchmarking on pushes and pull requests.
 
@@ -198,8 +198,6 @@ docs/               Technical design, setup guides, and verification notes
 evidence/           Recorded transactions, test outputs, and measurements
 .github/workflows/  Automated verification
 ```
-
-Course submissions, proposal/report sources, university requirements, project logs, and the team-contract template are kept locally and excluded from this repository. They are not required to install or run the application.
 
 ## Limitations
 

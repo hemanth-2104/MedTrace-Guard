@@ -1,7 +1,7 @@
-# Smart Contract Design Draft
+# Smart contract design
 
 **MedTrace Guard: Pharmaceutical Provenance with Accepted Custody and Safety Gates**  
-Group 20 | CSE 540 | Fall B 2026 | October 29, 2026
+Updated October 29, 2026
 
 Repository: https://github.com/hemanth-2104/MedTrace-Guard
 
@@ -9,7 +9,7 @@ Repository: https://github.com/hemanth-2104/MedTrace-Guard
 
 The system provides a shared record of synthetic medicine batches as they move from manufacturer to distributor to pharmacy. A sender proposes a transfer and the named recipient accepts it before custody changes. On-chain rules prevent eligible workflow actions from bypassing recorded recalls, expiry, unresolved temperature holds, or exhausted inventory. Off-chain certificates are checked against registered SHA-256 digests.
 
-The implementation is beyond the initial skeleton stage. This milestone document describes its architecture and public contract boundaries. It does not claim that the separate final report, demonstration videos, team agreement, or course submissions are complete.
+This document describes the implemented architecture, public contract boundaries and recorded verification.
 
 ## 2. Components and interactions
 
@@ -105,27 +105,10 @@ The root README supplies exact dependencies, fresh-clone setup, local startup, p
 
 Run `npm ci`, `npm run verify`, `npm run check:interface`, and `npm run build:amoy` from the repository root. `npm start` starts the persistent local demonstration. `npm run benchmark` records baseline/Guard receipt gas and local read measurements. Tests use disposable in-memory chains rather than the saved user demonstration.
 
-The October 26 evidence reports 68 passing automated tests and 75 completed software acceptance checks, including real MetaMask handoffs, public certificate verification, and user-confirmed phone lookup. Fresh publication results are recorded in `docs/PUBLICATION_CHECKS.md`; historical evidence remains dated. GitHub Actions repeats compilation, interface checks, automated tests, builds, and benchmarking.
+The current automated suite has **74 passing tests** (64 non-model and 10 model tests), including six file-boundary regressions added on October 29. Earlier October 26 evidence records 68 tests and separately 75 completed software acceptance checks, including real MetaMask handoffs, public certificate verification and user-confirmed phone lookup. See [current verification](VERIFICATION.md), [publication checks](PUBLICATION_CHECKS.md) and [acceptance results](ACCEPTANCE_RESULTS.md); historical evidence remains dated. GitHub Actions repeats compilation, interface checks, automated tests, builds, and benchmarking.
 
 ## 7. Trust boundaries and limitations
 
 The model trusts stakeholder onboarding, account custody, regulator judgment, underlying chain, and data publishers. Hashes prove consistency of bytes; they do not authenticate the issuer or prove medicine quality. Simulated readings are authorized assertions, not independent sensor evidence. Collusion, false/omitted reports, QR copying, compromised privileged keys, malicious RPCs, and certificate unavailability remain outside this prototype's guarantees. No production audit or regulatory certification is claimed.
 
-Private environment files, saved chains, dependencies, generated build output, and duplicate archives are excluded from the public repository. Configuration examples leave signing keys empty. Historical final-report drafts, unsigned team templates, and video plans are explicitly labeled; their completion is a separate course milestone.
-
-## 8. Team workflow and milestone submission
-
-Existing proposal roster: Ananya Mishra, Hemanth Reddy Narendrababu, Sai Harsha Yerapothu, and Ridham Shah. Responsibilities and signatures must be agreed by the actual team; this document does not invent individual contributions or approvals. Use feature branches, review substantive changes, retain reproducible evidence, and have teammates review the design before submission. The unsigned team-contract template is maintained locally outside this repository.
-
-One team member uploads `Group20_2026FallB_CSE 540_MedTrace Guard Smart Contract Design.txt`, containing the public repository URL, to the designated course assignment. Confirm that the link opens publicly and that the latest submission is the intended file. The PDF is a convenient design copy; the supplied directions require the URL text file.
-
-## 9. Rubric traceability
-
-| Criterion (1.25 points each) | Evidence |
-|---|---|
-| GitHub repository setup | Public repository; named source, documentation, scripts, tests, and evidence folders |
-| README documentation | Project description, pinned dependencies, install/run/deploy steps, roles, and usage |
-| Contract structure and interfaces | Main/baseline contracts; full ABI interface aligned with implemented custody/safety workflow |
-| Code documentation and comments | NatSpec on every interface function, type, event, and error; component responsibilities, preconditions, and invariants in this document |
-
-The rubric totals 5 points. This mapping is a self-check, not an instructor grade or a guarantee of full credit.
+Private environment files, saved chains, dependencies, generated build output, and duplicate archives are excluded from the public repository. Configuration examples leave signing keys empty.

@@ -1,30 +1,33 @@
-# Sources and review of the supplied proposal
+# Sources and Attribution
 
-## Corrections made
+## Scope and interpretation
 
-- The supplied text asserts implementation as if it already exists. The proposal now uses planned-work language; the report distinguishes supplied source from executed evidence.
-- DSCSA addresses interoperable **package-level** tracing of certain prescription drugs. This batch-level classroom prototype is DSCSA-inspired and does not establish compliance. Public verification is not itself a DSCSA compliance requirement. The law does not prescribe blockchain.
-- Claims that conventional systems are generally tamperable or cannot interoperate were removed. Centralized systems can use signatures, access control, audit logs, and standards too.
-- Hyperledger Fabric does not inherently prevent public-facing read portals. Public-chain choice is a project tradeoff, not proof that a Fabric portal is impossible; no universal throughput comparison is claimed.
-- Certificate hashing verifies consistency of committed bytes, not physical authenticity, certification authority identity, or laboratory quality. QR labels can be copied.
-- IPFS availability is not permanent just because content has a CID. Pinning and retrieval availability matter. CID encoding and raw-file digest are distinct.
-- The WHO estimate is explicitly dated to its 2017 analysis, not an invented 2023 study or a universal current rate.
-- The Sylim reference is **Patrick Sylim**, not M. Sylim. It concerns pharmaceutical distribution directly; it is not evidence that only centralized DSCSA systems exist.
-- Unverified repository claims and broad claims that earlier work lacks RBAC/IPFS were removed. MedRec is not needed to justify this focused supply-chain proposal.
-- Testnet operations consume test tokens and may have faucet/RPC constraints; they are not literally free execution.
-- The original source implementation was not supplied. Our baseline is independently written from a stated simplified specification, not an exact replication or a claim about someone else's real code.
+MedTrace Guard is an educational prototype with synthetic medicine batches and simulated temperature reports. References provide background and implementation guidance; they do not establish physical medicine authenticity, clinical benefit, regulatory compliance, production security or first-in-literature originality.
 
-## Verified primary sources
+- FDA's DSCSA material concerns interoperable package-level tracing of certain prescription drugs. This batch-level prototype does not establish DSCSA compliance, and public verification or blockchain should not be presented as mandated by that law.
+- Centralized systems can use signatures, access control, audit logs and interoperability standards. Hyperledger Fabric can support a public-facing read portal. A public chain is an architectural tradeoff, not evidence that other platforms cannot provide these functions.
+- Certificate hashing verifies committed bytes, not issuer identity, laboratory quality or physical authenticity. QR labels can be copied.
+- An IPFS CID does not guarantee permanent availability. Pinning/retrieval and the independent raw-file SHA-256 are different concerns.
+- The WHO reference below is its **2017 analysis**; it is not a current universal rate or a 2023 study.
+- Testnet operations consume test tokens and remain subject to faucet, fee and RPC constraints.
 
-1. WHO, 2017: https://www.who.int/en/news/item/28-11-2017-1-in-10-medical-products-in-developing-countries-is-substandard-or-falsified
-2. FDA, Drug Supply Chain Security Act: https://www.fda.gov/drugs/drug-supply-chain-integrity/drug-supply-chain-security-act-dscsa
-3. P. Sylim, F. Liu, A. Marcelo, P. Fontelo, 2018, JMIR Res Protoc 7(9):e10163, DOI 10.2196/10163: https://www.researchprotocols.org/2018/9/e10163/
-4. IPFS persistence/pinning: https://docs.ipfs.tech/concepts/persistence/
-5. Solidity security considerations: https://docs.soliditylang.org/en/latest/security-considerations.html
-6. OpenZeppelin access control guidance (background only; the supplied contract implements a small custom role registry, not an imported OpenZeppelin contract): https://docs.openzeppelin.com/contracts/5.x/access-control
+## Primary references
 
-The supplied course PDFs define the milestones and baseline requirements. No claims of first-in-literature originality, clinical benefit, production security, or compliance are established by this prototype.
+| Source | Use in this project |
+|---|---|
+| [WHO, 2017 analysis of substandard and falsified medical products](https://www.who.int/en/news/item/28-11-2017-1-in-10-medical-products-in-developing-countries-is-substandard-or-falsified) | Dated problem background; not a claim about current prevalence everywhere |
+| [FDA: Drug Supply Chain Security Act](https://www.fda.gov/drugs/drug-supply-chain-integrity/drug-supply-chain-security-act-dscsa) | Regulatory context, with the scope limitations above |
+| [Patrick Sylim, F. Liu, A. Marcelo and P. Fontelo, 2018, JMIR Research Protocols 7(9):e10163, DOI 10.2196/10163](https://www.researchprotocols.org/2018/9/e10163/) | Prior pharmaceutical-distribution research; not evidence that existing work is exclusively centralized |
+| [IPFS persistence and pinning](https://docs.ipfs.tech/concepts/persistence/) | Availability and retention model for off-chain certificates |
+| [Solidity security considerations](https://docs.soliditylang.org/en/latest/security-considerations.html) | Smart-contract implementation guidance |
+| [OpenZeppelin access control](https://docs.openzeppelin.com/contracts/5.x/access-control) | Background guidance only; this project implements a small custom role registry and does not import OpenZeppelin contracts |
 
-## AI assistance record
+## Baseline attribution
 
-An AI assistant generated the initial contract, frontend, scripts, tests, documentation, and proposal in this conversation; the package includes its verification limitations. The team should review every part, run the actual chain workflows, revise/understand the implementation, and disclose assistance using the course's required format. No declaration of independent human-only authorship is included.
+`MedTraceBaseline.sol` was independently written from a supplied simplified description. The original source implementation was not supplied. It is not an exact reproduction or a claim that another author's real code lacks particular checks. Comparisons cover the two implementations in this repository and are qualified in [evaluation methods and results](EVALUATION.md).
+
+## AI and tool assistance
+
+An AI assistant generated the initial contracts, frontend, scripts, tests and documentation, and assisted with subsequent implementation, troubleshooting, documentation and verification. Node/npm, the Solidity compiler, Ganache, browser/MetaMask interactions, RPC reads, Kubo/gateways, GitHub Actions and Sonar were used during the recorded work. The repository does not claim independent human-only authorship or a completed independent production security audit.
+
+Executed checks, dated public receipts and user-confirmed phone interactions are distinguished from mocked tests, model checks and unverified assumptions. See [verification](VERIFICATION.md), [public Amoy evidence](AMOY_LIVE.md) and [the Sonar review](SONAR_REVIEW.md). AI-generated material and tool results still require reviewer understanding and assessment of their stated limits.
