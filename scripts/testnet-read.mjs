@@ -2,7 +2,7 @@ import {configFromEnv,makeProvider,preflight,loadManifest,checkedContract,json,s
 import {readSnapshot} from './testnet-workflow.mjs';
 let provider;
 try {
-  const batchId=process.argv[2];if(!batchId||!/^\d+$/.test(batchId)||BigInt(batchId)<1n)throw Error('Usage: testnet-read.mjs <positive batch ID>');
+  const batchId=process.argv[2];if(!batchId||!/^\d+$/.test(batchId)||BigInt(batchId)<1n){throw new Error('Usage: testnet-read.mjs <positive batch ID>');}
   const config=configFromEnv(process.env,{signing:false});provider=makeProvider(config);
   await preflight(provider,config,{signing:false});
   const deployment=loadManifest();const contract=await checkedContract(provider,deployment);

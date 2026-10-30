@@ -9,7 +9,7 @@ export async function setup(name='MedTraceGuard'){
  const signers=await Promise.all(Array.from({length:7},(_,i)=>provider.getSigner(i)));
  const addresses=await Promise.all(signers.map(s=>s.getAddress()));
  const artifact=artifacts[name];const c=await new ContractFactory(artifact.abi,artifact.bytecode,signers[0]).deploy();await c.waitForDeployment();
- for(let i=1;i<=4;i++)await(await c.assignRole(addresses[i],i)).wait();
+ for(let i=1;i<=4;i++){await(await c.assignRole(addresses[i],i)).wait();}
  const now=Number((await provider.getBlock('latest')).timestamp);
  return {rpc,provider,signers,addresses,c,now,close:async()=>{provider.destroy();await rpc.disconnect();}};
 }
@@ -22,6 +22,6 @@ export async function handoff(f,id,from,to){
  const req=await f.c.pending(id);await(await f.c.connect(f.signers[to]).acceptTransfer(id,req.nonce)).wait();
 }
 export async function rejected(promise){
- try{const result=await promise;if(result?.wait)await result.wait();}catch{return;}
- throw Error('Expected transaction/call to revert, but it succeeded');
+ try{const result=await promise;if(result?.wait){await result.wait();}}catch{return;}
+ throw new Error('Expected transaction/call to revert, but it succeeded');
 }

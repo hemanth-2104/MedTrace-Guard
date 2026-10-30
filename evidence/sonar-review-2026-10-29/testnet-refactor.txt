@@ -1,0 +1,22 @@
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /Users/hemanth/Desktop/Project/540/medtrace-guard/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+✔ Amoy config fails closed without keys; read-only requires none; HTTPS and chain restrictions (14.322458ms)
+✔ preflight rejects wrong chain and insufficient funds before any mutation (2.209709ms)
+✔ RPC errors are redacted rather than exposing credential-bearing request URLs (0.060834ms)
+✔ certificate input requires actual bytes and an IPFS URI (3.287208ms)
+✔ LOCAL EVM ONLY: deploy, receipt retention, recipient acceptance, mined unsafe rejection, wallet-free read (2867.854791ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3269.578625

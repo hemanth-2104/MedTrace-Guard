@@ -2,7 +2,7 @@ import {writeFileSync,mkdirSync} from 'node:fs';
 import {sha256Hex} from '../shared/certificate.mjs';
 import {localContext} from './lib.mjs';
 const {contract,provider,deployment}=await localContext();
-if(Number(await contract.batchCount())!==0)throw Error('Seed needs a fresh deployment to avoid duplicate fixtures.');
+if(Number(await contract.batchCount())!==0){throw new Error('Seed needs a fresh deployment to avoid duplicate fixtures.');}
 mkdirSync('public/certificates',{recursive:true});
 const maker=contract.connect(await provider.getSigner(1));const distributor=contract.connect(await provider.getSigner(2));
 const now=Number((await provider.getBlock('latest')).timestamp);

@@ -1,5 +1,7 @@
 # Current verification status
 
+**October 29 Sonar follow-up:** the hardened JavaScript/CLI version passes 74 automated tests (including six added file-boundary regressions). The 75 acceptance checks below retain their original dates. Neither count implies a Sonar quality-gate pass; see [the current security review](SONAR_REVIEW.md).
+
 **75/75 software acceptance checks PASS — 0 failed, 0 untested.** See [the complete 75-row results and evidence](ACCEPTANCE_RESULTS.md). The 68 automated tests are a separate suite, not a partially completed 75-check run.
 
 | Verification | Result | Evidence |

@@ -236,7 +236,7 @@ The prototype uses synthetic batches and simulated temperatures on one manufactu
 
 G4 exposed a missing-file SPA fallback being shown as MISMATCH. Retrieval now reports unavailable/unverified for HTML fallback, HTTP errors, or failed downloads. Certificates for this workflow should be JSON, PDF, or another non-HTML file. RPC outages now show an actionable connection error. The expanded 68-test suite includes certificate retrieval, explicit signing sessions, safe network switching, and receipt-workflow regression tests. The wallet tests use simulated EIP-1193 providers; testnet execution tests use an isolated local EVM.
 
-The optional `npm run acceptance:local -- /absolute/path/to/FRESH/public/deployment.json` command is **destructive and local-only**. It requires a fresh seeded contract with exactly three batches; it creates synthetic fixtures, advances chain time, transfers administration, and tests reverts. Use an isolated fresh extracted copy for that command. The normal `npm run verify` suite remains isolated in memory and does not alter your saved dashboard data.
+The optional `npm run acceptance:local -- /absolute/path/to/FRESH/public/deployment.json` command is **destructive and local-only**. It requires a fresh seeded contract with exactly three batches; it creates synthetic fixtures, advances chain time, transfers administration, and tests reverts. Use an isolated fresh extracted copy under the current project’s parent directory or the OS temporary directory for that command. The manifest must be named `public/deployment.json`; arbitrary local files and parent traversal are rejected. The normal `npm run verify` suite remains isolated in memory and does not alter your saved dashboard data.
 
 ## Code checkpoints
 

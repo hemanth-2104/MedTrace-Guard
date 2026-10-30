@@ -11,5 +11,5 @@ export async function startChain(){
 }
 if(import.meta.url===pathToFileURL(process.argv[1]).href){
  const server=await startChain();
- for(const signal of ['SIGINT','SIGTERM'])process.once(signal,async()=>{await server.close();process.exit(0);});
+ for(const signal of ['SIGINT','SIGTERM']){process.once(signal,async()=>{await server.close();process.exit(0);});}
 }

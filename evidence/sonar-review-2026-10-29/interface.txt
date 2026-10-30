@@ -1,0 +1,5 @@
+
+> medtrace-guard@1.0.0 check:interface
+> node scripts/check-interface.mjs
+
+PASS: 31 documented ABI entries match implementation.

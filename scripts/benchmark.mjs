@@ -1,5 +1,5 @@
 import {writeFileSync,mkdirSync} from 'node:fs';
-import {setup,register,handoff,rejected,digest} from '../tests/helpers.mjs';
+import {setup,register,handoff,digest} from '../tests/helpers.mjs';
 const records=[];const gas=async(label,tx)=>{const receipt=await(await tx).wait();records.push({operation:label,gas:receipt.gasUsed.toString()});};
 for(const name of ['MedTraceBaseline','MedTraceGuard']){
  const f=await setup(name);try{
@@ -19,17 +19,17 @@ for(const name of ['MedTraceBaseline','MedTraceGuard']){
  }finally{await f.close();}
 }
 const scenarios=[];
-for(const condition of ['expired','recalled'])for(const name of ['MedTraceBaseline','MedTraceGuard']){
+for(const condition of ['expired','recalled']){for(const name of ['MedTraceBaseline','MedTraceGuard']){
  const f=await setup(name);try{
   if(name==='MedTraceBaseline'){
    await f.c.connect(f.signers[1]).registerBatch(f.now+100,100,digest).then(t=>t.wait());await f.c.connect(f.signers[1]).transferCustody(1,f.addresses[2]).then(t=>t.wait());await f.c.connect(f.signers[2]).transferCustody(1,f.addresses[3]).then(t=>t.wait());
   }else{await register(f,{expires:f.now+10000});await handoff(f,1,1,2);await handoff(f,1,2,3);}
   if(condition==='expired'){await f.rpc.request({method:'evm_increaseTime',params:[11000]});await f.rpc.request({method:'evm_mine',params:[]});}
-  else await (name==='MedTraceBaseline'?f.c.connect(f.signers[4]).recallBatch(1):f.c.connect(f.signers[4]).recallBatch(1,digest)).then(t=>t.wait());
+  else {await (name==='MedTraceBaseline'?f.c.connect(f.signers[4]).recallBatch(1):f.c.connect(f.signers[4]).recallBatch(1,digest)).then(t=>t.wait());}
   let accepted=true;try{await f.c.connect(f.signers[3]).dispense(1,1).then(t=>t.wait());}catch{accepted=false;}
   scenarios.push({contract:name,condition,unsafeDispenseAccepted:accepted});
  }finally{await f.close();}
-}
+}}
 // Growth experiment measures local eth_call latency and registration gas, not public-chain TPS.
 const growth=[];const f=await setup();try{
  const m=f.c.connect(f.signers[1]);let lastGas;

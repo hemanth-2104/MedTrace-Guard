@@ -98,3 +98,7 @@ configured gateway. Gateway/network failures remain **unverified**, not a conten
 mismatch. A browser page served over HTTPS should use an HTTPS gateway to avoid
 mixed-content restrictions. Never put API or pinning-service credentials in a
 `VITE_` setting.
+
+## CLI file boundaries
+
+The upload and proof CLIs now accept certificate files only within this project’s `public/certificates/` or `evidence/ipfs/` directories. Copy a new synthetic certificate into `public/certificates/` first. Files must be nonempty, at most 8 MiB, and use a supported certificate extension (`.pdf`, `.json`, `.txt`, `.csv`, `.png`, `.jpg`, `.jpeg`, `.bin`). Parent traversal, control characters, private environment files and symlink escapes are rejected before uploading. Library tests can supply an explicit trusted fixture root; that option is not accepted from CLI arguments. `IPFS_EVIDENCE_DIR`, if set, must remain under this project’s `evidence/` directory, including after symlinks resolve.

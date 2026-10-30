@@ -1,6 +1,6 @@
 import {localContext,saveJSON} from './lib.mjs';import {sha256Hex} from '../shared/certificate.mjs';
 const id=Number(process.argv[2]),degrees=Number(process.argv[3]);
-if(!Number.isSafeInteger(id)||id<1||!process.argv[3]||!Number.isFinite(degrees)||degrees< -100||degrees>100)throw Error('Usage: npm run simulate:temperature -- BATCH_ID DEGREES_C');
+if(!Number.isSafeInteger(id)||id<1||!process.argv[3]||!Number.isFinite(degrees)||degrees< -100||degrees>100){throw new Error('Usage: npm run simulate:temperature -- BATCH_ID DEGREES_C');}
 const {provider,contract,deployment}=await localContext();const b=await contract.getBatch(id);
 const block=await provider.getBlock('latest');const sample={kind:'SIMULATED_NOT_A_REAL_SENSOR',batchId:id,temperatureTenths:Math.round(degrees*10),recordedAt:new Date(block.timestamp*1000).toISOString(),reporter:b.custodian};
 const bytes=new TextEncoder().encode(JSON.stringify(sample));const digest=await sha256Hex(bytes);

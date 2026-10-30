@@ -9,11 +9,11 @@ import {fetchCertificateBytes,verifyCertificate} from '../shared/certificate.mjs
 
 const proof=JSON.parse(readFileSync('evidence/ipfs/proof.json','utf8'));
 const manifestPath='public/deployment.ipfs-proof.json';
-if(existsSync(manifestPath))throw Error('An IPFS proof manifest already exists. Stop its process first or archive the stale file.');
+if(existsSync(manifestPath)){throw new Error('An IPFS proof manifest already exists. Stop its process first or archive the stale file.');}
 const server=ganache.server({chain:{chainId:31337,hardfork:'shanghai'},wallet:{deterministic:true,totalAccounts:8},logging:{quiet:true}});
 let provider,closing=false;
-async function close(code=0){if(closing)return;closing=true;provider?.destroy();await server.close();rmSync(manifestPath,{force:true});process.exit(code);}
-for(const signal of ['SIGINT','SIGTERM'])process.once(signal,()=>close());
+async function close(code=0){if(closing){return;}closing=true;provider?.destroy();await server.close();rmSync(manifestPath,{force:true});process.exit(code);}
+for(const signal of ['SIGINT','SIGTERM']){process.once(signal,()=>close());}
 try{
  const bytes=await fetchCertificateBytes(proof.certificateURI,globalThis.fetch,proof.gateway);
  assert.ok(await verifyCertificate(bytes,proof.certificateSHA256));
@@ -23,7 +23,7 @@ try{
  const signer=await provider.getSigner(0);
  const contract=await new ContractFactory(artifact.abi,artifact.bytecode,signer).deploy();await contract.waitForDeployment();
  const accounts=[];
- for(let i=0;i<5;i++){const address=await(await provider.getSigner(i)).getAddress();accounts.push(address);if(i)await(await contract.assignRole(address,i)).wait();}
+ for(let i=0;i<5;i++){const address=await(await provider.getSigner(i)).getAddress();accounts.push(address);if(i){await(await contract.assignRole(address,i)).wait();}}
  const timestamp=Number((await provider.getBlock('latest')).timestamp);
  const registration=await(await contract.connect(await provider.getSigner(1)).registerBatch('IPFS-REAL-PROOF','Synthetic IPFS integration medicine',timestamp-60,timestamp+86400,100,20,80,proof.certificateURI,proof.certificateSHA256)).wait();
  const stored=await contract.getBatch(1);assert.equal(stored.certificateURI,proof.certificateURI);assert.equal(stored.certificateSHA256,proof.certificateSHA256);

@@ -1,0 +1,129 @@
+- banner:
+  - generic: M+
+  - strong:
+    - text: MedTrace
+    - emphasis: Guard
+  - generic: Pharmaceutical provenance · accepted custody · safety gates
+  - button "Connect MetaMask"
+  - button "Switch wallet network"
+  - button "Disconnect signing"
+  - generic: Local demo signing · Distributor · 0x22d49…1e32b
+- main:
+  - text: CSE 540 · WORKING PROTOTYPE
+  - heading "Follow the batch. Verify the handoff." [level=1]:
+    - text: Follow the batch.
+    - text: Verify the handoff.
+  - paragraph: Inspect who registered a batch, who accepted custody, and which recorded conditions block further distribution.
+  - status: "Confirmed: 0xf440072a4f7424623cc3f3984795b7a3cf26a9100a01375b2e87a4ecf3024333"
+  - generic: Chain 31337 · 0xe78A0…6a8Ab
+  - text: Local demo account
+  - combobox "Local demo account":
+    - option "Public viewer"
+    - option "Administrator · 0x90F8b…8c9C1"
+    - option "Manufacturer · 0xFFcf8…409f0"
+    - option "Distributor · 0x22d49…1e32b" [selected]
+    - option "Pharmacy · 0xE11BA…4882d"
+    - option "Regulator · 0xd03ea…9b117"
+  - button "Refresh ledger"
+  - article:
+    - generic: Registered batches
+    - strong: "3"
+  - article:
+    - generic: Custody policy
+    - strong: Two-party
+  - article:
+    - generic: Safety gates
+    - strong: Recall · expiry · hold
+  - heading "Batch registry" [level=2]
+  - generic: 1–3 of 3
+  - button "#1 · DEMO-1 On hold Synthetic cold-chain medicine 100 units remaining · 0x22d49…1e32b":
+    - generic: "#1 · DEMO-1"
+    - generic: On hold
+    - strong: Synthetic cold-chain medicine
+    - generic: 100 units remaining · 0x22d49…1e32b
+  - button "#2 · DEMO-2 At distributor Synthetic cold-chain medicine 100 units remaining · 0x22d49…1e32b":
+    - generic: "#2 · DEMO-2"
+    - generic: At distributor
+    - strong: Synthetic cold-chain medicine
+    - generic: 100 units remaining · 0x22d49…1e32b
+  - button "#3 · DEMO-3 Manufactured Synthetic cold-chain medicine 100 units remaining · 0xFFcf8…409f0":
+    - generic: "#3 · DEMO-3"
+    - generic: Manufactured
+    - strong: Synthetic cold-chain medicine
+    - generic: 100 units remaining · 0xFFcf8…409f0
+  - button "Previous" [disabled]
+  - button "Next" [disabled]
+  - complementary:
+    - heading "Public verification" [level=2]
+    - spinbutton "Batch ID": "2"
+    - button "Look up"
+    - heading "DEMO-2" [level=3]
+    - generic: Eligible for next permitted action
+    - term: Current custodian
+    - definition: "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b"
+    - term: Manufacturer
+    - definition: "0xFFcf8FDEE72ac11b5c542428B35EEF5769C409f0"
+    - term: Produced / expires
+    - definition: 10/29/2026, 4:06:35 PM / 10/29/2027, 5:06:35 PM
+    - term: Units remaining / registered
+    - definition: 100 / 100
+    - term: Allowed temperature
+    - definition: 2–8 °C
+    - term: Certificate locator
+    - definition: /certificates/demo-2.json
+    - term: Registered SHA-256
+    - definition: "0xd4e8980c50feb7d9168a171d6eb560e1c73f1ce09571e109cc49958d1ef48ff7"
+    - button "Check certificate bytes"
+    - status
+    - text: Or verify a downloaded certificate
+    - button "Or verify a downloaded certificate"
+    - img "QR link for batch 2"
+    - generic: QR links to this deployment and batch. A phone needs a reachable frontend and read RPC; localhost works only on this device.
+  - 'heading "Custody and safety timeline · #2" [level=2]'
+  - generic: 3 immutable entries
+  - strong: Registered
+  - generic: 10/29/2026, 5:06:36 PM · actor 0xFFcf8…409f0 · 100 units
+  - generic: "Counterparty: 0x00000…00000 · evidence/nonce: 0xd4e8980c50feb7d9168a171d6eb560e1c73f1ce09571e109cc49958d1ef48ff7"
+  - strong: Shipment proposed
+  - generic: 10/29/2026, 5:07:31 PM · actor 0xFFcf8…409f0 · 100 units
+  - generic: "Counterparty: 0x22d49…1e32b · evidence/nonce: 0x0000000000000000000000000000000000000000000000000000000000000001"
+  - strong: Receipt accepted
+  - generic: 10/29/2026, 5:07:48 PM · actor 0x22d49…1e32b · 100 units
+  - generic: "Counterparty: 0xFFcf8…409f0 · evidence/nonce: 0x0000000000000000000000000000000000000000000000000000000000000001"
+  - button "Earlier entries" [disabled]
+  - button "Later entries" [disabled]
+  - heading "Authorized actions" [level=2]
+  - paragraph: The contract checks every request. A selected dashboard role does not grant permissions.
+  - heading "Propose shipment" [level=4]
+  - text: Batch ID
+  - spinbutton "Batch ID"
+  - text: Recipient address
+  - textbox "Recipient address"
+  - text: Deadline
+  - textbox "Deadline"
+  - button "Propose shipment"
+  - heading "Accept receipt" [level=4]
+  - text: Batch ID
+  - spinbutton "Batch ID": "2"
+  - text: Pending shipment nonce
+  - spinbutton "Pending shipment nonce": "1"
+  - button "Accept receipt"
+  - heading "Cancel / reject shipment" [level=4]
+  - text: Batch ID
+  - spinbutton "Batch ID"
+  - button "Cancel / reject shipment"
+  - heading "Report simulated temperature" [level=4]
+  - text: Batch ID
+  - spinbutton "Batch ID"
+  - text: Temperature °C
+  - spinbutton "Temperature °C"
+  - text: Evidence note (hashed; retain original off-chain)
+  - textbox "Evidence note (hashed; retain original off-chain)"
+  - button "Report simulated temperature"
+  - heading "Accept administrator nomination" [level=4]
+  - button "Accept administrator nomination"
+  - text: Hash an evidence note
+  - textbox "Hash an evidence note":
+    - /placeholder: Retain the original note in your evidence log
+  - button "Calculate SHA-256"
+  - generic: Educational prototype · Synthetic records · Recorded provenance and policy eligibility do not establish physical authenticity or regulatory compliance.

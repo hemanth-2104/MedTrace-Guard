@@ -30,7 +30,7 @@ test('preflight rejects wrong chain and insufficient funds before any mutation',
   const report=await preflight(fake,config,{signing:false});assert.equal(report.signing,false);assert.deepEqual(report.accounts,{});
 });
 test('RPC errors are redacted rather than exposing credential-bearing request URLs',()=>{
-  const error=Object.assign(Error('https://provider.example/private-secret'),{code:'NETWORK_ERROR'});
+  const error=Object.assign(new Error('https://provider.example/private-secret'),{code:'NETWORK_ERROR'});
   assert.equal(safeFailure(error).includes('private-secret'),false);
 });
 test('certificate input requires actual bytes and an IPFS URI',()=>{

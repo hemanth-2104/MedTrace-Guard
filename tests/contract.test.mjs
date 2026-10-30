@@ -36,6 +36,8 @@ test('cancellation invalidates stale nonce; recipient rejection and timeout',()=
 test('role revoked after proposal blocks acceptance',()=>withFixture(async f=>{
  const id=await register(f);await f.c.connect(f.signers[1]).proposeTransfer(id,f.addresses[2],f.now+500).then(t=>t.wait());
  await f.c.assignRole(f.addresses[2],0).then(t=>t.wait());await rejected(f.c.connect(f.signers[2]).acceptTransfer(id,1));
+ assert.equal(await f.c.roleOf(f.addresses[2]),0n);
+ assert.equal((await f.c.getBatch(id)).custodian,f.addresses[1]);
 }));
 test('quantity conservation over partial dispensing; terminal state cannot move',()=>withFixture(async f=>{
  const id=await register(f);await handoff(f,id,1,2);await handoff(f,id,2,3);const p=f.c.connect(f.signers[3]);
@@ -57,7 +59,8 @@ test('recall cancels pending handoff and permanently blocks distribution',()=>wi
  assert.equal((await f.c.pending(id)).recipient,ZeroAddress);assert.deepEqual(Array.from(await f.c.eligibility(id)),[false,1n]);await rejected(m.proposeTransfer(id,f.addresses[2],f.now+500));await rejected(r.releaseHold(id,digest));await rejected(r.recallBatch(id,digest));
 }));
 test('recall blocks dispensing after pharmacy receipt',()=>withFixture(async f=>{
- const id=await register(f);await handoff(f,id,1,2);await handoff(f,id,2,3);await f.c.connect(f.signers[4]).recallBatch(id,digest).then(t=>t.wait());await rejected(f.c.connect(f.signers[3]).dispense(id,1));
+ const id=await register(f);await handoff(f,id,1,2);await handoff(f,id,2,3);await f.c.connect(f.signers[4]).recallBatch(id,digest).then(t=>t.wait());const before=await f.c.historyCount(id);await rejected(f.c.connect(f.signers[3]).dispense(id,1));
+ assert.equal((await f.c.getBatch(id)).remainingUnits,100n);assert.equal(await f.c.historyCount(id),before);
 }));
 test('expiry blocks proposals, pending receipt, and dispensing',()=>withFixture(async f=>{
  const id=await register(f,{expires:f.now+100});const id2=await register(f,{code:'LOT-2',expires:f.now+100});
@@ -75,11 +78,11 @@ test('paged history preserves ordering and bounds',()=>withFixture(async f=>{
 for(const condition of ['held','recalled','expired']){
  test(`${condition} batches reject both proposal routes, both receipts, and dispensing on the EVM`,()=>withFixture(async f=>{
   const ids=[];
-  for(let i=0;i<5;i++)ids.push(await register(f,{code:`${condition}-${i}`,expires:f.now+3600}));
+  for(let i=0;i<5;i++){ids.push(await register(f,{code:`${condition}-${i}`,expires:f.now+3600}));}
   const maker=f.c.connect(f.signers[1]),distributor=f.c.connect(f.signers[2]);
   const pharmacy=f.c.connect(f.signers[3]),regulator=f.c.connect(f.signers[4]);
   await maker.proposeTransfer(ids[1],f.addresses[2],f.now+900).then(t=>t.wait());
-  for(const id of ids.slice(2))await handoff(f,id,1,2);
+  for(const id of ids.slice(2)){await handoff(f,id,1,2);}
   await distributor.proposeTransfer(ids[3],f.addresses[3],f.now+900).then(t=>t.wait());
   await handoff(f,ids[4],2,3);
   const calls=[
@@ -90,15 +93,15 @@ for(const condition of ['held','recalled','expired']){
    [pharmacy,'dispense',[ids[4],1]]
   ];
   // Establish that roles, route, nonce, quantities, and deadlines are valid first.
-  for(const [c,fn,args] of calls)await c[fn].staticCall(...args);
+  for(const [c,fn,args] of calls){await c[fn].staticCall(...args);}
   if(condition==='expired'){
    await f.rpc.request({method:'evm_increaseTime',params:[4000]});
    await f.rpc.request({method:'evm_mine',params:[]});
-  }else for(const id of ids){
+  }else {for(const id of ids){
    await (condition==='held'?regulator.reportTemperature(id,115,digest):regulator.recallBatch(id,digest)).then(t=>t.wait());
-  }
+  }}
   const reason={held:3n,recalled:1n,expired:2n}[condition];
-  for(const id of ids)assert.deepEqual(Array.from(await f.c.eligibility(id)),[false,reason]);
+  for(const id of ids){assert.deepEqual(Array.from(await f.c.eligibility(id)),[false,reason]);}
   const snapshots=await Promise.all(ids.map(async id=>({batch:Array.from(await f.c.getBatch(id)),history:await f.c.historyCount(id),pending:Array.from(await f.c.pending(id))})));
   for(const [c,fn,args] of calls){
    await assert.rejects(c[fn].staticCall(...args),e=>{

@@ -1,0 +1,50 @@
+{
+  "chainId": 31337,
+  "isolatedFreshDemo": true,
+  "invalidRecipientError": "Invalid recipient address",
+  "valuesAfterRefresh": [
+    {
+      "name": "id",
+      "value": "2"
+    },
+    {
+      "name": "to",
+      "value": "invalid-address"
+    },
+    {
+      "name": "deadline",
+      "value": "2026-10-30T17:00"
+    }
+  ],
+  "valuesAfterSuccessfulProposal": [
+    {
+      "name": "id",
+      "value": "2"
+    },
+    {
+      "name": "to",
+      "value": "0x22d491Bde2303f2f43325b2108D26f1eAbA1e32b"
+    },
+    {
+      "name": "deadline",
+      "value": "2026-10-30T17:00"
+    }
+  ],
+  "proposalConfirmation": "Confirmed: 0x8991662c2befd81dbcb5cd8686c215cc2bb344093f871ecff0ba22168ab9ff78",
+  "acceptanceConfirmation": "Confirmed: 0xf440072a4f7424623cc3f3984795b7a3cf26a9100a01375b2e87a4ecf3024333",
+  "proposalInputsAfterAccountSwitch": [
+    {
+      "name": "id",
+      "value": ""
+    },
+    {
+      "name": "to",
+      "value": ""
+    },
+    {
+      "name": "deadline",
+      "value": ""
+    }
+  ],
+  "result": "PASS"
+}

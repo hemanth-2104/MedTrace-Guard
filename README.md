@@ -220,3 +220,7 @@ Ganache development-tool dependency advisories are documented in `evidence/npm-a
 Private environment files, wallet keys, local chain state, dependencies, and generated build files are excluded from Git.
 
 Configuration examples contain no signing keys. Keep private keys and recovery phrases out of the repository and frontend configuration.
+
+## Static analysis and security review
+
+The October 29 hardening update adds six file-boundary regression tests, bringing the current automated suite to **74 passing tests**. The dated 75-check acceptance record is a separate functional demonstration, not a security certification or a Sonar gate result. See [the security findings and corrections](docs/SONAR_REVIEW.md), [GitHub verification](https://github.com/hemanth-2104/MedTrace-Guard/actions), and the [actual Sonar quality gate](https://sonarcloud.io/dashboard?id=hemanth-2104_MedTrace-Guard).

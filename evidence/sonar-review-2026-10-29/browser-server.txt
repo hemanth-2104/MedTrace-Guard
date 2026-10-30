@@ -1,0 +1,28 @@
+
+> medtrace-guard@1.0.0 start
+> node scripts/start.mjs
+
+bigint: Failed to load bindings, pure JS will be used (try npm run rebuild?)
+This version of µWS is not compatible with your Node.js build:
+
+Error: Cannot find module '../binaries/uws_darwin_arm64_147.node'
+Require stack:
+- /private/tmp/medtrace-sonar-clean-b484bn65/node_modules/ganache/node_modules/@trufflesuite/uws-js-unofficial/src/uws.js
+- /private/tmp/medtrace-sonar-clean-b484bn65/node_modules/ganache/dist/node/core.js
+Falling back to a NodeJS implementation; performance may be degraded.
+
+
+MedTrace Guard RPC: http://127.0.0.1:8545 (chain 31337; saved in .local-chain/)
+Deployed 0xe78A0F7E598Cc8b0Bb87894B0F60dD2a88d6a8Ab chain 31337
+Roles: accounts 1 manufacturer, 2 distributor, 3 pharmacy, 4 regulator.
+Seeded three batches. Batch 1 is at distributor under a temperature hold. Batches 2/3 are ready for demo.
+
+MedTrace Guard website: http://127.0.0.1:5173
+Keep this terminal open. Press Ctrl+C to stop and save the chain.
+
+
+  VITE v6.4.5  ready in 68 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+(node:41093) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 close listeners added to [Server]. MaxListeners is 10. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -1,0 +1,14 @@
+{
+  "settings": [
+    {
+      "key": "sonar.leak.period",
+      "value": "30",
+      "parentOrigin": "INSTANCE"
+    },
+    {
+      "key": "sonar.leak.period.type",
+      "value": "days",
+      "parentOrigin": "INSTANCE"
+    }
+  ]
+}

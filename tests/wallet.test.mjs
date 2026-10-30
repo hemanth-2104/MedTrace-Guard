@@ -9,14 +9,14 @@ const local = {chainId:31337,localAccounts:[account],rpcUrl:'http://127.0.0.1:85
 const amoy = {chainId:80002,localAccounts:[],rpcUrl:'https://polygon-amoy.drpc.org'};
 class MockProvider {
   constructor(chain='0x7a69') { this.chain=chain;this.accounts=[account];this.events=new Map();this.calls=[];this.behavior={}; }
-  async request(request) { this.calls.push(request);if(this.behavior[request.method])return this.behavior[request.method](request);if(['eth_requestAccounts','eth_accounts'].includes(request.method))return this.accounts;if(request.method==='eth_chainId')return this.chain;if(request.method==='wallet_switchEthereumChain'){this.chain=request.params[0].chainId;this.emit('chainChanged',this.chain);return null;}if(request.method==='wallet_addEthereumChain')return null;throw Error(`Unexpected method ${request.method}`); }
-  on(event,fn) { if(!this.events.has(event))this.events.set(event,new Set());this.events.get(event).add(fn); }
+  async request(request) { this.calls.push(request);if(this.behavior[request.method]){return this.behavior[request.method](request);}if(['eth_requestAccounts','eth_accounts'].includes(request.method)){return this.accounts;}if(request.method==='eth_chainId'){return this.chain;}if(request.method==='wallet_switchEthereumChain'){this.chain=request.params[0].chainId;this.emit('chainChanged',this.chain);return null;}if(request.method==='wallet_addEthereumChain'){return null;}throw new Error(`Unexpected method ${request.method}`); }
+  on(event,fn) { if(!this.events.has(event)){this.events.set(event,new Set());}this.events.get(event).add(fn); }
   removeListener(event,fn) { this.events.get(event)?.delete(fn); }
-  emit(event,value) { for(const fn of [...(this.events.get(event)??[])])fn(value); }
+  emit(event,value) { for(const fn of [...(this.events.get(event)??[])]){fn(value);} }
   listenerCount() { return [...this.events.values()].reduce((n,listeners)=>n+listeners.size,0); }
 }
 function signingOptions(deployment=local, overrides={}) {
-  return { deployment, hostname:'localhost',localProvider:{getSigner(){throw Error('Unexpected local RPC signing');}},createBrowserProvider:()=>({getSigner:async address=>({getAddress:async()=>address}),destroy(){}}),...overrides };
+  return { deployment, hostname:'localhost',localProvider:{getSigner(){throw new Error('Unexpected local RPC signing');}},createBrowserProvider:()=>({getSigner:async address=>({getAddress:async()=>address}),destroy(){}}),...overrides };
 }
 
 test('simulated: connecting MetaMask uses wallet signing even for an unlocked local demo address', async()=>{
@@ -33,11 +33,11 @@ test('simulated: public mode cannot sign through an unlocked RPC', async()=>{
 });
 test('simulated: local selection is restricted to localhost chain 31337 and manifest accounts',()=>{
   const session=new WalletSession();assert.equal(allowsLocalSigning(local,'localhost'),true);
-  for(const [deployment,host,address] of [[amoy,'localhost',account],[local,'example.com',account],[local,'localhost',other],[local,'localhost','invalid']])assert.throws(()=>session.selectLocal(deployment,host,address),/Local demo signing/);
+  for(const [deployment,host,address] of [[amoy,'localhost',account],[local,'example.com',account],[local,'localhost',other],[local,'localhost','invalid']]){assert.throws(()=>session.selectLocal(deployment,host,address),/Local demo signing/);}
   assert.equal(session.state.mode,'readonly');
 });
 test('simulated: rejected connection clears previous local identity and all listeners',async()=>{
-  const provider=new MockProvider();provider.behavior.eth_requestAccounts=()=>{throw Object.assign(Error('Denied'),{code:4001});};
+  const provider=new MockProvider();provider.behavior.eth_requestAccounts=()=>{throw Object.assign(new Error('Denied'),{code:4001});};
   const session=new WalletSession();session.selectLocal(local,'localhost',account);await assert.rejects(session.connect(provider,local),{code:4001});assert.equal(session.state.mode,'readonly');assert.equal(session.state.account,'');assert.equal(provider.listenerCount(),0);
 });
 test('simulated: wrong chain connection stays public and does not silently switch networks',async()=>{
@@ -49,11 +49,11 @@ test('simulated: permission approval may emit accountsChanged before resolving',
 test('simulated: locked or revoked account permissions cannot connect',async()=>{
   const provider=new MockProvider();provider.accounts=[];const session=new WalletSession();await assert.rejects(session.connect(provider,local),/No wallet account/);assert.equal(provider.listenerCount(),0);
 });
-for(const [event,value] of [['accountsChanged',[other]],['accountsChanged',[]],['chainChanged','0x1'],['disconnect',{code:4900}]])test(`simulated: ${event} ${JSON.stringify(value)} immediately invalidates identity and detaches listeners`,async()=>{
+for(const [event,value] of [['accountsChanged',[other]],['accountsChanged',[]],['chainChanged','0x1'],['disconnect',{code:4900}]]){test(`simulated: ${event} ${JSON.stringify(value)} immediately invalidates identity and detaches listeners`,async()=>{
   const provider=new MockProvider();const session=new WalletSession();await session.connect(provider,local);let destroyed=0;
   await session.signer(signingOptions(local,{createBrowserProvider:()=>({getSigner:async()=>({getAddress:async()=>account}),destroy:()=>destroyed++})}));
   provider.emit(event,value);assert.equal(session.state.mode,'readonly');assert.equal(session.state.account,'');assert.equal(provider.listenerCount(),0);assert.equal(destroyed,1);await assert.rejects(session.signer(signingOptions()),/Reconnect MetaMask/);
-});
+});}
 test('simulated: changing mode while permission prompt is pending prevents stale wallet completion',async()=>{
   const provider=new MockProvider();let approve;provider.behavior.eth_requestAccounts=()=>new Promise(resolve=>{approve=resolve;});const session=new WalletSession();const pending=session.connect(provider,local);session.selectLocal(local,'localhost',other===account?other:account);approve([account]);await assert.rejects(pending,/superseded/);assert.equal(session.state.mode,'local');assert.equal(provider.listenerCount(),0);
 });
@@ -76,16 +76,16 @@ test('simulated: wallet wrapper is reused within a session and destroyed on loca
   const provider=new MockProvider();const session=new WalletSession();await session.connect(provider,local);let created=0,destroyed=0;const options=signingOptions(local,{createBrowserProvider:()=>{created++;return{getSigner:async()=>({getAddress:async()=>account}),destroy:()=>destroyed++};}});await session.signer(options);await session.signer(options);assert.equal(created,1);session.selectLocal(local,'localhost',account);assert.equal(destroyed,1);assert.equal(provider.listenerCount(),0);
 });
 test('simulated: explicit network switch adds known Amoy only when provider reports unknown chain',async()=>{
-  const provider=new MockProvider('0x1');let switches=0;provider.behavior.wallet_switchEthereumChain=({params})=>{if(switches++===0)throw Object.assign(Error('Unknown chain'),{code:4902});provider.chain=params[0].chainId;};const session=new WalletSession();await session.switchNetwork(provider,amoy);assert.equal(session.state.mode,'wallet');assert.equal(session.state.chainId,80002);const add=provider.calls.find(c=>c.method==='wallet_addEthereumChain');assert.deepEqual(add.params,[walletChainParameters(amoy)]);assert.equal(switches,2);
+  const provider=new MockProvider('0x1');let switches=0;provider.behavior.wallet_switchEthereumChain=({params})=>{if(switches++===0){throw Object.assign(new Error('Unknown chain'),{code:4902});}provider.chain=params[0].chainId;};const session=new WalletSession();await session.switchNetwork(provider,amoy);assert.equal(session.state.mode,'wallet');assert.equal(session.state.chainId,80002);const add=provider.calls.find(c=>c.method==='wallet_addEthereumChain');assert.deepEqual(add.params,[walletChainParameters(amoy)]);assert.equal(switches,2);
 });
 test('simulated: rejected network switch leaves public mode and never adds chain',async()=>{
-  const provider=new MockProvider();provider.behavior.wallet_switchEthereumChain=()=>{throw Object.assign(Error('No'),{code:4001});};const session=new WalletSession();session.selectLocal(local,'localhost',account);await assert.rejects(session.switchNetwork(provider,amoy),{code:4001});assert.equal(session.state.mode,'readonly');assert.equal(provider.calls.some(c=>c.method==='wallet_addEthereumChain'),false);
+  const provider=new MockProvider();provider.behavior.wallet_switchEthereumChain=()=>{throw Object.assign(new Error('No'),{code:4001});};const session=new WalletSession();session.selectLocal(local,'localhost',account);await assert.rejects(session.switchNetwork(provider,amoy),{code:4001});assert.equal(session.state.mode,'readonly');assert.equal(provider.calls.some(c=>c.method==='wallet_addEthereumChain'),false);
 });
 test('simulated: unsupported unknown chain requires manual setup',async()=>{
-  const provider=new MockProvider();provider.behavior.wallet_switchEthereumChain=()=>{throw Object.assign(Error('Unknown'),{code:4902});};await assert.rejects(new WalletSession().switchNetwork(provider,{chainId:12345}),/manually/);assert.equal(provider.calls.some(c=>c.method==='wallet_addEthereumChain'),false);
+  const provider=new MockProvider();provider.behavior.wallet_switchEthereumChain=()=>{throw Object.assign(new Error('Unknown'),{code:4902});};await assert.rejects(new WalletSession().switchNetwork(provider,{chainId:12345}),/manually/);assert.equal(provider.calls.some(c=>c.method==='wallet_addEthereumChain'),false);
 });
 test('simulated: Amoy network addition refuses private, credential-bearing or non-HTTPS RPC URLs',()=>{
-  for(const rpcUrl of ['http://example.org','https://user:secret@example.org','https://example.org?key=secret','https://127.0.0.1','https://192.168.1.5','https://[::1]','https://localhost','https://rpc.local'])assert.throws(()=>walletChainParameters({...amoy,rpcUrl}),/public HTTPS/);
+  for(const rpcUrl of ['http://example.org','https://user:secret@example.org','https://example.org?key=secret','https://127.0.0.1','https://192.168.1.5','https://[::1]','https://localhost','https://rpc.local']){assert.throws(()=>walletChainParameters({...amoy,rpcUrl}),/public HTTPS/);}
 });
 test('simulated: missing provider and wallet error messages are actionable',async()=>{
   await assert.rejects(new WalletSession().connect(undefined,local),/MetaMask is unavailable/);assert.match(walletMessage({code:4001}),/rejected/);assert.match(walletMessage({code:'ACTION_REJECTED'}),/rejected/);assert.match(walletMessage({code:-32002}),/already pending/);assert.match(walletMessage({code:4900}),/disconnected/);
@@ -95,12 +95,12 @@ test('simulated: clearing during a pending network switch prevents reconnect and
   const provider=new MockProvider();let finish;provider.behavior.wallet_switchEthereumChain=()=>new Promise(resolve=>{finish=resolve;});const session=new WalletSession();const pending=session.switchNetwork(provider,amoy);session.clear();finish();await assert.rejects(pending,/superseded/);assert.equal(provider.listenerCount(),0);assert.equal(session.state.mode,'readonly');assert.equal(provider.calls.some(c=>c.method==='eth_requestAccounts'),false);
 });
 test('simulated: provider disconnection without an event clears identity before signing',async()=>{
-  const provider=new MockProvider();const session=new WalletSession();await session.connect(provider,local);provider.behavior.eth_accounts=()=>{throw Object.assign(Error('Disconnected'),{code:4900});};await assert.rejects(session.signer(signingOptions()),{code:4900});assert.equal(session.state.mode,'readonly');assert.equal(provider.listenerCount(),0);
+  const provider=new MockProvider();const session=new WalletSession();await session.connect(provider,local);provider.behavior.eth_accounts=()=>{throw Object.assign(new Error('Disconnected'),{code:4900});};await assert.rejects(session.signer(signingOptions()),{code:4900});assert.equal(session.state.mode,'readonly');assert.equal(provider.listenerCount(),0);
 });
 test('simulated: malformed live chain response clears identity before signing',async()=>{
   const provider=new MockProvider();const session=new WalletSession();await session.connect(provider,local);provider.chain='invalid';await assert.rejects(session.signer(signingOptions()),/invalid chain ID/);assert.equal(session.state.mode,'readonly');assert.equal(provider.listenerCount(),0);
 });
 
 test('simulated: local network addition respects deployment port and rejects non-loopback endpoints',()=>{
-  assert.equal(walletChainParameters({...local,rpcUrl:'http://127.0.0.1:18545'}).rpcUrls[0],'http://127.0.0.1:18545/');for(const rpcUrl of ['http://example.org:8545','http://secret@localhost:8545','http://127.0.0.1:8545?token=secret'])assert.throws(()=>walletChainParameters({...local,rpcUrl}),/loopback HTTP/);
+  assert.equal(walletChainParameters({...local,rpcUrl:'http://127.0.0.1:18545'}).rpcUrls[0],'http://127.0.0.1:18545/');for(const rpcUrl of ['http://example.org:8545','http://secret@localhost:8545','http://127.0.0.1:8545?token=secret']){assert.throws(()=>walletChainParameters({...local,rpcUrl}),/loopback HTTP/);}
 });

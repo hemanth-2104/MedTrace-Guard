@@ -1,10 +1,11 @@
 // Destructive local-only acceptance run. Supply a FRESH extracted demo's deployment.json.
 import assert from 'node:assert/strict';
 import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {readLocalDeployment} from './local-files.mjs';
 import {JsonRpcProvider,Contract,ZeroAddress,sha256,toUtf8Bytes} from 'ethers';
 const deploymentPath=process.argv[2];
-if(!deploymentPath)throw Error('Usage: node scripts/acceptance.mjs /path/to/FRESH/public/deployment.json');
-const d=JSON.parse(readFileSync(deploymentPath));assert.equal(d.chainId,31337);
+if(!deploymentPath){throw new Error('Usage: node scripts/acceptance.mjs /path/to/FRESH/public/deployment.json');}
+const d=await readLocalDeployment(deploymentPath);assert.equal(d.chainId,31337);
 const provider=new JsonRpcProvider('http://127.0.0.1:8545',undefined,{cacheTimeout:-1,batchMaxCount:1});provider.pollingInterval=10;
 assert.equal(Number((await provider.getNetwork()).chainId),31337);
 const signers=await Promise.all(Array.from({length:8},(_,i)=>provider.getSigner(i)));
@@ -22,7 +23,7 @@ async function reject(id,contract,fn,args,expected){
  try{await contract[fn].staticCall(...args);}catch(e){error=e;}
  assert.ok(error,`${fn} unexpectedly succeeded`);
  let name;try{name=c.interface.parseError(error.data)?.name;}catch{}
- if(expected==='ENCODING')assert.ok(['INVALID_ARGUMENT','NUMERIC_FAULT'].includes(error.code));else assert.equal(name,expected);
+ if(expected==='ENCODING'){assert.ok(['INVALID_ARGUMENT','NUMERIC_FAULT'].includes(error.code));}else {assert.equal(name,expected);}
  let receipt;
  if(expected!=='ENCODING'){
   const sent=await contract[fn](...args,{gasLimit:1_000_000});
@@ -40,7 +41,7 @@ let main,metadata;
 try{
  await check('B1',async()=>{const n=await c.batchCount(),t=await now();metadata={code:'ACC-PRIMARY',drug:'Acceptance medicine',made:t-100,expiry:t+86400,uri:'/certificates/demo-3.json'};main=await register(metadata);assert.equal(await c.batchCount(),n+1n);const b=await c.getBatch(main);assert.equal(b.custodian,addresses[1]);assert.equal(b.totalUnits,100n);assert.equal(b.remainingUnits,100n);return{batchId:main};});
  await check('B3',async()=>{const count=await c.batchCount();await reject('B3',by(1),'registerBatch',[metadata.code,metadata.drug,metadata.made,metadata.expiry,100,20,80,metadata.uri,hash],'DuplicateBatch');assert.equal(await c.batchCount(),count);});
- await check('B4',async()=>{const t=await now();for(const actor of[2,3,5])await reject('B4',by(actor),'registerBatch',[`DENIED-${actor}`,'D',t-1,t+600,100,20,80,'/certificates/demo-3.json',hash],'Denied');});
+ await check('B4',async()=>{const t=await now();for(const actor of[2,3,5]){await reject('B4',by(actor),'registerBatch',[`DENIED-${actor}`,'D',t-1,t+600,100,20,80,'/certificates/demo-3.json',hash],'Denied');}});
  await check('B5',async()=>{const t=await now(),valid=['INVALID','D',t-1,t+600,100,20,80,'/certificates/demo-3.json',hash];for(const [index,value]of[[0,''],[1,''],[7,''],[4,0],[2,t+100],[3,t-1],[5,80],[5,90]]){const args=[...valid];args[index]=value;await reject('B5',by(1),'registerBatch',args,'InvalidInput');}});
  await check('B6',async()=>{const b=await c.getBatch(main);assert.equal(b.code,metadata.code);assert.equal(b.drug,metadata.drug);assert.equal(b.manufacturedAt,BigInt(metadata.made));assert.equal(b.expiresAt,BigInt(metadata.expiry));assert.equal(b.totalUnits,100n);assert.equal(b.minTemp,20n);assert.equal(b.maxTemp,80n);assert.equal(b.certificateURI,metadata.uri);assert.equal(b.certificateSHA256,hash);});
  await check('C1',async()=>{await tx(by(1).proposeTransfer(main,addresses[2],await now()+600));assert.equal((await c.getBatch(main)).custodian,addresses[1]);assert.equal((await c.pending(main)).recipient,addresses[2]);});
@@ -60,12 +61,12 @@ try{
  await check('D3',async()=>{for(const value of[115,10]){await tx(by(3).reportTemperature(thermal,value,hash));assert.equal((await c.getBatch(thermal)).hold,true);await tx(by(4).releaseHold(thermal,hash));}await tx(by(3).reportTemperature(thermal,115,hash));});
  await check('D5',async()=>{const before=await get(thermal);await reject('D5',by(3),'dispense',[thermal,1],'Blocked');assert.deepEqual(await get(thermal),before);});
  await check('D6',async()=>{const n=await c.historyCount(thermal);await tx(by(3).reportTemperature(thermal,50,hash));assert.equal((await c.getBatch(thermal)).hold,true);assert.equal(await c.historyCount(thermal),n+1n);});
- await check('D7',async()=>{for(const actor of[1,2,3])await reject('D7',by(actor),'releaseHold',[thermal,hash],'Denied');});
+ await check('D7',async()=>{for(const actor of[1,2,3]){await reject('D7',by(actor),'releaseHold',[thermal,hash],'Denied');}});
  await check('D8',async()=>{await tx(by(4).releaseHold(thermal,hash));assert.equal((await c.getBatch(thermal)).hold,false);await tx(by(3).dispense(thermal,1));});
- await check('D9',async()=>{for(const actor of[1,2,5])await reject('D9',by(actor),'reportTemperature',[thermal,50,hash],'Denied');await tx(by(4).reportTemperature(thermal,50,hash));});
+ await check('D9',async()=>{for(const actor of[1,2,5]){await reject('D9',by(actor),'reportTemperature',[thermal,50,hash],'Denied');}await tx(by(4).reportTemperature(thermal,50,hash));});
  await check('D4',async()=>{const id=await register();await tx(by(1).proposeTransfer(id,addresses[2],await now()+600));await tx(by(1).reportTemperature(id,115,hash));await reject('D4',by(2),'acceptTransfer',[id,1],'Blocked');await reject('D4',by(1),'proposeTransfer',[id,addresses[2],await now()+600],'Blocked');});
  let recalled=await register();await tx(by(1).proposeTransfer(recalled,addresses[2],await now()+600));
- await check('E4',async()=>{for(const actor of[1,2,3,5])await reject('E4',by(actor),'recallBatch',[recalled,hash],'Denied');});
+ await check('E4',async()=>{for(const actor of[1,2,3,5]){await reject('E4',by(actor),'recallBatch',[recalled,hash],'Denied');}});
  await check('E1',async()=>{const n=await c.historyCount(recalled);await tx(by(4).recallBatch(recalled,hash));assert.equal((await c.getBatch(recalled)).recalled,true);assert.equal(await c.historyCount(recalled),n+1n);const h=await c.getHistory(recalled,0,100);assert.equal(h.at(-1).kind,7n);});
  await check('E2',async()=>{assert.equal((await c.pending(recalled)).recipient,ZeroAddress);await reject('E2',by(2),'acceptTransfer',[recalled,1],'Blocked');});
  await check('E3',async()=>{await reject('E3',by(1),'proposeTransfer',[recalled,addresses[2],await now()+600],'Blocked');await tx(by(3).reportTemperature(thermal,115,hash));await tx(by(4).recallBatch(thermal,hash));await reject('E3',by(3),'dispense',[thermal,1],'Blocked');});
@@ -81,8 +82,8 @@ try{
  await check('E8',async()=>{await tx(by(4).releaseHold(expPharm,hash));assert.equal((await c.getBatch(expPharm)).hold,false);assert.deepEqual(Array.from(await c.eligibility(expPharm)),[false,2n]);await reject('E8',by(3),'dispense',[expPharm,1],'Blocked');});
  await check('F1',async()=>{await tx(by(3).dispense(main,20));assert.equal((await c.getBatch(main)).remainingUnits,80n);});
  await check('F2',async()=>{await tx(by(3).dispense(main,30));assert.equal((await c.getBatch(main)).remainingUnits,50n);const h=await c.getHistory(main,0,100);assert.deepEqual(h.filter(e=>e.kind===4n).map(e=>e.units),[20n,30n]);});
- await check('F3',async()=>{const before=await get(main);for(const n of[0,51])await reject('F3',by(3),'dispense',[main,n],'InvalidInput');for(const n of[-1,0.5])await reject('F3',by(3),'dispense',[main,n],'ENCODING');assert.deepEqual(await get(main),before);});
- await check('F4',async()=>{for(const actor of[1,2,5])await reject('F4',by(actor),'dispense',[main,1],'Denied');await tx(c.assignRole(addresses[6],3));await reject('F4',by(6),'dispense',[main,1],'Denied');await tx(c.assignRole(addresses[6],0));});
+ await check('F3',async()=>{const before=await get(main);for(const n of[0,51]){await reject('F3',by(3),'dispense',[main,n],'InvalidInput');}for(const n of[-1,0.5]){await reject('F3',by(3),'dispense',[main,n],'ENCODING');}assert.deepEqual(await get(main),before);});
+ await check('F4',async()=>{for(const actor of[1,2,5]){await reject('F4',by(actor),'dispense',[main,1],'Denied');}await tx(c.assignRole(addresses[6],3));await reject('F4',by(6),'dispense',[main,1],'Denied');await tx(c.assignRole(addresses[6],0));});
  await check('F5',async()=>{await tx(by(3).dispense(main,50));const b=await c.getBatch(main);assert.equal(b.remainingUnits,0n);assert.equal(b.stage,3n);});
  await check('F6',async()=>{await reject('F6',by(3),'dispense',[main,1],'Blocked');await reject('F6',by(3),'proposeTransfer',[main,addresses[2],await now()+600],'Blocked');});
  await check('H1',async()=>{await tx(c.assignRole(addresses[5],1));assert.equal(await c.roleOf(addresses[5]),1n);});
@@ -94,8 +95,8 @@ try{
  const certBytes=readFileSync('public/certificates/demo-3.json');
  const browser=await register({code:'ACC-BROWSER',uri:'/certificates/demo-3.json',hash:sha256(certBytes)});
  const missing=await register({code:'ACC-MISSING-CERT',uri:'/certificates/does-not-exist.json',hash:sha256(certBytes)});
- for(let i=0;i<25;i++)await tx(by(1).reportTemperature(browser,50,hash));
- while(await c.batchCount()<17n)await register();
+ for(let i=0;i<25;i++){await tx(by(1).reportTemperature(browser,50,hash));}
+ while(await c.batchCount()<17n){await register();}
  output.browserFixtures={main,thermal,recalled,expired:expMade,browser,missing,addresses};
  await check('H5',async()=>{await tx(c.proposeAdmin(addresses[5]));assert.equal(await c.admin(),addresses[0]);assert.equal(await c.pendingAdmin(),addresses[5]);await tx(c.assignRole(addresses[6],0));});
  await check('H6',async()=>{await reject('H6',by(6),'acceptAdmin',[],'Denied');});
