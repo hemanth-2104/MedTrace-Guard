@@ -36,3 +36,8 @@ public/deployment*.json
 /docs/technical_report_ieee.tex
 /docs/technical_report_local.tex
 /docs/OVERLEAF.md
+
+# Original academic snapshots and package checksum list also stay local.
+/docs/archive/original-proposal.pdf
+/docs/archive/original-technical_report_local.pdf
+/docs/archive/ORIGINAL-MANIFEST.sha256

@@ -76,7 +76,7 @@ Median paged-history reads over 10 trials were 2.802 ms at 10 batches, 2.735 ms 
 - Ganache's native µWS binary was unavailable for Node 26, so it used its Node.js fallback. The tested flows passed with that fallback. A Ganache listener-count warning was also observed during the long browser session.
 - No live Kubo/IPFS upload, public IPFS gateway retrieval, hosted pinning, MetaMask wallet signing, or Polygon Amoy/Sepolia deployment was verified. These require external services or accounts. The local certificate workflow was verified.
 - No public hosting was performed. The running website is reachable on this computer at http://127.0.0.1:5173. Local QR URLs do not work on another device.
-- The IEEE report source compiled successfully with the desktop editor compiler on October 25. No newly exported final PDF or final page-by-page layout review was completed. Original PDF snapshots under `docs/archive/` remain historical files with their original branding.
+- The IEEE report source compiled successfully with the desktop editor compiler on October 25. No newly exported final PDF or final page-by-page layout review was completed. Original PDF snapshots retained their original branding; they were subsequently moved to the local course backup and removed from the current repository.
 - The original Word proposal and ZIP remain unchanged in the parent folder. Team agreement, course submission, repository upload, and recordings are not completed by these checks.
 
 ## Repeat the checks

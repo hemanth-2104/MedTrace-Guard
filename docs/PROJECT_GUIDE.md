@@ -222,9 +222,9 @@ See [the completion checklist](docs/COMPLETION_CHECKLIST.md) for verification co
 | `scripts/deploy.mjs`, `scripts/seed.mjs` | Deployment and synthetic fixtures |
 | `tests/` | Contract, model, certificate checks |
 | `docs/ARCHITECTURE.md`, `docs/DEMO.md` | Design and demonstration guide |
-| `docs/archive/` | Original PDF snapshots and original manifest, which may retain old branding |
+| `docs/archive/` | Historical software completion and verification logs |
 
-The university proposal, report sources, requirements, progress log, team-contract template, academic editing instructions and submission files are maintained locally outside this repository. They are not needed to run the application. Original PDF snapshots under `docs/archive/` remain historical records; their old branding/layouts are not current deliverables.
+The university proposal, report sources, requirements, progress log, team-contract template, academic editing instructions and submission files are maintained locally outside this repository. They are not needed to run the application. Original proposal/report PDF snapshots and the original package checksum list are also retained only in the local course backup.
 
 The prototype uses synthetic batches and simulated temperatures on one manufacturer → distributor → pharmacy route. It does not integrate real sensors, prove physical medicine authenticity, handle patient records, split batches, or certify regulatory compliance. Repository upload, team agreement, recordings, and final report formatting remain team tasks.
 
