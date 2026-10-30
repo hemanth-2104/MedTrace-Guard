@@ -24,3 +24,15 @@ public/deployment.ipfs-proof.json
 # Preserve only the verified public deployment; other manifests are machine-local.
 public/deployment*.json
 !public/deployment.amoy.json
+
+# Course-only documents are maintained locally, outside the public repository.
+/submissions/
+/docs/MedTrace_Guard_Project_Proposal.docx
+/docs/TEAM_CONTRACT.md
+/docs/REQUIREMENTS.md
+/docs/PROJECT_LOG.md
+/docs/proposal.tex
+/docs/technical_report_body.tex
+/docs/technical_report_ieee.tex
+/docs/technical_report_local.tex
+/docs/OVERLEAF.md

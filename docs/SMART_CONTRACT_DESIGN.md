@@ -115,7 +115,7 @@ Private environment files, saved chains, dependencies, generated build output, a
 
 ## 8. Team workflow and milestone submission
 
-Existing proposal roster: Ananya Mishra, Hemanth Reddy Narendrababu, Sai Harsha Yerapothu, and Ridham Shah. Responsibilities and signatures must be agreed by the actual team; this document does not invent individual contributions or approvals. Use feature branches, review substantive changes, retain reproducible evidence, and have teammates review the design before submission. `docs/TEAM_CONTRACT.md` remains an unsigned template.
+Existing proposal roster: Ananya Mishra, Hemanth Reddy Narendrababu, Sai Harsha Yerapothu, and Ridham Shah. Responsibilities and signatures must be agreed by the actual team; this document does not invent individual contributions or approvals. Use feature branches, review substantive changes, retain reproducible evidence, and have teammates review the design before submission. The unsigned team-contract template is maintained locally outside this repository.
 
 One team member uploads `Group20_2026FallB_CSE 540_MedTrace Guard Smart Contract Design.txt`, containing the public repository URL, to the designated course assignment. Confirm that the link opens publicly and that the latest submission is the intended file. The PDF is a convenient design copy; the supplied directions require the URL text file.
 

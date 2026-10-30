@@ -222,11 +222,9 @@ See [the completion checklist](docs/COMPLETION_CHECKLIST.md) for verification co
 | `scripts/deploy.mjs`, `scripts/seed.mjs` | Deployment and synthetic fixtures |
 | `tests/` | Contract, model, certificate checks |
 | `docs/ARCHITECTURE.md`, `docs/DEMO.md` | Design and demonstration guide |
-| `docs/proposal.tex`, `docs/technical_report*.tex` | Renamed editable sources; report remains a draft |
 | `docs/archive/` | Original PDF snapshots and original manifest, which may retain old branding |
-| `docs/TEAM_CONTRACT.md` | Team agreement template to complete |
 
-The supplied Word proposal, also copied unchanged to `docs/MedTrace_Guard_Project_Proposal.docx`, is the title/scope reference. The original ZIP and Word document remain unchanged in the parent folder. Archived PDFs were not recompiled or visually reverified during this run; their old branding/layouts are historical snapshots. The IEEE source compiled on October 25; export and inspect the final PDF before submission.
+The university proposal, report sources, requirements, progress log, team-contract template, academic editing instructions and submission files are maintained locally outside this repository. They are not needed to run the application. Original PDF snapshots under `docs/archive/` remain historical records; their old branding/layouts are not current deliverables.
 
 The prototype uses synthetic batches and simulated temperatures on one manufacturer → distributor → pharmacy route. It does not integrate real sensors, prove physical medicine authenticity, handle patient records, split batches, or certify regulatory compliance. Repository upload, team agreement, recordings, and final report formatting remain team tasks.
 

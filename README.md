@@ -199,6 +199,8 @@ evidence/           Recorded transactions, test outputs, and measurements
 .github/workflows/  Automated verification
 ```
 
+Course submissions, proposal/report sources, university requirements, project logs, and the team-contract template are kept locally and excluded from this repository. They are not required to install or run the application.
+
 ## Limitations
 
 MedTrace Guard is an educational prototype using synthetic medicine records and simulated temperature reports.

@@ -29,9 +29,9 @@ Use the real React + local-chain app for the submitted blockchain demo, not the 
 1. Fill team names and complete the contract with actual agreements.
 2. Read the separate Canvas deliverable overviews and check exact due dates/file naming.
 3. Install packages, compile both contracts, run tests, build frontend, and run benchmark. Fix any failures before claiming the project works.
-4. Use the published repository at https://github.com/hemanth-2104/MedTrace-Guard. Source, package-lock.json, README, final 75-check evidence and design PDF are included; private environment files and local runtime data are excluded.
+4. Use the published repository at https://github.com/hemanth-2104/MedTrace-Guard. Source, package-lock.json, README and final 75-check evidence are included; academic submission files and report sources are kept locally, while private environment files and local runtime data are excluded.
 5. Record your own 5-minute interim and 7–10 minute final demonstrations.
-6. Replace pending report fields with measured evidence; use technical_report_ieee.tex in Overleaf and confirm 4–8 pages after editing.
+6. Replace pending report fields with measured evidence; use the locally retained IEEE report sources in Overleaf and confirm 4–8 pages after editing.
 7. Upload all final artifacts, repository/video links, and any required AI/source disclosures according to the actual rubric.
 
 The GitHub repository and actual Amoy contract are published, and all 75 software acceptance checks have passing evidence. See ACCEPTANCE_RESULTS.md and AMOY_LIVE.md. Canvas submission, recorded team videos and an agreed team contract remain separate deliverables.
