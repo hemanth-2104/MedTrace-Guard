@@ -48,9 +48,9 @@ test('local acceptance accepts only a public/deployment.json manifest in approve
   await writeFile(join(publicDir, 'deployment.json'), JSON.stringify(manifest));
   assert.deepEqual(await readLocalDeployment(join(publicDir, 'deployment.json')), manifest);
   await writeFile(join(publicDir, 'private.json'), '{}');
-  await assert.rejects(readLocalDeployment(join(publicDir, 'private.json')), /name or extension/);
+  await assert.rejects(readLocalDeployment(join(publicDir, 'private.json')), /approved directory/);
   await writeFile(join(root, 'deployment.json'), '{}');
-  await assert.rejects(readLocalDeployment(join(root, 'deployment.json')), /public\/deployment/);
+  await assert.rejects(readLocalDeployment(join(root, 'deployment.json')), /approved directory/);
 }));
 
 test('evidence output rejects symlink escapes before creating directories outside its root', () => fixture(async root => {

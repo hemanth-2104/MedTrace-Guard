@@ -47,3 +47,11 @@ The original project had no explicit New Code definition. With the user’s spec
 The current scan result must be checked at the [Sonar dashboard](https://sonarcloud.io/dashboard?id=hemanth-2104_MedTrace-Guard) for the actual published commit. A GitHub neutral result is not a quality-gate pass.
 
 Coverage remains a separate measurement: Sonar’s automatic analysis does not import test coverage. Importing LCOV requires switching to CI-based Sonar analysis and configuring its authenticated scanner. No coverage percentage or coverage-gate pass is invented. See [Sonar’s automatic-analysis limits](https://docs.sonarsource.com/sonarqube-cloud/analyzing-source-code/automatic-analysis) and [JavaScript coverage setup](https://docs.sonarsource.com/sonarqube-cloud/analyzing-source-code/test-coverage/javascript-typescript-test-coverage).
+
+## First reanalysis and path-selection follow-up
+
+Sonar analyzed commit `64966421431c004023d545c81ebd14b0b88d3a70`. All 99 reliability impacts were resolved, and only 82 low-priority sequential-await maintainability findings remained. The original install-script and log-injection findings closed. Five path findings were raised at the shared helper’s metadata/read calls because the analyzer did not carry its multi-root containment proof through to those sinks. The gate was now computed and failed its unchanged security condition. That result is retained in `quality-gate-after-first-fix.json`.
+
+The follow-up changes selection to a positive allow-list: filesystem paths are independently built from trusted directory entries and fixed deployment names; CLI input only selects a candidate and is never the path supplied to `stat` or `readFile`. Certificate selection is limited to direct files in the approved certificate directories. Deployment discovery is bounded to expected project directories within the workspace/temporary roots; it only inspects the matching directory branch. Symlink/traversal and output-directory tests remain in place.
+
+The isolated local acceptance regression also passed all 45 contract checklist IDs without altering the retained historical evidence. The final allow-list reader accepts that actual deployment manifest. The new external scan determines whether the gate accepts the revised data flow; no findings have been dismissed or rules disabled.

@@ -1,0 +1,17 @@
+✔ Kubo upload API allows only explicit loopback origins (0.393959ms)
+✔ upload helper pins exact file bytes with CIDv1 and reports their separate SHA-256 (mock API) (13.930334ms)
+✔ upload helper rejects oversized input and unsuccessful/malformed mock API responses (3.506917ms)
+✔ certificate reads preserve exact bytes in an explicitly approved directory (2.886541ms)
+✔ certificate uploads reject an out-of-root file before contacting Kubo (1.514084ms)
+✔ certificate paths reject traversal, symlink escapes and control characters (1.778833ms)
+✔ certificate paths reject private environment files and empty inputs (0.962292ms)
+✔ local acceptance accepts only a public/deployment.json manifest in approved project/temp roots (13.642917ms)
+✔ evidence output rejects symlink escapes before creating directories outside its root (1.688583ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 123.234792

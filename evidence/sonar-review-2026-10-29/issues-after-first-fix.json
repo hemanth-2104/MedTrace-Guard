@@ -1,0 +1,5255 @@
+{
+  "total": 87,
+  "p": 1,
+  "ps": 500,
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 500,
+    "total": 87
+  },
+  "effortTotal": 560,
+  "debtTotal": 560,
+  "issues": [
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6Z-",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 44,
+      "hash": "0aae24a90c9f207fe968ea02dbdd17d5",
+      "textRange": {
+        "startLine": 44,
+        "endLine": 44,
+        "startOffset": 75,
+        "endOffset": 205
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6Z_",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 64,
+      "hash": "e48204cf4e1cca63b22065e47da80005",
+      "textRange": {
+        "startLine": 64,
+        "endLine": 64,
+        "startOffset": 55,
+        "endOffset": 121
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aA",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 66,
+      "hash": "b3026a656a4c66be13f282220d16f1fa",
+      "textRange": {
+        "startLine": 66,
+        "endLine": 66,
+        "startOffset": 55,
+        "endOffset": 130
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aB",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 69,
+      "hash": "fccfe2d534c5a3789c1262b4e91aad45",
+      "textRange": {
+        "startLine": 69,
+        "endLine": 69,
+        "startOffset": 57,
+        "endOffset": 124
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aC",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 85,
+      "hash": "209600f5f77bc8ab39f856c808815c01",
+      "textRange": {
+        "startLine": 85,
+        "endLine": 85,
+        "startOffset": 164,
+        "endOffset": 219
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aD",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 86,
+      "hash": "cb61aeee9ae6a474e5772cc6bdc21a51",
+      "textRange": {
+        "startLine": 86,
+        "endLine": 86,
+        "startOffset": 55,
+        "endOffset": 112
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aE",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 99,
+      "hash": "75a2ab73a59d9d06d18a4b7045fe16a9",
+      "textRange": {
+        "startLine": 99,
+        "endLine": 99,
+        "startOffset": 7,
+        "endOffset": 27
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhYnyaO9ZP8SE6aF",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 99,
+      "hash": "75a2ab73a59d9d06d18a4b7045fe16a9",
+      "textRange": {
+        "startLine": 99,
+        "endLine": 99,
+        "startOffset": 33,
+        "endOffset": 49
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaGyaO9ZP8SE6aI",
+      "rule": "jssecurity:S8707",
+      "severity": "MAJOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 31,
+      "hash": "8b89221f308bd97196f335978ba5ff63",
+      "textRange": {
+        "startLine": 31,
+        "endLine": 31,
+        "startOffset": 14,
+        "endOffset": 18
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 14,
+                "endOffset": 18
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 19,
+                "endOffset": 23
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 44,
+                "endOffset": 63
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 77,
+                "endOffset": 78
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 14,
+                "endOffset": 18
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 19,
+                "endOffset": 23
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 44,
+                "endLine": 44,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 14,
+                "endOffset": 33
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 34,
+                "endOffset": 48
+              },
+              "msg": "A malicious value was previously assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 6,
+                "endOffset": 20
+              },
+              "msg": "A malicious value can be assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 34,
+                "endOffset": 35
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 14,
+                "endOffset": 18
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 31,
+                "endLine": 31,
+                "startOffset": 19,
+                "endOffset": 23
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 26,
+                "endOffset": 45
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 46,
+                "endOffset": 50
+              },
+              "msg": "A malicious value was previously assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 40,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 35,
+                "endOffset": 52
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 66,
+                "endOffset": 67
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Path Traversal via faulty LLM-supplied CLI arguments",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "VULNERABILITY",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaGyaO9ZP8SE6aJ",
+      "rule": "jssecurity:S8707",
+      "severity": "MAJOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 37,
+      "hash": "18a4946f78b3294854064b0f36d6b9f1",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 13,
+        "endOffset": 17
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 13,
+                "endOffset": 17
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 18,
+                "endOffset": 22
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 15,
+                "endOffset": 102
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 44,
+                "endOffset": 63
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 77,
+                "endOffset": 78
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 13,
+                "endOffset": 17
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 37,
+                "endLine": 37,
+                "startOffset": 18,
+                "endOffset": 22
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 15,
+                "endOffset": 102
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 26,
+                "endOffset": 45
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 46,
+                "endOffset": 50
+              },
+              "msg": "A malicious value was previously assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 40,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 35,
+                "endOffset": 52
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 66,
+                "endOffset": 67
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Path Traversal via faulty LLM-supplied CLI arguments",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "VULNERABILITY",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaGyaO9ZP8SE6aG",
+      "rule": "jssecurity:S8707",
+      "severity": "MAJOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 38,
+      "hash": "8837c3866d317a0cce12b810f994d1ef",
+      "textRange": {
+        "startLine": 38,
+        "endLine": 38,
+        "startOffset": 22,
+        "endOffset": 30
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 22,
+                "endOffset": 30
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 31,
+                "endOffset": 35
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 15,
+                "endOffset": 102
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 44,
+                "endOffset": 63
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+              "textRange": {
+                "startLine": 9,
+                "endLine": 9,
+                "startOffset": 77,
+                "endOffset": 78
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        },
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 22,
+                "endOffset": 30
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 38,
+                "endLine": 38,
+                "startOffset": 31,
+                "endOffset": 35
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 15,
+                "endOffset": 102
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 36,
+                "endLine": 36,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 35,
+                "endLine": 35,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 26,
+                "endOffset": 45
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 14,
+                "endLine": 14,
+                "startOffset": 46,
+                "endOffset": 50
+              },
+              "msg": "A malicious value was previously assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 13,
+                "endLine": 13,
+                "startOffset": 40,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018file\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 35,
+                "endOffset": 52
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+              "textRange": {
+                "startLine": 30,
+                "endLine": 30,
+                "startOffset": 66,
+                "endOffset": 67
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Path Traversal via faulty LLM-supplied CLI arguments",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "VULNERABILITY",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaGyaO9ZP8SE6aK",
+      "rule": "jssecurity:S8707",
+      "severity": "MAJOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 51,
+      "hash": "710dc7aea416535c53ad2ef39fd4846b",
+      "textRange": {
+        "startLine": 51,
+        "endLine": 51,
+        "startOffset": 13,
+        "endOffset": 17
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 51,
+                "endLine": 51,
+                "startOffset": 13,
+                "endOffset": 17
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 51,
+                "endLine": 51,
+                "startOffset": 18,
+                "endOffset": 22
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 49,
+                "startOffset": 15,
+                "endOffset": 4
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 44,
+                "endLine": 44,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 14,
+                "endOffset": 33
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 34,
+                "endOffset": 48
+              },
+              "msg": "A malicious value was previously assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 6,
+                "endOffset": 20
+              },
+              "msg": "A malicious value can be assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 34,
+                "endOffset": 35
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Path Traversal via faulty LLM-supplied CLI arguments",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "VULNERABILITY",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaGyaO9ZP8SE6aH",
+      "rule": "jssecurity:S8707",
+      "severity": "MAJOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 52,
+      "hash": "4b1b4a87b7f9791b1148e4ac743607b0",
+      "textRange": {
+        "startLine": 52,
+        "endLine": 52,
+        "startOffset": 26,
+        "endOffset": 34
+      },
+      "flows": [
+        {
+          "locations": [
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 52,
+                "endLine": 52,
+                "startOffset": 26,
+                "endOffset": 34
+              },
+              "msg": "Sink: this invocation is not safe; a malicious value can be used as argument"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 52,
+                "endLine": 52,
+                "startOffset": 35,
+                "endOffset": 39
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 49,
+                "startOffset": 15,
+                "endOffset": 4
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 32,
+                "endLine": 32,
+                "startOffset": 9,
+                "endOffset": 13
+              },
+              "msg": "A malicious value was previously assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 8,
+                "endOffset": 12
+              },
+              "msg": "A malicious value can be assigned to field \u2018path\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 15,
+                "endOffset": 45
+              },
+              "msg": "A malicious value was previously assigned to field \u2018value\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 23,
+                "endLine": 23,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 16,
+                "endLine": 16,
+                "startOffset": 39,
+                "endOffset": 44
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 21,
+                "endOffset": 37
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 45,
+                "endLine": 45,
+                "startOffset": 38,
+                "endOffset": 43
+              },
+              "msg": "A malicious value was previously assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+              "textRange": {
+                "startLine": 44,
+                "endLine": 44,
+                "startOffset": 42,
+                "endOffset": 47
+              },
+              "msg": "A malicious value can be assigned to field \u2018input\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 14,
+                "endOffset": 33
+              },
+              "msg": "Function call: Control is passed to this function, which is on the path to a security sink"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 8,
+                "endLine": 8,
+                "startOffset": 34,
+                "endOffset": 48
+              },
+              "msg": "A malicious value was previously assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 6,
+                "endOffset": 20
+              },
+              "msg": "A malicious value can be assigned to field \u2018deploymentPath\u2019"
+            },
+            {
+              "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+              "textRange": {
+                "startLine": 6,
+                "endLine": 6,
+                "startOffset": 34,
+                "endOffset": 35
+              },
+              "msg": "Source: an llm can pass malicious data through command-line arguments"
+            }
+          ]
+        }
+      ],
+      "status": "OPEN",
+      "message": "Path Traversal via faulty LLM-supplied CLI arguments",
+      "effort": "30min",
+      "debt": "30min",
+      "tags": [
+        "cwe"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "VULNERABILITY",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "COMPLETE",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "SECURITY",
+          "severity": "HIGH"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaOyaO9ZP8SE6aL",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 16,
+      "hash": "22843186f7ff3a1871ec19f98e1874f2",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 23,
+        "endOffset": 67
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaPyaO9ZP8SE6aM",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 17,
+      "hash": "a5c656882d35d0afab9b52f30cd8ac78",
+      "textRange": {
+        "startLine": 17,
+        "endLine": 17,
+        "startOffset": 6,
+        "endOffset": 85
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaPyaO9ZP8SE6aN",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 42,
+      "hash": "fdc9798e51bcc7ad66ae6d6c8768c354",
+      "textRange": {
+        "startLine": 42,
+        "endLine": 42,
+        "startOffset": 8,
+        "endOffset": 40
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGKJhaPyaO9ZP8SE6aO",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 62,
+      "hash": "c1cbd8d25629dbcca9d98d7505e1649d",
+      "textRange": {
+        "startLine": 62,
+        "endLine": 62,
+        "startOffset": 60,
+        "endOffset": 105
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-30T00:11:03+0000",
+      "updateDate": "2026-10-30T00:11:16+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-2",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 45,
+      "hash": "6d5d5b7e5cecf5e44ffcb12d4ba53a25",
+      "textRange": {
+        "startLine": 45,
+        "endLine": 45,
+        "startOffset": 250,
+        "endOffset": 310
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-3",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 60,
+      "hash": "8b4431b64da4fb4f6f30a39a999d93bc",
+      "textRange": {
+        "startLine": 60,
+        "endLine": 60,
+        "startOffset": 55,
+        "endOffset": 108
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-4",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 60,
+      "hash": "8b4431b64da4fb4f6f30a39a999d93bc",
+      "textRange": {
+        "startLine": 60,
+        "endLine": 60,
+        "startOffset": 123,
+        "endOffset": 148
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-5",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 61,
+      "hash": "3685aec10da4f89a337b5920650c749d",
+      "textRange": {
+        "startLine": 61,
+        "endLine": 61,
+        "startOffset": 56,
+        "endOffset": 109
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-6",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 61,
+      "hash": "3685aec10da4f89a337b5920650c749d",
+      "textRange": {
+        "startLine": 61,
+        "endLine": 61,
+        "startOffset": 124,
+        "endOffset": 149
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd-7",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 61,
+      "hash": "3685aec10da4f89a337b5920650c749d",
+      "textRange": {
+        "startLine": 61,
+        "endLine": 61,
+        "startOffset": 162,
+        "endOffset": 203
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_A",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 79,
+      "hash": "73ea54bfe2229fef347ae724efdf73e2",
+      "textRange": {
+        "startLine": 79,
+        "endLine": 79,
+        "startOffset": 36,
+        "endOffset": 109
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_B",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 79,
+      "hash": "73ea54bfe2229fef347ae724efdf73e2",
+      "textRange": {
+        "startLine": 79,
+        "endLine": 79,
+        "startOffset": 93,
+        "endOffset": 104
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_C",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 79,
+      "hash": "73ea54bfe2229fef347ae724efdf73e2",
+      "textRange": {
+        "startLine": 79,
+        "endLine": 79,
+        "startOffset": 110,
+        "endOffset": 185
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_D",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 79,
+      "hash": "73ea54bfe2229fef347ae724efdf73e2",
+      "textRange": {
+        "startLine": 79,
+        "endLine": 79,
+        "startOffset": 151,
+        "endOffset": 176
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_I",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 85,
+      "hash": "209600f5f77bc8ab39f856c808815c01",
+      "textRange": {
+        "startLine": 85,
+        "endLine": 85,
+        "startOffset": 79,
+        "endOffset": 138
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_K",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 62,
+        "endOffset": 78
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_L",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 79,
+        "endOffset": 143
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_M",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 126,
+        "endOffset": 137
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_N",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 144,
+        "endOffset": 186
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_O",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 187,
+        "endOffset": 253
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_P",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 92,
+      "hash": "13f8a15fdccec05a1174acd099f51c80",
+      "textRange": {
+        "startLine": 92,
+        "endLine": 92,
+        "startOffset": 254,
+        "endOffset": 300
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKXO1LP8JBnsd_R",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 98,
+      "hash": "3ae953a66a2f7e3edc080866de1e93a0",
+      "textRange": {
+        "startLine": 98,
+        "endLine": 98,
+        "startOffset": 23,
+        "endOffset": 73
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_V",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 5,
+      "hash": "5fe821a9cbf2599953e391b793876253",
+      "textRange": {
+        "startLine": 5,
+        "endLine": 5,
+        "startOffset": 9,
+        "endOffset": 26
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_W",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 8,
+      "hash": "05a5c2d7413096f7c21ddf7344b3f11d",
+      "textRange": {
+        "startLine": 8,
+        "endLine": 8,
+        "startOffset": 3,
+        "endOffset": 73
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_X",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 9,
+      "hash": "c21a68a1002f46cde6569c62f929aebf",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 3,
+        "endOffset": 72
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_Y",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 10,
+      "hash": "81937bb6280e54c45b30c6de54ca49da",
+      "textRange": {
+        "startLine": 10,
+        "endLine": 10,
+        "startOffset": 3,
+        "endOffset": 72
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_Z",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 12,
+      "hash": "24ef679b883b212460274440fa189c46",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 123,
+        "endOffset": 153
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_a",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 13,
+      "hash": "67c12057b597d62866d2d26755134ec2",
+      "textRange": {
+        "startLine": 13,
+        "endLine": 13,
+        "startOffset": 3,
+        "endOffset": 84
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_b",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 14,
+      "hash": "a39a4cc8a5c9ed8a87ecffe2394ce090",
+      "textRange": {
+        "startLine": 14,
+        "endLine": 14,
+        "startOffset": 3,
+        "endOffset": 82
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_c",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 15,
+      "hash": "946dfa361d85b6213589f1d88326f66b",
+      "textRange": {
+        "startLine": 15,
+        "endLine": 15,
+        "startOffset": 3,
+        "endOffset": 96
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_d",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 16,
+      "hash": "1478fee719792c76c6c6bcb687c45daf",
+      "textRange": {
+        "startLine": 16,
+        "endLine": 16,
+        "startOffset": 3,
+        "endOffset": 82
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_e",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 17,
+      "hash": "50cab20cc5cc22f67c8cade76d8d4acc",
+      "textRange": {
+        "startLine": 17,
+        "endLine": 17,
+        "startOffset": 3,
+        "endOffset": 76
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_f",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 19,
+      "hash": "7e7eb114cdc2ef6be9eab9d827ba89e2",
+      "textRange": {
+        "startLine": 19,
+        "endLine": 19,
+        "startOffset": 10,
+        "endOffset": 25
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_g",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 23,
+      "hash": "5fe821a9cbf2599953e391b793876253",
+      "textRange": {
+        "startLine": 23,
+        "endLine": 23,
+        "startOffset": 9,
+        "endOffset": 26
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_h",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 25,
+      "hash": "00fabe1963b1e4cf27d58544eac759a3",
+      "textRange": {
+        "startLine": 25,
+        "endLine": 25,
+        "startOffset": 3,
+        "endOffset": 88
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_i",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 25,
+      "hash": "00fabe1963b1e4cf27d58544eac759a3",
+      "textRange": {
+        "startLine": 25,
+        "endLine": 25,
+        "startOffset": 89,
+        "endOffset": 172
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_j",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 25,
+      "hash": "00fabe1963b1e4cf27d58544eac759a3",
+      "textRange": {
+        "startLine": 25,
+        "endLine": 25,
+        "startOffset": 173,
+        "endOffset": 256
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_k",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "1c27d6f2c8a571eb6c12df4031a69b96",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 8,
+        "endOffset": 47
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_l",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "1c27d6f2c8a571eb6c12df4031a69b96",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 48,
+        "endOffset": 70
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_m",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "1c27d6f2c8a571eb6c12df4031a69b96",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 71,
+        "endOffset": 93
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_n",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 27,
+      "hash": "d3d4ede68beb854ec39abe1258e67300",
+      "textRange": {
+        "startLine": 27,
+        "endLine": 27,
+        "startOffset": 28,
+        "endOffset": 91
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_o",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 27,
+      "hash": "d3d4ede68beb854ec39abe1258e67300",
+      "textRange": {
+        "startLine": 27,
+        "endLine": 27,
+        "startOffset": 92,
+        "endOffset": 142
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_p",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 28,
+      "hash": "b95d0929962612507f123f081b818d0b",
+      "textRange": {
+        "startLine": 28,
+        "endLine": 28,
+        "startOffset": 8,
+        "endOffset": 148
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_q",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 29,
+      "hash": "14f490b0400148471877bee20ff33fb2",
+      "textRange": {
+        "startLine": 29,
+        "endLine": 29,
+        "startOffset": 24,
+        "endOffset": 87
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_r",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 31,
+      "hash": "7e7eb114cdc2ef6be9eab9d827ba89e2",
+      "textRange": {
+        "startLine": 31,
+        "endLine": 31,
+        "startOffset": 10,
+        "endOffset": 25
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_s",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 37,
+      "hash": "ffb484b95f022f80ff6e8ad16fd89c3f",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 16,
+        "endOffset": 148
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_t",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 37,
+      "hash": "ffb484b95f022f80ff6e8ad16fd89c3f",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 22,
+        "endOffset": 140
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKYO1LP8JBnsd_u",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 38,
+      "hash": "a22905849a0b5fade3278d89bd503483",
+      "textRange": {
+        "startLine": 38,
+        "endLine": 38,
+        "startOffset": 116,
+        "endOffset": 144
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKbO1LP8JBnsd_6",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/deploy.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 9,
+      "hash": "cfa11a5739afce5a7a46c4085e2cc398",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 37,
+        "endOffset": 85
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKbO1LP8JBnsd_7",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/deploy.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 9,
+      "hash": "cfa11a5739afce5a7a46c4085e2cc398",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 44,
+        "endOffset": 71
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKbO1LP8JBnsd_8",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/deploy.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 9,
+      "hash": "25aef08e95b66c00cbf6a33221771b30",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 133,
+        "endOffset": 183
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKbO1LP8JBnsd_9",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/deploy.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 9,
+      "hash": "25aef08e95b66c00cbf6a33221771b30",
+      "textRange": {
+        "startLine": 9,
+        "endLine": 9,
+        "startOffset": 139,
+        "endOffset": 175
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKVO1LP8JBnsd-u",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/integration-ipfs-server.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "8b62eb8df4426c77bcc3f7f8d827e7c1",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 36,
+        "endOffset": 83
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKVO1LP8JBnsd-v",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/integration-ipfs-server.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "8b62eb8df4426c77bcc3f7f8d827e7c1",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 42,
+        "endOffset": 69
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKVO1LP8JBnsd-w",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/integration-ipfs-server.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "ff44ccf417673106f6309dd8a25768b7",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 113,
+        "endOffset": 163
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKVO1LP8JBnsd-x",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/integration-ipfs-server.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 26,
+      "hash": "ff44ccf417673106f6309dd8a25768b7",
+      "textRange": {
+        "startLine": 26,
+        "endLine": 26,
+        "startOffset": 119,
+        "endOffset": 155
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKfO1LP8JBnseAZ",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 39,
+      "hash": "1c9535356bfc05c66bae478c1ea122e3",
+      "textRange": {
+        "startLine": 39,
+        "endLine": 39,
+        "startOffset": 16,
+        "endOffset": 136
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKfO1LP8JBnseAa",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 43,
+      "hash": "44e5857b84c93ddecba4a897e01dba77",
+      "textRange": {
+        "startLine": 43,
+        "endLine": 43,
+        "startOffset": 1,
+        "endOffset": 29
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-F",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/seed.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 11,
+      "hash": "11440fa6d11e60ad7de2b16443020cac",
+      "textRange": {
+        "startLine": 11,
+        "endLine": 11,
+        "startOffset": 14,
+        "endOffset": 36
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-G",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/seed.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 12,
+      "hash": "3fdab27d83939ebe3677218f287d80a8",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 1,
+        "endOffset": 156
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-H",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/seed.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 12,
+      "hash": "3fdab27d83939ebe3677218f287d80a8",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 7,
+        "endOffset": 148
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-I",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 22,
+      "hash": "b9da3ee509004bdf4ee76cb5bfb5d1e5",
+      "textRange": {
+        "startLine": 22,
+        "endLine": 22,
+        "startOffset": 10,
+        "endOffset": 30
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-J",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 22,
+      "hash": "b9da3ee509004bdf4ee76cb5bfb5d1e5",
+      "textRange": {
+        "startLine": 22,
+        "endLine": 22,
+        "startOffset": 42,
+        "endOffset": 83
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-K",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 23,
+      "hash": "388c5101f8f2265231efc89e717044eb",
+      "textRange": {
+        "startLine": 23,
+        "endLine": 23,
+        "startOffset": 42,
+        "endOffset": 111
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-L",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 23,
+      "hash": "388c5101f8f2265231efc89e717044eb",
+      "textRange": {
+        "startLine": 23,
+        "endLine": 23,
+        "startOffset": 66,
+        "endOffset": 90
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKPO1LP8JBnsd-M",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 24,
+      "hash": "71ce554bda940c147ff50c26aebd408f",
+      "textRange": {
+        "startLine": 24,
+        "endLine": 24,
+        "startOffset": 21,
+        "endOffset": 45
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "0886805c-69ca-4b43-9e6e-6ee8f51bba72",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKSO1LP8JBnsd-d",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-lib.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 42,
+      "hash": "ca3ff97e6019cf3610df4b13e5bb083e",
+      "textRange": {
+        "startLine": 42,
+        "endLine": 42,
+        "startOffset": 18,
+        "endOffset": 59
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKdO1LP8JBnseAI",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 36,
+      "hash": "599f0cfc87d95c91c65127f2f744453d",
+      "textRange": {
+        "startLine": 36,
+        "endLine": 36,
+        "startOffset": 27,
+        "endOffset": 60
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKdO1LP8JBnseAJ",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 37,
+      "hash": "9471636b7f3bd46250b13ea5bfcd411d",
+      "textRange": {
+        "startLine": 37,
+        "endLine": 37,
+        "startOffset": 4,
+        "endOffset": 88
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKdO1LP8JBnseAK",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 38,
+      "hash": "45b6da0a6d09de29945435b3ee3aaa36",
+      "textRange": {
+        "startLine": 38,
+        "endLine": 38,
+        "startOffset": 19,
+        "endOffset": 50
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKdO1LP8JBnseAL",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 39,
+      "hash": "90337809c4c2ee4d1aab73101e6c49e5",
+      "textRange": {
+        "startLine": 39,
+        "endLine": 39,
+        "startOffset": 17,
+        "endOffset": 49
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKdO1LP8JBnseAN",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 41,
+      "hash": "f7aba75663daeaa699c9653404d44617",
+      "textRange": {
+        "startLine": 41,
+        "endLine": 41,
+        "startOffset": 4,
+        "endOffset": 97
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKNO1LP8JBnsd98",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:tests/helpers.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 12,
+      "hash": "a6e4fd54b3d4b66b92b4f3e569486e33",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 23,
+        "endOffset": 71
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    },
+    {
+      "key": "AaGJ9DKNO1LP8JBnsd99",
+      "rule": "javascript:S9382",
+      "severity": "MINOR",
+      "component": "hemanth-2104_MedTrace-Guard:tests/helpers.mjs",
+      "project": "hemanth-2104_MedTrace-Guard",
+      "line": 12,
+      "hash": "a6e4fd54b3d4b66b92b4f3e569486e33",
+      "textRange": {
+        "startLine": 12,
+        "endLine": 12,
+        "startOffset": 29,
+        "endOffset": 63
+      },
+      "flows": [],
+      "status": "OPEN",
+      "message": "Unexpected `await` inside a loop.",
+      "effort": "5min",
+      "debt": "5min",
+      "tags": [
+        "async",
+        "es2017",
+        "performance",
+        "promise"
+      ],
+      "creationDate": "2026-10-29T23:14:53+0000",
+      "updateDate": "2026-10-29T23:16:50+0000",
+      "type": "CODE_SMELL",
+      "organization": "hemanth-2104",
+      "cleanCodeAttribute": "EFFICIENT",
+      "cleanCodeAttributeCategory": "INTENTIONAL",
+      "impacts": [
+        {
+          "softwareQuality": "MAINTAINABILITY",
+          "severity": "LOW"
+        }
+      ],
+      "issueStatus": "OPEN",
+      "projectName": "MedTrace-Guard",
+      "internalTags": [],
+      "lastChangeAnalysisUuid": "589fe909-606d-454d-b4b6-97a3a3c5c050",
+      "lastChangeSource": "ANALYSIS"
+    }
+  ],
+  "components": [
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/deploy.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9n",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "deploy.mjs",
+      "longName": "scripts/deploy.mjs",
+      "path": "scripts/deploy.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/ipfs-upload.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9q",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ipfs-upload.mjs",
+      "longName": "scripts/ipfs-upload.mjs",
+      "path": "scripts/ipfs-upload.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/testnet-workflow.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9p",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "testnet-workflow.mjs",
+      "longName": "scripts/testnet-workflow.mjs",
+      "path": "scripts/testnet-workflow.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/ipfs-proof.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9r",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "ipfs-proof.mjs",
+      "longName": "scripts/ipfs-proof.mjs",
+      "path": "scripts/ipfs-proof.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:tests/helpers.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9U",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "helpers.mjs",
+      "longName": "tests/helpers.mjs",
+      "path": "tests/helpers.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/seed.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9Y",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "seed.mjs",
+      "longName": "scripts/seed.mjs",
+      "path": "scripts/seed.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/smoke.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9Z",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "smoke.mjs",
+      "longName": "scripts/smoke.mjs",
+      "path": "scripts/smoke.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard",
+      "uuid": "AaGJ4d5_ObA7vApDmYGC",
+      "enabled": true,
+      "qualifier": "TRK",
+      "name": "MedTrace-Guard",
+      "longName": "MedTrace-Guard"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/testnet-lib.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9d",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "testnet-lib.mjs",
+      "longName": "scripts/testnet-lib.mjs",
+      "path": "scripts/testnet-lib.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/local-files.mjs",
+      "uuid": "AaGKJhNNyaO9ZP8SE6Z9",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "local-files.mjs",
+      "longName": "scripts/local-files.mjs",
+      "path": "scripts/local-files.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/integration-ipfs-server.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9h",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "integration-ipfs-server.mjs",
+      "longName": "scripts/integration-ipfs-server.mjs",
+      "path": "scripts/integration-ipfs-server.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/benchmark.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9k",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "benchmark.mjs",
+      "longName": "scripts/benchmark.mjs",
+      "path": "scripts/benchmark.mjs"
+    },
+    {
+      "organization": "hemanth-2104",
+      "key": "hemanth-2104_MedTrace-Guard:scripts/acceptance.mjs",
+      "uuid": "AaGJ9C92O1LP8JBnsd9j",
+      "enabled": true,
+      "qualifier": "FIL",
+      "name": "acceptance.mjs",
+      "longName": "scripts/acceptance.mjs",
+      "path": "scripts/acceptance.mjs"
+    }
+  ],
+  "organizations": [
+    {
+      "key": "hemanth-2104",
+      "name": "Hemanth Reddy N"
+    }
+  ],
+  "rules": [
+    {
+      "key": "jssecurity:S8707",
+      "name": "Agentic workflows should not be vulnerable to path injection attacks",
+      "lang": "js",
+      "status": "READY",
+      "langName": "JavaScript"
+    },
+    {
+      "key": "javascript:S9382",
+      "name": "Promises should not be awaited sequentially in a loop",
+      "lang": "js",
+      "status": "READY",
+      "langName": "JavaScript"
+    }
+  ],
+  "facets": []
+}

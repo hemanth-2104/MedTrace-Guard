@@ -1,16 +1,37 @@
 // CLI input is a filename, not permission to read arbitrary local files.
-import {readFile, realpath, stat, mkdir} from 'node:fs/promises';
-import {basename, dirname, extname, isAbsolute, relative, resolve} from 'node:path';
+import {readFile, realpath, stat, mkdir, readdir} from 'node:fs/promises';
+import {basename, dirname, extname, isAbsolute, relative, resolve, join, sep} from 'node:path';
 import {tmpdir} from 'node:os';
 import {fileURLToPath} from 'node:url';
 
 export const PROJECT_ROOT = fileURLToPath(new URL('..', import.meta.url));
 export const CERTIFICATE_ROOTS = ['public/certificates', 'evidence/ipfs'].map(path => resolve(PROJECT_ROOT, path));
+const temporaryRoots = process.platform === 'win32' ? [tmpdir()] : [tmpdir(), '/tmp'];
 const certificateExtensions = new Set(['.pdf', '.json', '.txt', '.csv', '.png', '.jpg', '.jpeg', '.bin']);
 
 function inside(root, path) {
   const remainder = relative(root, path);
   return remainder !== '' && remainder !== '..' && !remainder.startsWith(`..${process.platform === 'win32' ? '\\' : '/'}`) && !isAbsolute(remainder);
+}
+
+const ignoredDirectories = new Set(['node_modules', 'dist', 'artifacts', 'evidence', 'docs', 'scripts', 'tests', 'src', 'shared', 'contracts']);
+
+async function projectDirectories(root) {
+  const entries = await readdir(root, {withFileTypes: true});
+  return entries.filter(entry => entry.isDirectory() && !entry.name.startsWith('.') && !ignoredDirectories.has(entry.name))
+    .map(entry => join(root, entry.name));
+}
+
+async function approvedCandidates(root, name, requested) {
+  if (name === 'deployment.json') {
+    // Fresh extracted projects may be one directory below a temporary container.
+    // Paths come from trusted directory entries, never concatenated CLI text.
+    const children = (await projectDirectories(root)).filter(directory => requested.startsWith(directory + sep));
+    const grandchildren = (await Promise.all(children.map(projectDirectories))).flat().filter(directory => requested.startsWith(directory + sep));
+    return [root, ...children, ...grandchildren].map(directory => join(directory, 'public', 'deployment.json'));
+  }
+  const entries = await readdir(root, {withFileTypes: true});
+  return entries.filter(entry => entry.isFile() || entry.isSymbolicLink()).map(entry => join(root, entry.name));
 }
 
 export async function approvedFilePath(input, {roots, extensions, name} = {}) {
@@ -20,16 +41,18 @@ export async function approvedFilePath(input, {roots, extensions, name} = {}) {
   if (input.split(/[\\/]/).includes('..')) {
     throw new Error('Parent-directory traversal is not allowed.');
   }
-  const path = await realpath(resolve(input));
-  const approved = await Promise.all(roots.map(root => realpath(root).catch(() => null)));
-  if (!approved.some(root => root && inside(root, path))) {
-    throw new Error('File must remain inside an approved directory, including after resolving symlinks.');
-  }
-  if ((name && basename(path) !== name) || (extensions && !extensions.has(extname(path).toLowerCase()))) {
+  // The argument is used only to select a known candidate. It is never passed
+  // to stat/readFile: those receive the independently constructed allow-list path.
+  const requested = await realpath(resolve(input));
+  const approved = (await Promise.all(roots.map(root => realpath(root).catch(() => null)))).filter(root => root && requested.startsWith(root + sep));
+  const lists = await Promise.all(approved.map(root => approvedCandidates(root, name, requested)));
+  const candidate = lists.flat().find(knownPath => knownPath === requested);
+  if (!candidate) throw new Error('File must remain inside an approved directory and match an allowed file.');
+  if ((name && basename(candidate) !== name) || (extensions && !extensions.has(extname(candidate).toLowerCase()))) {
     throw new Error('File name or extension is not allowed for this operation.');
   }
-  if (!(await stat(path)).isFile()) throw new Error('Expected a regular file.');
-  return path;
+  if (!(await stat(candidate)).isFile()) throw new Error('Expected a regular file.');
+  return candidate;
 }
 
 export async function readCertificateFile(input, {allowedRoots = CERTIFICATE_ROOTS} = {}) {
@@ -43,7 +66,7 @@ export async function readCertificateFile(input, {allowedRoots = CERTIFICATE_ROO
 
 export async function readLocalDeployment(input) {
   const path = await approvedFilePath(input, {
-    roots: [PROJECT_ROOT, dirname(PROJECT_ROOT), tmpdir()],
+    roots: [PROJECT_ROOT, dirname(PROJECT_ROOT), ...temporaryRoots],
     extensions: new Set(['.json']),
     name: 'deployment.json',
   });
