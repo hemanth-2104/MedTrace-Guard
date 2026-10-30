@@ -1,0 +1,29 @@
+{
+  "paging": {
+    "pageIndex": 1,
+    "pageSize": 1,
+    "total": 6
+  },
+  "analyses": [
+    {
+      "key": "73803a0e-7839-426b-8adf-47fb975cf42d",
+      "date": "2026-10-30T00:18:37+0000",
+      "events": [
+        {
+          "key": "AaGKLQ1Ir9ity4KVImcb",
+          "category": "VERSION",
+          "name": "not provided"
+        },
+        {
+          "key": "AaGKLQ1Er9ity4KVImca",
+          "category": "QUALITY_GATE",
+          "name": "Green (was Red)",
+          "description": ""
+        }
+      ],
+      "projectVersion": "not provided",
+      "manualNewCodePeriodBaseline": false,
+      "revision": "404d9d24bcb86131734da1f6b315b5c6a73410be"
+    }
+  ]
+}

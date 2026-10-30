@@ -2,6 +2,18 @@
 
 Passing software acceptance tests does not establish a Sonar quality-gate pass. The original scan reported 5 security, 99 reliability and 222 maintainability impacts. The API contains **231 distinct issues**, because 95 constructor findings contribute to both reliability and maintainability.
 
+## Verified final result
+
+Sonar analyzed commit `404d9d24bcb86131734da1f6b315b5c6a73410be` on October 29 (Phoenix time). The **quality gate passed**, with **zero open security findings, zero open reliability findings, and A ratings in all three categories**. There are 82 remaining low-priority sequential-await maintainability findings. No findings were dismissed or accepted, and no rules or gate thresholds were disabled.
+
+| Category | Original open impacts | Final open impacts | Final rating |
+|---|---:|---:|---|
+| Security | 5 | 0 | A |
+| Reliability | 99 | 0 | A |
+| Maintainability | 222 | 82 | A |
+
+Evidence: [analysis revision](../evidence/sonar-review-2026-10-29/analysis-after.json), [passing gate](../evidence/sonar-review-2026-10-29/quality-gate-after.json), [ratings](../evidence/sonar-review-2026-10-29/ratings-after.json), [remaining issue details](../evidence/sonar-review-2026-10-29/issues-after.json), [summary](../evidence/sonar-review-2026-10-29/summary.json), and [dashboard screenshot](../evidence/sonar-review-2026-10-29/sonar-passed.png). The same code passed [GitHub verification](https://github.com/hemanth-2104/MedTrace-Guard/actions/runs/40978861539).
+
 ## Five security findings
 
 | Finding | Review and correction |
@@ -12,7 +24,7 @@ Passing software acceptance tests does not establish a Sonar quality-gate pass. 
 | `jssecurity:S8707` — IPFS proof CLI path | Uses the same confined certificate reader. Output directories must remain below project `evidence/`, including resolved existing parent symlinks, before creating or writing files. |
 | `jssecurity:S5145` — IPFS response logging | The proof requires a recursive pin and records a fixed, normalized `{Type: 'recursive'}` value instead of copying an arbitrary remote pin object into its log. CID validation and JSON serialization remain in place. |
 
-All security findings are being reanalyzed after code fixes. No issue was bulk-dismissed or marked false positive to achieve a pass.
+The final reanalysis closed all security findings after code fixes. No issue was bulk-dismissed or marked false positive to achieve a pass.
 
 ## Reliability and meaningful behavior fixes
 
@@ -36,6 +48,7 @@ The automated suite now contains **74 tests**: the previous 68 plus six file-bou
 - [Fresh install with lifecycle scripts disabled](../evidence/sonar-review-2026-10-29/clean-install.txt).
 - [Fresh compile, tests and default build](../evidence/sonar-review-2026-10-29/clean-verify.txt).
 - [Amoy build](../evidence/sonar-review-2026-10-29/clean-build-amoy.txt), [interface check](../evidence/sonar-review-2026-10-29/interface.txt), [benchmark](../evidence/sonar-review-2026-10-29/benchmark.txt).
+- [Final allow-list boundary and upload tests](../evidence/sonar-review-2026-10-29/allowlist-tests.txt), [45 local contract acceptance IDs](../evidence/sonar-review-2026-10-29/acceptance-regression.json).
 - [Targeted testnet refactor checks](../evidence/sonar-review-2026-10-29/testnet-refactor.txt).
 - [Browser form regression](../evidence/sonar-review-2026-10-29/form-regression.json), [visible browser state](../evidence/sonar-review-2026-10-29/form-regression.dom.txt).
 - [Original issue details](../evidence/sonar-review-2026-10-29/issues-before.json), [original uncomputed gate](../evidence/sonar-review-2026-10-29/quality-gate-before.json).
@@ -44,7 +57,7 @@ The automated suite now contains **74 tests**: the previous 68 plus six file-bou
 
 The original project had no explicit New Code definition. With the user’s specific approval, **Number of days: 30** was saved on October 29. This includes the repository’s recent work. Security, reliability and coverage thresholds were not changed. [Saved definition](../evidence/sonar-review-2026-10-29/new-code-setting.json).
 
-The current scan result must be checked at the [Sonar dashboard](https://sonarcloud.io/dashboard?id=hemanth-2104_MedTrace-Guard) for the actual published commit. A GitHub neutral result is not a quality-gate pass.
+The final result was verified as Passed at the [Sonar dashboard](https://sonarcloud.io/dashboard?id=hemanth-2104_MedTrace-Guard), with the matching analysis revision saved above. Future commits have their own analysis results; a GitHub neutral result alone is not a quality-gate pass.
 
 Coverage remains a separate measurement: Sonar’s automatic analysis does not import test coverage. Importing LCOV requires switching to CI-based Sonar analysis and configuring its authenticated scanner. No coverage percentage or coverage-gate pass is invented. See [Sonar’s automatic-analysis limits](https://docs.sonarsource.com/sonarqube-cloud/analyzing-source-code/automatic-analysis) and [JavaScript coverage setup](https://docs.sonarsource.com/sonarqube-cloud/analyzing-source-code/test-coverage/javascript-typescript-test-coverage).
 
@@ -54,4 +67,4 @@ Sonar analyzed commit `64966421431c004023d545c81ebd14b0b88d3a70`. All 99 reliabi
 
 The follow-up changes selection to a positive allow-list: filesystem paths are independently built from trusted directory entries and fixed deployment names; CLI input only selects a candidate and is never the path supplied to `stat` or `readFile`. Certificate selection is limited to direct files in the approved certificate directories. Deployment discovery is bounded to expected project directories within the workspace/temporary roots; it only inspects the matching directory branch. Symlink/traversal and output-directory tests remain in place.
 
-The isolated local acceptance regression also passed all 45 contract checklist IDs without altering the retained historical evidence. The final allow-list reader accepts that actual deployment manifest. The new external scan determines whether the gate accepts the revised data flow; no findings have been dismissed or rules disabled.
+The isolated local acceptance regression also passed all 45 contract checklist IDs without altering the retained historical evidence. The final allow-list reader accepts that actual deployment manifest. The final external scan accepted the revised data flow and passed the gate with zero security findings; no findings were dismissed or rules disabled.

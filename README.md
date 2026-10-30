@@ -224,3 +224,5 @@ Configuration examples contain no signing keys. Keep private keys and recovery p
 ## Static analysis and security review
 
 The October 29 hardening update adds six file-boundary regression tests, bringing the current automated suite to **74 passing tests**. The dated 75-check acceptance record is a separate functional demonstration, not a security certification or a Sonar gate result. See [the security findings and corrections](docs/SONAR_REVIEW.md), [GitHub verification](https://github.com/hemanth-2104/MedTrace-Guard/actions), and the [actual Sonar quality gate](https://sonarcloud.io/dashboard?id=hemanth-2104_MedTrace-Guard).
+
+Sonar verified commit `404d9d2` with a **Passed quality gate**, **0 security issues**, **0 reliability issues**, and **A/A/A ratings**. There are 82 remaining low-priority sequential-await maintainability findings. Coverage is not configured. The review includes the analysis revision, API results and dashboard screenshot.

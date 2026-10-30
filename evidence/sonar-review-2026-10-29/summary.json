@@ -1,0 +1,32 @@
+{
+  "distinctOpenIssues": 82,
+  "openImpacts": {
+    "MAINTAINABILITY": 82
+  },
+  "rules": {
+    "javascript:S9382": 82
+  },
+  "qualityGate": "OK",
+  "measures": [
+    {
+      "metric": "alert_status",
+      "value": "OK"
+    },
+    {
+      "metric": "reliability_rating",
+      "value": "1.0",
+      "bestValue": true
+    },
+    {
+      "metric": "security_rating",
+      "value": "1.0",
+      "bestValue": true
+    },
+    {
+      "metric": "sqale_rating",
+      "value": "1.0",
+      "bestValue": true
+    }
+  ],
+  "revision": "404d9d24bcb86131734da1f6b315b5c6a73410be"
+}

@@ -1,6 +1,6 @@
 # Current verification status
 
-**October 29 Sonar follow-up:** the hardened JavaScript/CLI version passes 74 automated tests (including six added file-boundary regressions). The 75 acceptance checks below retain their original dates. Neither count implies a Sonar quality-gate pass; see [the current security review](SONAR_REVIEW.md).
+**October 29 Sonar follow-up:** the hardened JavaScript/CLI version passes 74 automated tests (including six added file-boundary regressions). The 75 acceptance checks below retain their original dates. Sonar independently verified commit `404d9d2` with a **Passed quality gate**, zero security/reliability findings, and A/A/A ratings. Coverage remains unconfigured; see [the current security review and saved evidence](SONAR_REVIEW.md).
 
 **75/75 software acceptance checks PASS — 0 failed, 0 untested.** See [the complete 75-row results and evidence](ACCEPTANCE_RESULTS.md). The 68 automated tests are a separate suite, not a partially completed 75-check run.
 
@@ -18,6 +18,9 @@
 | Published content | All final completion evidence matches the completed working project | [Publication audit](../evidence/publication-2026-10-29/completion-audit.json) |
 
 ## Latest GitHub verification
+
+The security follow-up passed all **74 tests**, compilation, interface validation, default and Amoy builds, and benchmark: [run 40978861539](https://github.com/hemanth-2104/MedTrace-Guard/actions/runs/40978861539), commit `404d9d24bcb86131734da1f6b315b5c6a73410be`.
+
 
 The published Linux installation correction passed clean `npm ci`, compilation, interface validation, all 68 tests, both builds and benchmark: [GitHub Actions run](https://github.com/hemanth-2104/MedTrace-Guard/actions/runs/40972025737), commit `8425a3c4f207182479fc0e48b1a76b41c545e78d`. Later pushes rerun the workflow; inspect their individual results on the [Actions page](https://github.com/hemanth-2104/MedTrace-Guard/actions).
 

@@ -1,0 +1,138 @@
+- navigation "Main navigation":
+  - button "Open sidebar":
+    - generic: 
+  - link "Continuous Code Quality":
+    - /url: /
+    - img "SonarQube Cloud"
+  - navigation "Main":
+    - list:
+      - link "Explore":
+        - /url: /explore/projects
+  - button "Search":
+    - generic: 
+  - button "Help":
+    - generic: 
+  - button "Start Free":
+    - generic: Start Free
+  - button "Log in":
+    - generic: Log in
+- link:
+  - /url: /summary/new_code?id=hemanth-2104_MedTrace-Guard&branch=main
+  - generic: Summary
+- status
+- banner:
+  - link "Hemanth Reddy N":
+    - /url: /organizations/hemanth-2104
+  - generic: "0"
+  - link "MedTrace-Guard":
+    - /url: /project/overview?id=hemanth-2104_MedTrace-Guard
+  - generic: "0"
+  - generic: Summary
+  - heading "Summary" [level=1]
+  - button "main":
+    - generic: "!"
+    - generic: main
+    - generic: 
+  - status
+  - 'img "Quality gate: Passed"'
+  - generic: 1.5k Lines of code
+  - button "More information":
+    - generic: 
+  - generic: Last analysis 3 minutes ago
+  - img "Hemanth Reddy N"
+  - link "404d9d24":
+    - /url: https://github.com/hemanth-2104/MedTrace-Guard/commit/404d9d24bcb86131734da1f6b315b5c6a73410be
+  - status
+  - link "github View on GitHub (opens in new tab)":
+    - /url: https://github.com/hemanth-2104/MedTrace-Guard
+    - img "github"
+    - generic: View on GitHub
+    - generic: 
+    - generic: (opens in new tab)
+- separator
+- main:
+  - status
+  - 'img "Quality gate: Passed"'
+  - generic: Quality gate
+  - button "More information":
+    - generic: 
+  - generic: Passed
+  - link "View quality gate history":
+    - /url: /quality_gate_history?id=hemanth-2104_MedTrace-Guard
+  - tablist:
+    - tab "New Code"
+    - tab "Overall Code" [selected]
+  - tabpanel "Overall Code":
+    - generic: Security
+    - link "0":
+      - /url: /project/issues?impactSoftwareQualities=SECURITY&issueStatuses=OPEN%2CCONFIRMED&id=hemanth-2104_MedTrace-Guard
+    - generic: Open issues
+    - 'link "Has rating: A"':
+      - /url: /component_measures?id=hemanth-2104_MedTrace-Guard&metric=security_rating&view=list
+      - 'generic "Has rating: A"': A
+    - generic: Reliability
+    - link "0":
+      - /url: /project/issues?impactSoftwareQualities=RELIABILITY&issueStatuses=OPEN%2CCONFIRMED&id=hemanth-2104_MedTrace-Guard
+    - generic: Open issues
+    - 'link "Has rating: A"':
+      - /url: /component_measures?id=hemanth-2104_MedTrace-Guard&metric=reliability_rating&view=list
+      - 'generic "Has rating: A"': A
+    - generic: Maintainability
+    - link "82":
+      - /url: /project/issues?impactSoftwareQualities=MAINTAINABILITY&issueStatuses=OPEN%2CCONFIRMED&id=hemanth-2104_MedTrace-Guard
+    - generic: Open issues
+    - 'link "Has rating: A"':
+      - /url: /component_measures?id=hemanth-2104_MedTrace-Guard&metric=sqale_rating&view=list
+      - 'generic "Has rating: A"': A
+    - generic: Accepted issues
+    - link "See more details on 0 of Accepted issues":
+      - /url: /project/issues?issueStatuses=ACCEPTED&id=hemanth-2104_MedTrace-Guard
+      - text: "0"
+    - generic: Valid issues that were not fixed
+    - generic: Coverage
+    - paragraph: A few extra steps are needed for SonarQube Cloud to analyze your code coverage.
+    - link "Set up coverage analysis (opens in new tab)":
+      - /url: https://docs.sonarsource.com/sonarqube-cloud/analyzing-source-code/test-coverage/overview/
+      - text: Set up coverage analysis
+      - generic: 
+      - generic: (opens in new tab)
+    - generic: Duplications
+    - link "See more details on 0.0% of Duplicated Lines (%)":
+      - /url: /component_measures?id=hemanth-2104_MedTrace-Guard&metric=duplicated_lines_density&view=list
+      - text: 0.0%
+    - generic: No conditions set
+    - text: "on"
+    - link "1.6k":
+      - /url: /component_measures?id=hemanth-2104_MedTrace-Guard&metric=lines&view=list
+    - text: Lines
+    - generic: Security hotspots
+    - generic: Deprecated
+    - link "See more details on 0 of Security hotspots":
+      - /url: /project/security_hotspots?id=hemanth-2104_MedTrace-Guard
+      - text: "0"
+- contentinfo:
+  - text: © 2018-2026
+  - link "SonarSource Sàrl":
+    - /url: https://www.sonarsource.com
+  - text: . All rights reserved.
+  - list:
+    - link "Terms":
+      - /url: https://www.sonarsource.com/legal/sonarcloud/terms-of-service/
+    - link "Pricing":
+      - /url: https://www.sonarsource.com/plans-and-pricing/sonarcloud#compare
+    - link "Privacy":
+      - /url: https://www.sonarsource.com/company/privacy/
+    - link "Cookie Policy":
+      - /url: /cookie-policy
+    - link "Security":
+      - /url: https://www.sonarsource.com/trust-center/
+    - link "Community":
+      - /url: https://community.sonarsource.com/c/sc/9
+    - link "Documentation":
+      - /url: https://docs.sonarsource.com/sonarqube-cloud/
+    - button "Contact us"
+    - link "Status":
+      - /url: https://status.sonarqube.com/
+    - link "About":
+      - /url: https://www.sonarsource.com/products/sonarcloud/
+- region "Focus toasts messages with alt+T"

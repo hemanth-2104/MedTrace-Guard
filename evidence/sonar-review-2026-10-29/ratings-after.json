@@ -1,0 +1,29 @@
+{
+  "component": {
+    "id": "AaGJ4d5_ObA7vApDmYGC",
+    "key": "hemanth-2104_MedTrace-Guard",
+    "name": "MedTrace-Guard",
+    "qualifier": "TRK",
+    "measures": [
+      {
+        "metric": "alert_status",
+        "value": "OK"
+      },
+      {
+        "metric": "reliability_rating",
+        "value": "1.0",
+        "bestValue": true
+      },
+      {
+        "metric": "security_rating",
+        "value": "1.0",
+        "bestValue": true
+      },
+      {
+        "metric": "sqale_rating",
+        "value": "1.0",
+        "bestValue": true
+      }
+    ]
+  }
+}
